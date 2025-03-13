@@ -107,7 +107,7 @@ const config = {
       },
       prism: {
         theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        darkTheme: prismThemes.vsDark, // `prismThemes.oneDark` was in previous one 
         additionalLanguages: [
           'bash',
           'json',
@@ -181,6 +181,7 @@ const config = {
         docsDir: "docs",
       },
     ],
+    ['@docusaurus/plugin-ideal-image', { disableInDev: false }],
   ],
 };
 
