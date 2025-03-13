@@ -10,11 +10,9 @@ const config = {
   tagline: 'A technical blog covering all aspects related to technology.',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
   url: 'https://informati.cc',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -194,6 +192,16 @@ const config = {
       },
     ],
     ['@docusaurus/plugin-ideal-image', { disableInDev: false }],
+  ],
+
+  scripts: [
+    // Based on: https://github.com/Swetrix/docs/blob/main/docusaurus.config.js
+    {
+      src: 'https://cdn.jsdelivr.net/gh/Swetrix/swetrix-js@latest/dist/swetrix.js', defer: true,
+    },
+    {
+      src: 'js/setupswetrix.js', defer: true,
+    }
   ],
 };
 
