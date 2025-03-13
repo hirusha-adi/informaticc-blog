@@ -1,0 +1,213 @@
+---
+title: Using the AUR with Arch Linux
+authors: [hirusha]
+tags: [arch-linux,aur,linux,tutorial]
+---
+
+If you’re an Arch Linux user, you’re probably aware of how amazing the AUR (Arch User Repository) can be. It’s a treasure trove of community-driven packages that aren’t always available in the official repositories. In this post, I'll show you how to make use of the AUR to install packages that you might need for your system. Let’s get started!
+
+![alt text](image.png)
+
+<!--truncate-->
+
+import ArchLinuxManualSetup from './arch_linux_manual';
+
+## Setup
+
+Here’s how you can set up everything.
+
+### 1. Update & Upgrade Your System
+
+First things first, always make sure your system is up to date:
+
+```bash
+sudo pacman -Syyu
+```
+
+### 2. Installing `yay`
+
+`yay` is a popular AUR helper that makes it easy to install and manage packages from the AUR. You can install it in a few ways—here’s both the one-liner and the manual method:
+
+#### One-Liner Method
+
+If you're in a hurry, you can run the following one-liner to install `yay`:
+
+```bash
+sudo pacman -Sy base-devel --noconfirm && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && cd .. && rm -rf yay
+```
+
+This will install `yay` and clean up afterward.
+
+#### Manual Method
+
+Prefer to take it step-by-step? Here’s how to install `yay` manually:
+
+1. Install the base-devel group (needed for building packages):
+
+   ```bash
+   sudo pacman -Sy base-devel --no-confirm
+   ```
+
+2. Clone the yay repository:
+
+   ```bash
+   git clone https://aur.archlinux.org/yay.git
+   ```
+
+3. Build and install yay:
+
+   ```bash
+   cd yay
+   makepkg -si
+   ```
+
+4. Clean up by removing the yay directory:
+
+   ```bash
+   cd .. && rm -rf yay
+   ```
+
+## Usage
+
+Once you have `yay` installed on your Arch Linux system, it becomes an invaluable tool for managing packages from the AUR (Arch User Repository) as well as the official repositories. Here's a quick rundown of some common commands and tasks you can do with `yay`:
+
+
+### Installing Packages from AUR
+To install a package from the AUR, simply use:
+
+```bash
+yay -S <package-name>
+```
+
+For example, to install the `discord` package:
+
+```bash
+yay -S discord
+```
+
+### Installing Packages from the Official Repositories
+You can also use `yay` to install packages from the official Arch repositories, just like you would with `pacman`:
+
+```bash
+yay -S <package-name>
+```
+
+This is useful for consistency in managing all your packages using a single tool.
+
+### Search for Packages
+If you’re unsure about the name of a package, you can search for it in both the official repositories and the AUR:
+
+```bash
+yay -Ss <package-name>
+```
+
+For example:
+
+```bash
+yay -Ss firefox
+```
+
+This command will list both the official and AUR versions of Firefox.
+
+### Update System
+To update all installed packages (both from the official repos and the AUR) with a single command, use:
+
+```bash
+yay -Syu
+```
+
+This is similar to running `sudo pacman -Syu`, but it also checks and updates any AUR packages you’ve installed.
+
+### Removing Packages
+To remove a package, you can use the same command as `pacman` but with `yay`:
+
+```bash
+yay -R <package-name>
+```
+
+For example, to remove `discord`:
+
+```bash
+yay -R discord
+```
+
+If you want to remove a package and its dependencies that are no longer needed, use:
+
+```bash
+yay -Rns <package-name>
+```
+
+### Cleaning Up Unused Packages
+A common problem with AUR packages is that dependencies might accumulate over time. To clean up unused dependencies, use:
+
+```bash
+yay -Rns $(yay -Qdtq)
+```
+
+This will remove orphaned packages that are no longer needed by any other installed package.
+
+### Updating AUR Packages Individually
+If you only want to update a specific AUR package, you can do so by:
+
+```bash
+yay -Sua
+```
+
+This will only update AUR packages and not the official ones.
+
+### Viewing Package Details
+To view detailed information about a specific package, including its description, version, and dependencies, you can use:
+
+```bash
+yay -Qi <package-name>
+```
+
+For example:
+
+```bash
+yay -Qi firefox
+```
+
+### Check for Updates for a Specific Package
+If you want to check if a specific package has an update available in the AUR, you can run:
+
+```bash
+yay -Qu <package-name>
+```
+
+This will display the available updates for that package.
+
+### Displaying AUR Package Information
+If you need more information about a package from the AUR, you can use:
+
+```bash
+yay -Qi <package-name>
+```
+
+It gives details on where the package is coming from, its installation status, and more.
+
+### Interactive Search and Install
+If you want to search and install packages interactively, `yay` provides an option to list all matches for a package and then choose which one to install:
+
+```bash
+yay -S <package-name> --noconfirm
+```
+
+This eliminates the need for confirmation for each selection.
+
+### Cleaning Package Cache
+Over time, the AUR and official repos can leave behind cached packages that take up disk space. To clean up the package cache (remove old versions of installed packages), use:
+
+```bash
+yay -Sc
+```
+
+To clean all cached packages (including uninstalled ones):
+
+```bash
+yay -Scc
+```
+
+## Common Packages
+
+<ArchLinuxManualSetup />
