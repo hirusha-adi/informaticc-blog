@@ -3,3 +3,8 @@ hirusha:
   title: Student interested in Tech
   url: https://github.com/hirusha-adi
   image_url: https://avatars.githubusercontent.com/u/36286877?v=4
+  page: true # set to `true` if the site has multiple authors
+  socials:
+    x: hirushaadi
+    github: hirusha-adi
+    linkedin: hirushaadi
