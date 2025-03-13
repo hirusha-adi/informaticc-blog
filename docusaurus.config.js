@@ -6,7 +6,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'InformatiCC',
+  title: 'informaticc',
   tagline: 'A technical blog covering all aspects related to technology.',
   favicon: 'img/favicon.ico',
 
@@ -34,10 +34,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        // title: 'My Site', // removed the title
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           // RE_ENABLE_DOCS:
@@ -50,12 +50,21 @@ const config = {
           //   label: 'Tutorial',
           // },
           // ---------------------------------------
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            to: '/blog',
+            label: 'Blog',
+            position: 'right'
           },
+          {
+            to: '/blog/tags',
+            label: 'Tags',
+            position: 'right'
+          },
+          {
+            to: '/blog/archive',
+            label: 'Archive',
+            position: 'right'
+          }
         ],
       },
       footer: {
@@ -121,6 +130,14 @@ const config = {
           'ini',
         ],
         defaultLanguage: 'python',
+      },
+
+      // reference: https://docusaurus.io/docs/api/themes/configuration#color-mode---dark-mode
+      colorMode: {
+        // (make the website dark mode only)
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
     }),
 
