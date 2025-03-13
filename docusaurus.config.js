@@ -146,6 +146,21 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: [
+          'bash',
+          'json',
+          'java',
+          'python',
+          'php',
+          'graphql',
+          'rust',
+          'toml',
+          'protobuf',
+          'prolog',
+          'diff',
+          'ini',
+        ],
+        defaultLanguage: 'python',
       },
     }),
 };
