@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'informaticc',
   tagline: 'A technical blog covering all aspects related to technology.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icon.png',
 
   url: 'https://informati.cc',
   baseUrl: '/',
@@ -137,7 +137,7 @@ const config = {
         // (make the website dark mode only)
         defaultMode: 'dark',
         disableSwitch: true,
-        respectPrefersColorScheme: false,
+        // respectPrefersColorScheme: true, // no idea, this breaks stuff - so i commented this
       },
     }),
 
