@@ -1,5 +1,5 @@
 ---
-title: Fix the issue caused by CrowdStrike in 2024 manully
+title: Fix the issue caused by CrowdStrike in 2024 manually
 authors: [hirusha]
 tags: [sysadmin,crowdstrike,fix,tutorial]
 ---
