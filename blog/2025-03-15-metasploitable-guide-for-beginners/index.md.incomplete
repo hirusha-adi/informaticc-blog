@@ -1,0 +1,33 @@
+---
+title: Metasploitable Guide for Beginners
+authors: [hirusha]
+tags: [hacking, metasploitable, tutorial, linux]
+---
+
+This is my first time (well, actually the second time) playing with Metasploitable. Do note that Metasploitable2 is what I'll be dealing with in this post. Let's get started!
+
+<!--truncate-->
+
+My Kali VM has the local ip 192.168.1.42 and metasploitable2 has 192.168.1.41.
+
+## Initial Reconissance
+
+I'll begin with an `nmap` scan.
+
+```bash
+nmap -v -sS -sV -sC -A -O 192.168.1.41
+```
+
+In the command above,
+
+- `-v` is to run nmap in the verbose mode
+- `-sS` is for TCP SYN scan, which is also know as stealth scanning or half open scanning.
+  - The TCP handshake has three main stages, so, it's also called the three-way handshake. Let's take a look at them,
+    1. "SYN": is the first step. A SYN (synchronize) packet gets sent to the server to begin the connection request.
+    2. "SYN-ACK": is the second step. The server responds by sending a SYN-ACK (synchronize-acknowledge) packet to the client, confirming that it's ready to establish a connection
+    3. "ACK" is the third (final) stage. The client will send the ACK (acknowledge) packet back to the server to complete the handshake and to establish a connection.
+  - When we use this flag, we will first send the SYN packet and if this service is up, the server will send us a SYN-ACK packet but we wont send back the ACK packet. This is not always possible. Therefore, in such cases, nmap will send a RST (reset) packet to abort the connection. Either way, the three way handshake wont be completed. So, a connection is never opened. Therefore, no information gets passed to the application layer to be logged.
+- `-sV` will detect the versions of services running on open ports. nmap will either grab the banner and analyze it to get the version number, or will use many of the other techniques.
+- `-sC` will execute all the default scripts that nmap comes with to gather information or check for misconfigurations. Though, i doubt this will conflict with the `-sS` flag.
+- `-A` is to perform an aggressive scan. This is designed to grab and much information as possible. Therefore, it will be very noisy. Once again, this might also conflict with `-sS` - I'm not exactly sure.
+- `-O` is to detect the operating system of the server.
