@@ -383,6 +383,10 @@ How exactly can we fix this? Well, keep your software up to date.
 
 For servers, use LTS versions of distributions to ensure the packages you install are tested and stable. Also, regularly check for security pacthes and install them. In this case, a patch for this vulnerability was released within a week after the code resulting in it was first pushed.
 
+If you want to learn how to do this manually, [this article](https://westoahu.hawaii.edu/cyber/forensics-weekly-executive-summmaries/8424-2/) should help. It also goes in depth about why and how this exploit works.
+
+[Click here](https://github.com/nikdubois/vsftpd-2.3.4-infected) to browse the source code of vsFTPd 2.3.4.
+
 ## Telnet (port `23`)
 
 Telnet is a network protocol used for remote communication with devices. It allows users to access and manage systems remotely. Telnet doesn't use any sort of encryption and is therefore considered insecure.
@@ -423,3 +427,13 @@ As you can see above, this line is commented, meaning, it's defaulted to display
 ![alt text](image-2.png)
 
 For example, in the image above, I uncommented this line and pointed `issue=` to another file at `/etc/issue-safe` which we will hopefully not add any sensitive information. If you do this, make sure to at least `touch` that file to avoid potential errors.
+
+## Conclusion
+
+Around 80% or more of the modules in Metasploit don’t always work - unless you're dealing with systems that haven't been updated or maintained in for the past decade or so.
+
+![alt text](image-8.png)
+
+I don’t know a lot about these things yet. I’m new to the security scene. My goal is to explore as much as possible to expand my knowledge. Writing articles like this helps me realize which areas I’m less confident in so I can focus on them and learn more.
+
+Is this skid-level? Yes—compared to writing our own exploits. But I don’t yet have the knowledge or experience to do that. Not yet. But that’s exactly why I’m here! to learn, improve, and eventually go beyond just running scripts and exploits.
