@@ -73,9 +73,9 @@ In the command above,
     1. **SYN**: The client sends a SYN (synchronize) packet to the server to initiate the connection.
     2. **SYN-ACK**: The server responds with a SYN-ACK (synchronize-acknowledge) packet, confirming readiness to establish the connection.
     3. **ACK**: The client completes the handshake by sending an ACK (acknowledge) packet.
-  - With `-sS`, we send the SYN packet, and if the service is up, the server will respond with a SYN-ACK. However, we don’t complete the handshake by sending back the final ACK packet. Instead, we send a RST (reset) packet to abort the connection, preventing the handshake from fully completing. This results in a "stealthy" scan since no actual connection is established, and the application layer won't log the connection.
+  - With `-sS`, we send the SYN packet, and if the service is up, the server will respond with a SYN-ACK. However, we don't complete the handshake by sending back the final ACK packet. Instead, we send a RST (reset) packet to abort the connection, preventing the handshake from fully completing. This results in a "stealthy" scan since no actual connection is established, and the application layer won't log the connection.
 - `-sV`: Detects the versions of services running on open ports. Nmap either grabs the banner or uses other techniques to determine the version number.
-- `-sC`: Executes the default nmap scripts to gather additional information or check for misconfigurations. This shouldn’t conflict with the `-sS` flag, as the scripts generally run after the port scanning phase.
+- `-sC`: Executes the default nmap scripts to gather additional information or check for misconfigurations. This shouldn't conflict with the `-sS` flag, as the scripts generally run after the port scanning phase.
 - `-A`: Performs an aggressive scan, attempting to gather as much information as possible. It is indeed noisy, but it should not conflict with the `-sS` scan as it mainly triggers additional scans and probes after the initial port scan.
 - `-O`: Attempts to detect the operating system of the target.
 
@@ -307,7 +307,7 @@ Throughout this tutorial, let's look at one method - the easiest for each servic
 
 ## FTP (port `21`)
 
-FTP is a standard network protocol used to transfer files between a client and a server over a TCP/IP network. It’s one of the oldest protocols for file sharing and allows users to upload or download files to/from a server. Even though FTP is efficient, it doesn't offer any encryption, meaning data, including usernames and passwords, will be transmitted in plain text. This makes it vulnerable to security breaches, so it's often replaced by more secure protocols like SFTP or FTPS for sensitive transfers.
+FTP is a standard network protocol used to transfer files between a client and a server over a TCP/IP network. It's one of the oldest protocols for file sharing and allows users to upload or download files to/from a server. Even though FTP is efficient, it doesn't offer any encryption, meaning data, including usernames and passwords, will be transmitted in plain text. This makes it vulnerable to security breaches, so it's often replaced by more secure protocols like SFTP or FTPS for sensitive transfers.
 
 Let's start by identifying the version of the FTP deamon using nmap:
 
@@ -430,10 +430,10 @@ For example, in the image above, I uncommented this line and pointed `issue=` to
 
 ## Conclusion
 
-Around 80% or more of the modules in Metasploit don’t always work - unless you're dealing with systems that haven't been updated or maintained in for the past decade or so.
+Around 80% or more of the modules in Metasploit don't always work - unless you're dealing with systems that haven't been updated or maintained in for the past decade or so.
 
 ![alt text](image-8.png)
 
-I don’t know a lot about these things yet. I’m new to the security scene. My goal is to explore as much as possible to expand my knowledge. Writing articles like this helps me realize which areas I’m less confident in so I can focus on them and learn more.
+I don't know a lot about these things yet. I'm new to the security scene. My goal is to explore as much as possible to expand my knowledge. Writing articles like this helps me realize which areas I'm less confident in so I can focus on them and learn more.
 
-Is this skid-level? Yes—compared to writing our own exploits. But I don’t yet have the knowledge or experience to do that. Not yet. But that’s exactly why I’m here! to learn, improve, and eventually go beyond just running scripts and exploits.
+Is this skid-level? Yes—compared to writing our own exploits. But I don't yet have the knowledge or experience to do that. Not yet. But that's exactly why I'm here! to learn, improve, and eventually go beyond just running scripts and exploits.
