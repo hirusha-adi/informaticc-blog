@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     swetrix.init('DaO9FUYXi8eH', {
-        apiURL: "https://analytics-api.thriyalanka.org/log",
+        apiURL: "https://api.analytics.plzhack.me/log",
     })
     swetrix.trackViews()
 })
