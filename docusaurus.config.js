@@ -102,7 +102,7 @@ const config = {
       },
       prism: {
         theme: prismThemes.github,
-        darkTheme: prismThemes.vsDark, // `prismThemes.oneDark` was in previous one 
+        darkTheme: prismThemes.oneDark, // `prismThemes.vsDark` was in previous one 
         additionalLanguages: [
           'bash',
           'json',
