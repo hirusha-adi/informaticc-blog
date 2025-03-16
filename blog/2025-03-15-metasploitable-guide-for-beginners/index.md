@@ -59,6 +59,8 @@ PORT     STATE SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 4.52 seconds
 ```
 
+Todo: this is too long, possibly incorrect and conflicts a LOT and maybe it's not even required at all. Consider removing this. Also, lookup what exactly does `-Pn` do?
+
 Next, I'll also run a comprehensive scan:
 
 ```bash
