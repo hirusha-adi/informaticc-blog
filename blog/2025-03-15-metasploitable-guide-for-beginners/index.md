@@ -1,14 +1,20 @@
 ---
-title: Metasploitable Guide for Beginners
+title: Metasploitable Guide for Beginners (INCOMPLETE!)
 authors: [hirusha]
 tags: [hacking, metasploitable, tutorial, linux]
 ---
 
-This is my first time (well, actually the second time) playing with Metasploitable. Do note that Metasploitable2 is what I'll be dealing with in this post. Let's get started!
+This is my first time (well, actually the second time) playing with Metasploitable. Please note that Metasploitable2 is what I'll be working with in this post. Let's look at the easiest ways to exploit it and also cover how these vulnerabilities can be fixed. Let's get started!
 
 <!--truncate-->
 
-My Kali VM has the local ip 192.168.1.42 and metasploitable2 has 192.168.1.41.
+:::warn
+
+This post is still incomplete and, therefore, could be inaccurate.
+
+:::
+
+My Kali VM has the local IP 192.168.1.42, and Metasploitable2 has 192.168.1.41.
 
 ## Initial Reconnaissance
 
@@ -296,3 +302,46 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 61.80 seconds
            Raw packets sent: 2022 (90.610KB) | Rcvd: 229 (9.550KB)
 ```
+
+Throughout this tutorial, let's look at one method - the easiest for each service running - to get a shell. Frankly, I don't know much either, I'm just going to stick with the most obvious solution. Though, there are a million different ways to exploit everything that I'm about to show you.
+
+## Telnet (port `21`)
+
+Telnet is a network protocol used for remote communication with devices. It allows users to access and manage systems remotely. Telnet doesn't use any sort of encryption and is therefore considered insecure.
+
+Let's start by trying to connect to it first to see if we can gather any clues:
+
+```bash
+telnet 192.168.1.41
+```
+
+As you can see below, this was much easier than expected.
+
+![alt text](image.png)
+
+What exactly happened here? When you try to connect via Telnet, Metasploitable2 was misconfigured to show the system's banner message. There are two banner file
+
+1. `/etc/motd`: Displayed after user successfully logs in.
+2. `/etc/issue`: Often usually displayed before login. This is what was misconfigured in this case. They've hardcoded the username and password.
+
+If we really want to store a any sensitive information in `/etc/issue` (even though it's not recommended at all), you can stop it from showing up with telnet by configuring it correctly.
+
+Metasploitable2 uses Telnet via `telnetd` and not `xinetd`. Therefore, the configuration file it uses can be found in `/etc/pam.d/`. This directory contains configuration files for PAM (Pluggable Authentication Modules), which allows you to manage authentication related tasks for various services like login, ssh, sudo and more. The file we are going to edit is `/etc/pam.d/login`. This handles login-related PAM configuration. Basically, it controls the authentication settings for when a user logs in via a local terminal or console. Let's open with nano:
+
+```bash
+nano /etc/pam.d/login
+```
+
+The line we are looking for should look something like this:
+
+```
+auth  required  pam_issue.so  issue=/etc/issue
+```
+
+![alt text](image-1.png)
+
+As you can see above, this line is commented, meaning, it's defaulted to displaying `/etc/issue`. To fix this, we can uncomment this line and point the `issue=` option to another file, that doesn't contain any sensitive data.
+
+![alt text](image-2.png)
+
+For example, in the image above, I uncommented this line and pointed `issue=` to another file at `/etc/issue-safe` which we will hopefully not add any sensitive information. If you do this, make sure to at least `touch` that file to avoid potential errors.
