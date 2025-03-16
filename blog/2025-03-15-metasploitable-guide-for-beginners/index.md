@@ -486,17 +486,13 @@ By default SSH runs on port 22. Since SSH is widely used this is the convention 
 sudo nano /etc/ssh/sshd_config
 ```
 
-Scroll down to find a line like:
+Scroll down to find a line like: `# Port 22`
 
-```bash
-#Port 22
-```
+![alt text](image-11.png)
 
-Then, uncomment this and set it to a port like:
+Then, uncomment this and set it to a port like: `# Port 2269`
 
-```bash
-Port 2269
-```
+![alt text](image-12.png)
 
 For the changes to take effect, you should restard the SSH deamon:
 
@@ -515,9 +511,69 @@ sudo ufw reload
 sudo systemctl restart sshd
 ```
 
-This won't keep us safe from someone manually scanning all the exposed ports of the server using a tool like `nmap`.
+This won't keep us safe from someone manually scanning all exposed ports on the server using a tool like `nmap`.
 
-TODO: link to PK blog post, disable password log in, fail2ban, disable root login (final)
+Since OpenSSH provides a lot of flexibility in it's configuration, we can enforce SSH key authentication and completely disable password-based authentication. To learn how to use SSH keys securely, refer to [this article](https://informati.cc/blog/2022/12/24/ssh-setup) that I wrote some time ago. Once this configuration is set up, let's edit the `/etc/ssh/sshd_config` file again.
+
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+
+This time, look for a line containing `PasswordAuthentication`.
+
+![alt text](image-13.png)
+
+Let's now update this line:
+
+```bash
+# Change from:
+PasswordAuthentication yes
+
+# To:
+PasswordAuthentication no
+```
+
+![alt text](image-14.png)
+
+To apply the changes, restart the SSH daemon:
+
+```bash
+sudo systemctl restart sshd
+```
+
+After making this change, you will only be able to log in using your private SSH key. However, this alone is not enough. If your private key falls into the wrong hands, an attacker could attempt a dictionary attack using it. To make matters worse, there is even a Metasploit module designed for this attack, as shown below.
+
+![alt text](image-15.png)
+
+To further secure your SSH server, you can set up fail2ban with an SSH jail. This is a huge topic, so I won’t cover it in detail here. However, [this article](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-20-04) can help you configure it correctly. fail2ban is the go-to tool for protecting servers from bruteforce/dictionary attacks.
+
+Finally, it's always a good security practice to disable root login - assuming you've set up user accounts properly. To do this, you will have to edit the `/etc/ssh/sshd_config` file again.
+
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+
+Look for the `PermitRootLogin` option and change it from `yes` to `no`. In some older versions of OpenSSH (like in this case with metasploitable2), this option might not be present. However, in recent OpenSSH versions, you can modify it as follows:
+
+Change this:
+
+```bash
+# PermitRootLogin yes
+```
+
+To this:
+
+```bash
+PermitRootLogin no
+```
+
+To apply the changes, restart the SSH daemon:
+
+```bash
+sudo systemctl restart sshd
+```
+
+Your SSH configuration should now be significantly more secure than before!
 
 ## Telnet (port `23`)
 
