@@ -70,13 +70,13 @@ You are all set now. You might have to restart your computer for the changes to 
 
 ## Installing Any Application
 
-### **1. Find the app you want to install**
+### 1. Find the app you want to install
 
 Visit [apps.microsoft.com](https://apps.microsoft.com/) and search for the app you want to install. Then, open it and copy the URL of it.
 
 ![alt text](image-4.png)
 
-### **2. Download the correct files**
+### 2. Download the correct files
 
 Visit [store.rg-adguard.net](https://store.rg-adguard.net/), enter your copied url and press search with the default search settings.
 
@@ -95,7 +95,7 @@ So, in my case, the files I should download are:
 - `Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64__8wekyb3d8bbwe.appx` (dependency)
 - `Microsoft.VCLibs.140.00_14.0.33519.0_x64__8wekyb3d8bbwe.appx` (dependency)
 
-### **3. Install them**
+### 3. Install them
 
 You can either cd into this directory with powershell running as a administrators and install them using the `Add-AppxPackage` utility similiar to what we did above OR you can simple double click on it and press install using your Desktop App Installer that we installed in the first section of this article.
 
