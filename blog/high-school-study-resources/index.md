@@ -1,6 +1,6 @@
 ---
 title: High School Study Resources
-date: 1/1/2022
+date: 1/1/2023
 authors: [hirusha]
 tags: [study-resources,al,ol,high-school,school,exams,resources]
 ---
@@ -11,7 +11,7 @@ Collection of study resources for high school exams - Ordinary Levels and Advanc
 
 <!--truncate-->
 
-## Sri Lankan Advanced Levels (A/L)
+## Sri Lankan General Certificate of Education (GCE) Advanced Level
 
 ### Mathematics
 
@@ -193,3 +193,599 @@ While it may pose a challenge for some to navigate between Sinhala and English (
 - [Pure Marking Scheme](https://mega.nz/file/svYjxJgb#DHZTS4G-5TZHAgN89x42PXpyVF0rET0nbHbnu-9thPk)
 
 
+### Physics
+
+#### Resource Books
+
+- [Unit 1](https://mega.nz/file/R3JkAaQb#wMJ3JMSSMnqVK1i84qmMyeUpeDRK-zFpx0IVA2OoBBA)
+- [Unit 2](https://mega.nz/file/VnIDXYJJ#kkJHL7iV3BpV4NavrIXzAGqofEGTaradWXILbUCOKqE)
+- [Unit 3](https://mega.nz/file/B7gwXDoK#yPH6oRdtR2WA-rg36gjNXeQeWImCSOVgKN8c9obTgzg)
+- [Unit 4](https://mega.nz/file/B6Ak1DCA#w0W4562er50oKvWcNBvoNFSLfWB-Xo9CMjWet6Ri5DI)
+- [Unit 5](https://mega.nz/file/JuwyTbbI#zKwXRRcV5RPhhSNxr0moXpnHW1Qe1UC_1QEvv3xB7yM)
+- [Unit 6](https://mega.nz/file/VnYGAB6Y#6JUPFi14r6w5sn8fDyKIYJRi59EqsJtCRZEQ6YZumfc)
+- [Unit 7](https://mega.nz/file/5nA2WQqJ#W0jM9lIxPTyF8YPYJBghtitF7w0_EpqW4KjGzOJ_RQU)
+- [Unit 8](https://mega.nz/file/c7QzhADK#oOd3dP-AS2p5uazvmqT_OXh_VmTYqbGO8LSk8hIb8yU)
+- [Unit 9](https://mega.nz/file/I2RSUArD#jEu36Zy3c0q7lhxWXp4TRH6HyI_WYV5fKNRBK1-Bb_o)
+- [Unit 10](https://mega.nz/file/knJ2zawI#oZWXJSblAosaopfqXLpHkZuk_LnomqOxDIg9kMt5buo)
+- [Unit 11](https://mega.nz/file/FnZD0CQA#jGnT-CG69FWJqp7WyNZpo7ZDQ1qYV3UKUJgwv6o51vQ)
+
+#### Classified MCQ
+
+- [Current Electricity](https://mega.nz/file/R2A3hBST#cFiUXjPvRX4y8tRzZ0khOOowXa5L41KRNcHqM9MKAj4)
+- [Electromagnetism](https://mega.nz/file/IrpllDRB#BL3MEXf58dXY1Y8M3iLC1IGE_WgUbFblme6LxKMDykU)
+- [Electronics](https://mega.nz/file/57hnVTKb#Rv7KFojouuG7xPWiQ4Wv9U52ttG4U9gyPp-NeglpL5A)
+- [Eletrostatic Force Field](https://mega.nz/file/h2xHnaAY#Y-ZBlh4mBsZ_pOthMrsoQiI24UtbcQqPBtzhHqAYu4Q)
+- [Gravitational Field](https://mega.nz/file/R6glFZCa#yhUyLnyz5n36AKrxRPCLR-rJCEzNH1K8VIw7RaKszAc)
+- [Heat](https://mega.nz/file/gjhQFY6I#SOZlsVWDvHTOzA8h4Fhgcx69fXMtl7QZv-FBxWZquWM)
+- [Mechanics](https://mega.nz/file/c2gl3TTR#eaW08DMFhxeasvZJ9RnS57393OaS_vZ9BJEZ_MsqI2w)
+- [Matter & Radiation](https://mega.nz/file/93IGgRTa#BjGIYG4UYCa650tZtoHGIsAyOVRyFQ4TwiODGNLMBWA)
+- [Measurements](https://mega.nz/file/IrpjwLoY#u7ZS_UMT405aeDv5alEEIXrVLEvlI1-dvBIjgWU-DI0)
+- [Oscillations & Waves](https://mega.nz/file/d2QGGCgJ#ljTVyF4fKGvQIFYI1Na82KDE9RnsHKPlti-wCRMo4S4)
+- [Properties Of Matter](https://mega.nz/file/5jRHnS4I#MWV630CfzRyoq7hia3lptoUuA0NhdeoIr1zBhp2s4Mw)
+
+#### Classified Essay
+
+- [Current Electricity](https://mega.nz/file/0u5H1BIB#Sxkt0w9sb6AKfkrSqdJir1Y5N4-NSuB11Zfp1PWFAWA)
+- [Elasticity](https://mega.nz/file/JnYXQRQY#4zreD3iyw0mDFg2Wmz5eH0j7qt3g6d9iuPFhtuCyCC8)
+- [Electric Field](https://mega.nz/file/pyol1TzI#O59fGPXWzIErRe4yLJBO7KQmZgTB3lQAorI-Ia0qshs)
+- [Electro Magnetic Induction](https://mega.nz/file/AyABCSQa#6T5SqQb8wbb3zKCJvQhd2pjtYcS0xSkBj0HbLIEqMJU)
+- [Electronics](https://mega.nz/file/E2IH2SjY#we7rMX_A3b1wWfKwvHyNCymznracuOoyOZYTkRxEPHc)
+- [Mechanics](https://mega.nz/file/w2BxVSTJ#3bVMNxxqUFnBjDo062XUFl9_WmCh8Ear2t-CiHKGjJk)
+- [Gravitational Field](https://mega.nz/file/h24j1aCJ#8cDW7u1OiMHrqAM1Lvx8sE7v-JWKXTJ1m8OwPRD31uI)
+- [Heat](https://mega.nz/file/NuBxWIoT#heBKdRRfTcJNOTRn-Y4ytIQK5Urc6n-ybGXxPgTH9NY)
+- [Matter And Radiation](https://mega.nz/file/lioGhSRS#Qc3eR-ENI4w4QHPbAg3P9pR7j5JCnvRfCm_dytUg1kE)
+- [Optics](https://mega.nz/file/tjhkTQJJ#cqymBGzo54biu4F6km3dbGxvDluqOWCj0VmObqDDagI)
+- [Sound](https://mega.nz/file/96wHXAbS#sLSRdd58a2MzPvUD7gMYdMDbefLRJ_geJGKq8StrY3g)
+- [Surface Tension](https://mega.nz/file/FiJmQazb#oakESUM2y3tfs8KJINY_Qcih-YVn9PPDR7qbxZKXgdQ)
+- [Viscosity](https://mega.nz/file/FuIW3ZKZ#O_0BM99pVKA3DsGrEu5Lbz2faeckGjUu00ntr0I6JGo)
+
+#### Past Papers
+
+1990
+
+- [Essay Paper](https://mega.nz/file/M6xkRKqI#HIqm6XT5hwMaecBVfE6sZUsYDlXnrv7e5Tgcem-nNdo)
+- [MCQ Paper](https://mega.nz/file/kjB2AJKC#PK8LVH5NKAqq0s3_zhDATyhtZfrntkspZFpPox_zPF8)
+- Marking Scheme (missing)
+
+1991
+
+- [Essay Paper](https://mega.nz/file/Ru4VlTjJ#ROZx4_8T_qMUbmVy9DRjnuY32UmXuzxeZopcH3AWYjc)
+- [MCQ Paper](https://mega.nz/file/w7JCSZTZ#KSGkG7Im0IYNDL7qzoydfyj2eIZhQ8_PlKTEkzM45Zg)
+- Marking Scheme (missing)
+
+1992
+
+- [Essay Paper](https://mega.nz/file/ZjgGkI7T#gscndqMDc6Q9EFreASRPfI9VE9p-8e8F-ASEK9jgiSo)
+- [MCQ Paper](https://mega.nz/file/JiQn3ALa#mzH9Aaz3k1sLa4-MQtMzQx-dd-6jDvwU4HuKgRcesZU)
+- Marking Scheme (missing)
+
+1993
+
+- [Essay Paper](https://mega.nz/file/o2AhXJZI#5CjMCx7K9oovuh2L6G1w74HY2VdJWr71rk42w9igv80)
+- [MCQ Paper](https://mega.nz/file/kj4QgZ6K#h06DlwWbgNPq8vGIQx9XN4KPeO32ZHiiA7PunoLBkko)
+- [Marking Scheme](https://mega.nz/file/RmhW0RBY#9Laip3VTAEPlhuqHzNxmAEf-mhl1ktPxwX2kHuEubGA)
+
+1994
+
+- [Essay Paper](https://mega.nz/file/5y4EXJqD#p1OhC9bVajeXeNt1aVt9xyppZFTDz3-QXlf_EThjPh8)
+- [MCQ Paper](https://mega.nz/file/JmR0gI6S#l4ckBxiVUfcW-0Xgwim2OYOG7yXKXuiPH9Lxup1tW0s)
+- Marking Scheme (missing)
+
+1995
+
+- [Essay Paper](https://mega.nz/file/IqhEGAJC#gwbq3laOdcFkZiyzCdtbivsdqVzq4sU8qsdD5__1P0o)
+- [MCQ Paper](https://mega.nz/file/9mwnXZiB#byt8FSxjdJWp6yC5y0TGj8LcPqrKdnunoJvG73-dC6I)
+- [Marking Scheme](https://mega.nz/file/UjwwjCDb#1NAMkjSCpqQVQz6qvTrIr6g2BH_G2fQxd0AK5Lu6W3k)
+
+1996
+
+- [Essay Paper](https://mega.nz/file/ciAFkarS#KGmYmObkE-F-DazF8rqKbdTOBKVv7bXz0u6P5MpypKM)
+- [MCQ Paper](https://mega.nz/file/AzJHCDYY#dy4wG32BZOelzjQna9KLlcnGaJMIsvmUZ9Ta4X-Atd0)
+- [Marking Scheme](https://mega.nz/file/UvhFQJaQ#hSMCbqslYPvmrbwR74Bd1zfSwt88vc66SQdm31rJZD8)
+
+1997
+
+- [Essay Paper](https://mega.nz/file/dj4SEJAD#bAXBVjdIOcxQMMiC8wngBsSyAnfV2YVlaAym9G_cHzU)
+- [MCQ Paper](https://mega.nz/file/E35ykL4D#mcO30TRs21d-6s-cs98174z6dqfqjSBEkiVNqs0WpHo)
+- Marking Scheme (missing)
+
+1998
+
+- [Essay Paper](https://mega.nz/file/JigEBSJQ#H6QoTonH_8peOo47QEP0y7NPzGz_7dG83IxE3byaFDE)
+- [MCQ Paper](https://mega.nz/file/AuYESSba#CrxfCTCfT11cbg0HL6cSUmpyhKWttILeEL5JirQSVSc)
+- [Marking Scheme](https://mega.nz/file/0v5RFSrL#HxlPENCDnnermmwPBh3yEkTPXvRuitlNy5fE5qH3ZgA)
+
+1999
+
+- [Essay Paper](https://mega.nz/file/w7Zx1IZL#O7qa_8yudIS4gWI2--rTyF19uGsS5fpA6-X-TSpWXRg)
+- [MCQ Paper](https://mega.nz/file/03wRFYzC#NqPAjsvpGuaVoN_5xf723lnLRg2yuPvPDaxXN56m8yM)
+- Marking Scheme (missing)
+
+2000
+
+- [Essay Paper](https://mega.nz/file/5zgwGaRD#PWyOasLhDIXkhR2xptCYSfCJoCgKQ3YuAfRPkLkteA0)
+- [MCQ Paper](https://mega.nz/file/l6RzjCKI#0CUfKzKTP3BfEskPBVAkzDigFlCnrwL4Sz5JUqv6nLc)
+- [Marking Scheme](https://mega.nz/file/lrYyADxJ#b3IO-7O7O7A_Xap7kUOWHiXVB72G79NyKPUSWkDE1FI)
+
+2001
+
+- [Essay Paper](https://mega.nz/file/UvgmzZxb#axv9RvLM5wdf6jJ0He_Bbr11weEiMne8VI-6RVn7yL8)
+- [MCQ Paper](https://mega.nz/file/RioEWCra#wYhbUx1mTDVC_WmWxptZ6teGA11iUAdLaHT90JqVy3U)
+- [Marking Scheme](https://mega.nz/file/x7gHhILa#U4CIJHZOUNDui_vO3uTVwF4elatZ2k41btYlmN-4ftY)
+
+2002
+
+- [Essay Paper](https://mega.nz/file/97BzXYCD#GKA1b9qUHuUEmI4RVD9hUvt3MbsDelU73qNTaNtj2J4)
+- [MCQ Paper](https://mega.nz/file/AzpQATra#ervGMqHNYuG3a3b1m0313G16opyRMzeFlzAKwtX7nRw)
+- [Marking Scheme](https://mega.nz/file/tnoHmRYJ#z2JZ35bPh4vw6ezBUXyN42b6JZnnvnRpKd1kgdnS7vA)
+
+2003
+
+- [Essay Paper](https://mega.nz/file/E6JjTKgI#EjrXM69POE7EFJuUZQgVsdqAVJkRGatI7LZqvWKmVZQ)
+- [MCQ Paper](https://mega.nz/file/wj41BLBI#AWmL5g4M30MdlbEp7VqiWy9Csn-_tHuC9RGNaVfn2Rk)
+- [Marking Scheme](https://mega.nz/file/EvZEGbzb#LJvfFs83r_9fbLzMCl5wT6Ha1lgW55SMYJAVZ4BEnKA)
+
+2004
+
+- [Essay Paper](https://mega.nz/file/xmwTQTAJ#I__r5tMQiR4KlNY8iXLjmQK_McZ8jmKeVhTBWplStIo)
+- [MCQ Paper](https://mega.nz/file/AnBhiQgJ#dVefeyjeJe70u4peS3se1-2urhMypYr1Dq4SfMpVRhc)
+- [Marking Scheme](https://mega.nz/file/BuwUTLAZ#gN0Krcst4JPgVEPzVQOQH8ccbMi7VcxcSSvsY1b_Lfc)
+
+2005
+
+- [Essay Paper](https://mega.nz/file/1qxWDD5J#apEQ1HrBqgoKy2o_PTMBEnRqCj0DRXcO0i2maCT1I08)
+- [MCQ Paper](https://mega.nz/file/tqAQSC4J#qNEfouwueZngantBYUg_orfCQVaMUNu9RITkt-pklW8)
+- [Marking Scheme](https://mega.nz/file/k7gQBSiK#SceAmvDWgZiIWPFtZa9LACFurjNzIxV_v9miuYWkfVE)
+
+2006
+
+- [Essay Paper](https://mega.nz/file/grpiQJzZ#AqzFqtyw17u0-DUYhwrdgl43EyBTwgh3dmiLZkKi9IQ)
+- MCQ Paper (missing)
+- [Marking Scheme](https://mega.nz/file/V6BlmAzA#AHEs6gjdxn8Tm0ExxuDhtSvX1e2WzHaVkW3XwRnhIhU)
+
+2007
+
+- [Essay Paper](https://mega.nz/file/Z2ZRECrZ#9cjUSNEbcg4JjZCs-ge4namrh478Nr8JXP1DBMXsDrQ)
+- [MCQ Paper](https://mega.nz/file/x6gnQBoB#5TJbs5OEZoCJfbu9kx133Y3krAenlWLedljDWmNhgh8)
+- [Marking Scheme](https://mega.nz/file/9zQH0RSZ#J8fHZeFPA-iBiNJgPLvD0gEmxD1ixPVMIURVEKQQMLU)
+
+2008
+
+- [Essay Paper](https://mega.nz/file/9uwUCayB#uxnAP3THrO2nBUwiAA7LZ3iEr3Pl0CvREW7RPmmZD1s)
+- [MCQ Paper](https://mega.nz/file/xiB0EYaa#p5Aey1fQVcVltUpa7OQdhBdfz7G43VAzpAYh8I1ohAY)
+- [Marking Scheme](https://mega.nz/file/h3ZhUaRT#sw5aMzZcfH_ieZinWtRpYGjNB7FGwiXZWtNee9u287E)
+
+2009
+
+- [Essay Paper](https://mega.nz/file/lmgXhJoQ#r10zeIkZwKkTHDeIqClkVUQF6b-8pON5e5CwnLL9vWc)
+- [MCQ Paper](https://mega.nz/file/RrgSTDIJ#rlpHvGTo53rN-GF_yQ-P-jdudbQdvZ5YVcPtehSWNHs)
+- [Marking Scheme](https://mega.nz/file/Q7RQGJZb#GWc41f-Smxub50xZP4k-6n7CM8xCTGYmjiue_6lG6HE)
+
+2010
+
+- [Essay Paper](https://mega.nz/file/83YWXapa#6qEVEzIKOwSQlN5xQsvY5K0dNZ3nU6vlPqcV-99sE5c)
+- [MCQ Paper](https://mega.nz/file/U2QmmCjT#7q6nww3etWgxZFcMqF8-Luq3mT7QDlqq8pvvm_ZAB9s)
+- [Marking Scheme](https://mega.nz/file/BiIHmJzK#T92QPop6EWqMsov3QEK9Hlr_LJaF02qr3sXJVe15JBo)
+
+2011
+
+- [Essay Paper](https://mega.nz/file/ln5wwCJT#N_jlwMURQPo7YN-3J5PakOiM9NxpKdZfnA3zXCycWt8)
+- [MCQ Paper](https://mega.nz/file/gvwylYaB#uJqGaug7DK3kn38Lh4IXv1fmCfUmeZE5ugpoyNjauac)
+- [Marking Scheme](https://mega.nz/file/o6JSFBDQ#sItPnX8J2jsMxUOZ81cdUmOKubO1ozKitznKBQqaYVo)
+
+2012
+
+- [Essay Paper](https://mega.nz/file/hvgnwRTL#_zuq2zDHtPqTwjKlXuCGorEd5AFtYbKAyh2CK9Cc9Kw)
+- [MCQ Paper](https://mega.nz/file/FmA2nKrK#QyrjMHzx-0kK-Y32KVIeyz8gpGQJ_JyqHLYEVB7_QHI)
+- [Marking Scheme](https://mega.nz/file/Q3I3UC7D#7v5z_motjqOrjiO5_1YQYR_DrY0SS3bxugwYSq7JCzg)
+
+2013
+
+- [Essay Paper](https://mega.nz/file/drgnXTTS#DHuoiOrf-VS2Wt4zNZ-T1UFgR4wQrMO2rV2teI4SQtg)
+- [MCQ Paper](https://mega.nz/file/QmwChaSL#GUMKtNUlh6BY6dtrQrSGas6bb6JG1uJDSMlxWk8WKqg)
+- [Marking Scheme](https://mega.nz/file/xv5SzSzC#qxUAwa0xHY2IA4v7CE5M3qtAgzzUWfzJW91Reuo_trU)
+
+2014
+
+- [Essay Paper](https://mega.nz/file/Yq4wVJAB#Kr0Mp5L9utRRzGZWz-FUNM2wsVpo7jK1gWvHLPZ657Y)
+- [MCQ Paper](https://mega.nz/file/x2wDwL4K#mylvDPFjRZ7z5Q1Lv9RoCJlckjM9Bqlm5lerDosV70Y)
+- [Marking Scheme](https://mega.nz/file/czZmyLQJ#7HQ6-hsHzRKhUHWhC3KYEKTBAIub13pPCxYfmoa04W4)
+
+2015
+
+- [Essay Paper](https://mega.nz/file/N6QTxQKS#2fmSY3zYlrozHZiEW8AC28ZgMs3vWZHP774RWoPgUlE)
+- [MCQ Paper](https://mega.nz/file/07ZFxIwC#QpMSG2jG998EWJHc3YVHnTVPxwBbNlUGUSoOIs7BHjE)
+- [Marking Scheme](https://mega.nz/file/UyhQkCia#eVHBV2KxtckgxvXrX1L29a0wVE6wbzML4Due9PEc40w)
+
+2016
+
+- [Essay Paper](https://mega.nz/file/trJTQCyD#2ND76qb1869D0weHS_9-Xa6ZEqiACtMvN1cDgdWcvUo)
+- [MCQ Paper](https://mega.nz/file/QywRyRKQ#IVZFtljIECYnh_BN1_C72FRRjn-iqsV_SKqcmVnWaL0)
+- [Marking Scheme](https://mega.nz/file/smJHwS7b#5YeL7kxV4nx2FucnolTidxMeVIcr7K85NlG7eXUnURk)
+
+2017
+
+- [Essay Paper](https://mega.nz/file/Ymo2HCiB#79iIWHHiMD9hZS6vPQgy_13-3YD5Sv5Mj4wvPllBgOw)
+- [MCQ Paper](https://mega.nz/file/VqYDVIBC#BOIYxWHP3iZuMBdXK2yRbBIqwrfeeUeLO3BzMLIW6K4)
+- [Marking Scheme](https://mega.nz/file/xj5UxZbL#ftStXWwyUItsZ9_3BoL0AelxK49an6eHFdtbqtNq6qQ)
+
+2018
+
+- [Essay Paper](https://mega.nz/file/kr5SwYDL#4cWS6phrv-W77U3uRlrzjZzgWIWUSzRvv9rHJFoMpzY)
+- [MCQ Paper](https://mega.nz/file/FjwjkAZB#s6IjD2cIeGH-Kv0ZTKKhViuKg4iNIG3q9VbxsR4mctQ)
+- [Marking Scheme](https://mega.nz/file/ljg3CKoI#i6KwD2Oh2_KeZx_Ajv0_jXDp2uVXzGm3RA2fLrS5gPI)
+
+2019
+
+- [Essay Paper](https://mega.nz/file/VqpxCaCb#X6wNF2y-VAbLhmKUMLUJqn9iVvr4NcVqVjbdXwxcdmM)
+- [MCQ Paper](https://mega.nz/file/dyZjGAIT#aDJ2M8f10-2g6vEbWL-ABNdmcDwvkvrJoUl1ljfHOgI)
+- [Marking Scheme](https://mega.nz/file/Z7BATTTK#eADWHZi_0D-Kz5DK5AMlDL4tnOEMXMiCKjvAAAggQLA)
+
+2020
+
+- [Essay Paper](https://mega.nz/file/N2whgAgC#NwPR8gJgSPy1A6GYmAeCIu0ZSQv5_as8gCuqgGcEsD8)
+- [MCQ Paper](https://mega.nz/file/86Aywb6J#dmWa5Tay1KSiBK2CLqYzWl7IA8i0z8K-1xlv1xmB5QM)
+- [Marking Scheme](https://mega.nz/file/AqwAWaDA#usKLReCrDA0u5otMQutGzyspLxPB1JbYRyNJWMdlyEA)
+
+
+### Chemistry
+
+#### Resource Books
+
+- [Unit 1,2,3](https://mega.nz/file/huhSjCrZ#nN59yIN25qvdZSAFVhOeSsftefKfjq12EZeCSEM7s84)
+- [Unit 4,5](https://mega.nz/file/s64zlTAT#MEUuHdpL-01DaUUQLsevyqG9GCcKol7Q987I6B1FIVY)
+- [Unit 6](https://mega.nz/file/wvpFWKrb#RMpHh6taHK1AOEewPBgZHVmHE6OQacZQ9P4M5w8EfS8)
+- [Unit 7,8,9,10](https://mega.nz/file/hyAmlIQI#ze9nQmJPONm3FIvhc-_ulbVo7ElsmynO0kgTQVb-T-w)
+- [Unit 11,12,13](https://mega.nz/file/kigXBIQR#sEnO3LGb5PyfToxWjjA25LK-c7H1nZmXHsS3lddC6Ug)
+- [Unit 14](https://mega.nz/file/U2RVEK4T#zRLxJaWSlV27EKYMk5xX-3rM8svfPf3tWYGV_DA4Mns)
+
+#### Classified MCQ
+
+By topic:
+
+- [Atomic Structure](https://mega.nz/file/4vpGCDwB#yrYX0VWVjFzKfQt7bcL1tHsE-RAAMOF8V8nlbQpbZYg)
+- [Chemical Calculations](https://mega.nz/file/kmxgHazR#mB_pquxPAkHyonI95hHX0JZ19m_PAnc_gKz6Dyri3KI)
+- [Electro Chemistry](https://mega.nz/file/BnxnUYKQ#wgrcw08amPb81tg7T_P70a-w1nA7p3k-pVyYYMwuCgs)
+- [Energetics](https://mega.nz/file/cuIHDZxB#4A4xe8QBy8FOODXU7bKQZVYBH0OQZ6OCFOhKOhJWggY)
+- [Environmental](https://mega.nz/file/kjg2CCCZ#N66KmGlyH1fYIj4GGy9UVBhILncszmvSOMeRPfjwzko)
+- [Equilibrlum](https://mega.nz/file/9v5XBK7Z#8DMifOpnc5qk6x-U9j2hFN5ZYoTdgCnSZ9LnepXxzfo)
+- [Gas State](https://mega.nz/file/gvpGhRgK#SN-Rdb-vcr0z9b6mJ5Oq_SF4QBtfxoHeOz6d2S-dYZo)
+- [Industrial Chemistry](https://mega.nz/file/M6oh1QjZ#22WfH8EPEn4TkxG52H2MVZ0ppr4PVVvivJfH37ktVTo)
+- [Inorganic](https://mega.nz/file/xzAHHATA#Dyjrs7THoCwwXGy-4sJJFfhyIB-utExTnLh5OME63Og)
+- [Kinetic Chemistry](https://mega.nz/file/9iwCwSLJ#0O8Jsw4qO2DsoxbuGeSUtFlxkoSIyIa_9peOVMGd3sg)
+- [Organic](https://mega.nz/file/onAXjKKY#VHBsYt37HX4IrH3ZZndrnKVUlwKKcEslxs0pWRelqZQ)
+- [Structure and Bonds](https://mega.nz/file/0mp22ZQD#lbDreje4f-Upeh2aFMv5NFSztz-zOs5a6MEzvmBgPPs)
+
+By year:
+
+- [2000](https://mega.nz/file/RvhGkRzR#Fq9Ewu-r69BgzCpP7JLhy7C2_1tW-Gq3CUaSgsVd4Qc)
+- [2001](https://mega.nz/file/guoHjYTZ#4zfMYWZQ75K8edzWQdEcIUWVi9dx8UQkojFh31pYbu0)
+- [2002](https://mega.nz/file/BqgEHKbJ#hDt0s7VfsJ5XMWBVZ7CNBrq_OGDrc_crjUdPByVtM3U)
+- [2004](https://mega.nz/file/F74nzTBC#L4d6yt7tMyx0k-01ezsnGTGURZykAZTQv7GSyn4UwKI)
+- [2005](https://mega.nz/file/12RwwZTZ#jgHYsZ09JZH7eM8ovGzL9g-5FV64RBA7RE12SNpEiBA)
+- [2006](https://mega.nz/file/w2ZxSYoK#r-QPVezL5OLo41CHrcBIsTv2jy1fAPMYobGy3eaP2ko)
+- [2007](https://mega.nz/file/EugjxR7B#doEkvx3LkOnhOKn-eqIGJtW-muGtLOa2134emtw_xXc)
+- [2008](https://mega.nz/file/BnQgXKIA#cbtm0gVkXh6ux7yI0oqV4ZMmc5AaKS3t-mr1LDY1lbo)
+- [2009](https://mega.nz/file/NypRCJBQ#TfefLzXmqsLKmNgFyYrQtH747EGvmpUcqfAYMbVJMLo)
+- [2010](https://mega.nz/file/p65FxabL#e0jNK63VupOW3uK4Jmh2YYjMG3fzSKbDTKlR3aZuV9I)
+- [2011](https://mega.nz/file/snQkwYzI#CWYqk7laAyg_1Hl4wLvxVSU2rq9O_CevbRygxgU2H7o)
+- [2012](https://mega.nz/file/pzpyBaLa#VHRXJzYKP3XsfZx-_nbwkizKWFUWa-j52AgRlu9WKzQ)
+- [2013](https://mega.nz/file/ViJmgBCY#B5SMldljkD1eR-BduUaSVlRFah9CyMLtNBU9pB1psoU)
+- [2014](https://mega.nz/file/d7A2jYaZ#oGI6T_8_sb5lysxl2LbA8I9ym7qQzOMbwlAayBSlab0)
+- [2015](https://mega.nz/file/x2hH0RRD#3oNBp3QTBv_fKTts8X1WhYCzh3UEDEoeSHBsj5LDVGA)
+- [2016](https://mega.nz/file/FqxhjJhB#WrTn_h9xCVTaOIGM-pYMq_rDhsGLFIIG6i0TwhP7Sm8)
+- [2017](https://mega.nz/file/QupC3QgD#bdT6nETXnF6leHmrN5ha6v-jio40TnY0TwjoaBWIikI)
+- [2018](https://mega.nz/file/Bmx2ELgR#PAY6RFfDPNRlVHcXREAAUgD0mvCXgCw9pa82b9KokkQ)
+- [2019](https://mega.nz/file/JqoTWZ7Y#3VdzSfpeRvgAWX1ZyDT-YZaoQDkKbtJ2TmSgYzbZsmU)
+
+#### Classified Structured
+
+- [Unit 1](https://mega.nz/file/l7RETZza#_KwXILXd20SkkNZx6uvzKbFPVKIt-MMtCAvk3xCODpw)
+- [Unit 2](https://mega.nz/file/46JCxTgL#oNhG16lswOS-f3jSsena23F00t-uxvMbaj1sBFS9Uhc)
+- [Unit 3](https://mega.nz/file/dvoXhRBK#ktMOSgCGwtdi0Xf1c74WQydOCjzOOo2jATk8zQR4D1c)
+- [Unit 4](https://mega.nz/file/hqwxhYiQ#JNxTWNKtDRmmhTKKUrdOH4127cIJMcmxiPoGCa0VGtg)
+- [Unit 5,6](https://mega.nz/file/x34mUagQ#YxhD1mcMnMbWACeaAbqV_ZVc2gTh8tywH8TugBRVHBM)
+- [Unit 7,8,9,10,11](https://mega.nz/file/B6ZCBSZb#85H2Kv9d6eh1LzZXqBDRuXT1DwTisFiejt70keGoEAw)
+- [Unit 12](https://mega.nz/file/YqZ2BRSR#-O4_sW7zztqYQfdcbYS7wZ5cQEdRiTFQ_-ypaljmCPo)
+- [Unit 13](https://mega.nz/file/tr5Q2Yab#zqs3k-MdDK1R7bPwd7UOi7b9v_sbbIHGJm7fXsyqZw8)
+- [Unit 15](https://mega.nz/file/YrQxQR6D#yZePA6UrHocf2PX3kAoA3uMtkEZxofMIDlYg46ny8ZI)
+
+
+#### Classified Structured Answers
+
+- [Unit 1](https://mega.nz/file/lm4lgBBS#hKsT7VLp5nhjE7Li4bVJsRvqMduPFuKjUcZIB1MgXIY)
+- [Unit 2](https://mega.nz/file/c7YmBR6S#uZ4X7qh82kmgcTEWfdJlvn0-2p-o4DiIZ8N7zXdI3yE)
+- [Unit 3](https://mega.nz/file/Mi41BDwK#GmqRunZNwA07yjGv3JSaboTIQdRF7rtzrPuTB2HwNTg)
+- [Unit 4](https://mega.nz/file/12pjjbTS#j29md38B5Zt6vFSVVst3tkagwyBVqXr_l3dHa_S44cA)
+- [Unit 5](https://mega.nz/file/siJgQTRK#ZQOP9AwCz7RnhPThoerTk19z_FT83Q7XnoNwomAN_pQ)
+- [Unit 6](https://mega.nz/file/Znw2EKIC#oNsNLUMyO1xLE7Jg19mf9gbruf7-s68c1wwih6bZbnI)
+- [Unit 7,8,9,10,11](https://mega.nz/file/0jZGAKzQ#biUAmW1o_7DHrZf_uLSvHltb7jNG--2HKUeKxEShCNw)
+- [Unit 12](https://mega.nz/file/4vg2zaCQ#vTiUC9ybUrAHgv8WODVZZbEdlR8Pwt7X-lfNdKF2XOw)
+- [Unit 13](https://mega.nz/file/c3gWAIya#BZq9Ww9SzXQMh7R94GSJwNZ51Qe1S7-ZX3sGvA_oNOs)
+- [Unit 15](https://mega.nz/file/wvhDXADR#YV4bLTP1uirSYK1jYE3iBlENUXAEDhHqTkllumdkSH8)
+
+#### Past Papers
+
+2000
+
+- [Essay Paper](https://mega.nz/file/xiJWgBJD#O2puV3L3gcxESP0SYjBUMGUfpaX0_0n5p_lbfxATEig)
+- [MCQ Paper](https://mega.nz/file/BnAxTaoZ#etJWm-L7noPpw_-3trWsiC0DU69L94Vb5k_XtrpLfjU)
+- [Marking Scheme](https://mega.nz/file/8iZgWDyJ#H3WI5lWETbAJSiFd5cHXy91LgsXdJa6j9tZE9yaDYk4)
+
+2001
+
+- [Essay Paper](https://mega.nz/file/1iBBRTKA#8UMZKNoON5rvoslBPYvC0aotFekpEnA3lpqSn7_BluI)
+- [MCQ Paper](https://mega.nz/file/s6hF2ZKR#2cBjgkUZ4tBYRU4nDpmhORaBlUt02YNPZi467ecWo8Y)
+- [Marking Scheme](https://mega.nz/file/k3xTHZ7J#W_IPI99D874C4OHLpE6bbxlmfrSaJvmeguAnmcaNiPY)
+
+2002
+
+- [Essay Paper](https://mega.nz/file/k6YXWISY#ZZpZeRaSD758Xsw5JhX_actRQW0VnR3BSs644exQF8o)
+- [MCQ Paper](https://mega.nz/file/Ji5HGY6I#CnTWW58af_KOwuCn2r97-Wxa8-aKSIGanz8FBNZI1ss)
+- Marking Scheme (missing)
+
+2003
+
+- [Essay Paper](https://mega.nz/file/w7ghRRwT#s1WR3CSu3i5-bc3P_sgFzzLuHxvg4bEHJe-tRg5sqM0)
+- [MCQ Paper](https://mega.nz/file/I6AGAIzT#8a_6f1Evl1vKZgWi4J3sLaH6S72azUeCpcfpzucX2WU)
+- [Marking Scheme](https://mega.nz/file/QnokmDjI#_u_gA9x95dD3uSbfXxJ1O7qbpFMnvGQYXlGn8KtBcoY)
+
+2004
+
+- [Essay Paper](https://mega.nz/file/E6BQ2KBS#FRDCvwJcfaMG_XePe9WHNEgod9wZqRCoerjVmtvzKs0)
+- [MCQ Paper](https://mega.nz/file/l7YEDAxQ#IrmfDMzmE2yzMXjs7pYvOc385747lRgbvIX0H2Ic4c0)
+- [Marking Scheme](https://mega.nz/file/Ai4GAJyB#t2EdnTYNuIESqetjms1iEJHu0jPa4p7Q5C5aToisaLw)
+
+2005
+
+- [Essay Paper](https://mega.nz/file/U3QySKLA#pD2lTAeTM9yrqo9b5c6lU8VHKEUbmlSuEabXO74eQkY)
+- [MCQ Paper](https://mega.nz/file/hvoHzDRB#Z8ow_fKCSj6Jn8_02fdzMl2dfDUl4yJhp0ksi1RfF3s)
+- Marking Scheme (missing)
+
+2006
+
+- [Essay Paper](https://mega.nz/file/A7gXAKLJ#ZWdE4yXN9XRmyEb52BipOspfPIyHQTi7fdJVFjBRsxY)
+- [MCQ Paper](https://mega.nz/file/Fi5jESwZ#dvBF2pNcJU_WOT4f3Rhv8YqG8hhx2iLsXah3SjDlwQY)
+- [Marking Scheme](https://mega.nz/file/onR32boT#dc4gg3JNhWYzhdZe6RkAiOOsnG7hJevYNGcnPDoDuOI)
+
+2007
+
+- [Essay Paper](https://mega.nz/file/k3ZxzCob#PdwOqk8YPznTBbFFHrQPszowKMtBAoLkJjf8QTnY4E0)
+- [MCQ Paper](https://mega.nz/file/s75ADSjR#KPcWlLFG5ztIk7XY7CCzlj7jYQDehGGF9aOxjJHnaxQ)
+- [Marking Scheme](https://mega.nz/file/JromlKzR#EYedZT6eUVfRLctKwBtLNEeH6rM2We8PVl_oIBdO0QY)
+
+2008
+
+- [Essay Paper](https://mega.nz/file/U6gxVTQR#hfIx5zzJ5lWj3Oo5Dw5GVuSPL05R-F6zFG2RdfyV-w4)
+- [MCQ Paper](https://mega.nz/file/U7RQ3KrD#fl2_MHhR22TWWmfZB8rj1DwDPc-z2ac7z-o5IB4o-nc)
+- [Marking Scheme](https://mega.nz/file/k2QXRZBA#h_fOmFYE8IFfwMH9oXiodB94UdPPvn63nEOtWz3vD7s)
+
+2009
+
+- [Essay Paper](https://mega.nz/file/ZmxlGBQZ#rzAkTrbYymp_4kF5kY_iysi0674GiFmWYgd5uTEk3ME)
+- [MCQ Paper](https://mega.nz/file/5v420RyR#4_TFO9SSFibwMCok_eUqeBsauUlJv46XkIdonw3Y2iI)
+- [Marking Scheme](https://mega.nz/file/ojYlRIyD#cX18srxAfbTZXfx_f_6F5buOWcLBVcL2dq_eGscWCCM)
+
+2010
+
+- [Essay Paper](https://mega.nz/file/supxEZxL#BDsszsdoIpl8ITlRqRacNw_1VJ2-A5xZvVgIUs_Uuac)
+- [MCQ Paper](https://mega.nz/file/M7wzTRKS#g4VB2FGadcjsJWsp4f-PWTtIesmgRRyZeY6fnEDMQcA)
+- [Marking Scheme](https://mega.nz/file/JzQkCbIQ#e6oXQ3k23fwBWUe0-rJN466Jo1QA9C3R-GCI2DefYvI)
+
+2011
+
+- [Essay Paper](https://mega.nz/file/xvxiQYBB#DyT2P8dNSp0v2qfr95PAqGOv_Q5RreoWnxp2aaAzMkE)
+- [MCQ Paper](https://mega.nz/file/huoQxKSZ#1ZGTg5q1twmvltfJMCU73TN5Jr4sWrRmOm5DNK8YfBg)
+- [Marking Scheme](https://mega.nz/file/h2x21KSS#Gx1Tpz6icArM3BO8viRTjK0pVRkP-oOV1gcP-9Qxwbs)
+
+2012
+
+- [Essay Paper](https://mega.nz/file/grAhlTyY#Aad_7x3wEURhVQJOYVJmk0xu9ExMZpFA9R-dy9AxHLQ)
+- [MCQ Paper](https://mega.nz/file/ozhwABLB#Dfv97nx9JotjgR7iFXsKyk3VY7-1Nel9x5iixAW9W4E)
+- [Marking Scheme](https://mega.nz/file/FuQQgBAQ#-pDuLMBGh3HwGLbz8PDbzFA2VS9g8fq7baj5Pb-UfX0)
+
+2013
+
+- [Essay Paper](https://mega.nz/file/Ayh11TiJ#WHCgQfQ78zhlApp0K8aAzt0t83of-c_vZD80XKIGoy4)
+- [MCQ Paper](https://mega.nz/file/g7YnkIoa#33iqenwBP_zLFVYuKQRtZp3zRJACZeW-1nKDNEf5RNc)
+- [Marking Scheme](https://mega.nz/file/UnhRQb7A#4lraL4AksKkFzhsesMj9ujkCeuAvYfdscpixqhtfOwU)
+
+2014
+
+- [Essay Paper](https://mega.nz/file/Ayh11TiJ#WHCgQfQ78zhlApp0K8aAzt0t83of-c_vZD80XKIGoy4)
+- [MCQ Paper](https://mega.nz/file/wrZiBApL#P04zj_JHKb9SFzolloSiXmnESiJiBBFBNS5lMEJ92Rc)
+- [Marking Scheme](https://mega.nz/file/0mhFCDCQ#Uw8Ol3qSQbMwxeOsYxzKrx4wJ1B0-AwXQJdxEYUwTic)
+
+2015
+
+- [Essay Paper](https://mega.nz/file/1uIikLhC#evpe7-aYWrNVd-spil2r6Y9ZTRGE4OV8GwGdyhmDdj8)
+- [MCQ Paper](https://mega.nz/file/YjBBHbjB#RR3DVB9b0oGsvKxmU86noZUGegZ3RpVSVReEuYsSdk4)
+- [Marking Scheme](https://mega.nz/file/l7J1WJjS#WYWWnZHe-iYON-KTIvykNK-822MjMqupFI7Yn_2RziM)
+
+2016
+
+- [Essay Paper](https://mega.nz/file/hrwE3b5C#ZUnhNw-1JITpEniKwkxU4fj3zSLEOYEZJTGss7R7LHQ)
+- [MCQ Paper](https://mega.nz/file/RywihQyZ#99ZCQVT85SpA_QgPATn0kuX3chCJeJCPAPoEkuz46bU)
+- [Marking Scheme](https://mega.nz/file/liBUFJSQ#8Bkj9NTAGK1hJPP0fq_Asamf8HClA9nnqGArl189vso)
+
+2017
+
+- [Essay Paper](https://mega.nz/file/F64WUThS#ZlRgTstEW60jSMgC8xbcB6gBy14pdLaLgHfaPYAhwGs)
+- [MCQ Paper](https://mega.nz/file/VuIU0Kab#vxJq6LBAYCs2Ivu7KYyUiAXNR7Fw0X_6bf46RUcdS2U)
+- [Marking Scheme](https://mega.nz/file/xrg2xTaA#qNLE0yXSiQvyJQFAjbcNMrnpXG9X6Fbx-WeVUmJhM5I)
+
+2018
+
+- [Essay Paper](https://mega.nz/file/dr43QQJL#gX-5Dyt9GxI0y__VSue-cdaGoNpvmip_CeRf-9JJWsk)
+- MCQ Paper (missing)
+- [Marking Scheme](https://mega.nz/file/NmhX2T7L#DDXTf0D3rhDmzUdtRvSFGps0YJny2tEoOX9RL2cIjvU)
+
+2019
+
+- [Essay Paper](https://mega.nz/file/luoV1IiS#08Srk1OyyR73xJ75spBwxHX0tOBCri6G0Ewwnh_q6aQ)
+- [MCQ Paper](https://mega.nz/file/pyBwibqD#sa4EPCTz2AwUiOaU55n76teh-9Kqh1m_FudJn4YtCEU)
+- [Marking Scheme](https://mega.nz/file/IixiQbxC#Yqbp6MA1F2XtDrjDc0fVGrkoqoAVRy8z0Wsrgn9K_BI)
+
+2020
+
+- [Essay Paper](https://mega.nz/file/4mgXADaR#Q8ogXRi9EgZNmADJ6BNcEL8VHwHoQ2lKx6J2dhtcLNg)
+- [MCQ Paper](https://mega.nz/file/FnpUzBZT#xz0Y294FLkozYaglg2MZorcuZi5tKqrgdKk4EuId_t0)
+- [Marking Scheme](https://mega.nz/file/4iJXUY5D#4OslTD3ubOdxnQJ4IHdJZQIlGQHrcNiv8mVJ1bk9z8k)
+
+### Biology
+
+#### Resource Books
+
+- [Unit 1](https://mega.nz/file/12wxnIxR#DdaigTYN_1XZh7l4RiS_4kzegM8b3qYqh-pbhojyFxg)
+- [Unit 2](https://mega.nz/file/83xjnCLJ#6LHoYLz5_oOMmghJmCkN8vumwhhH2WtEk5vMR6DLSlI)
+- [Unit 3](https://mega.nz/file/5mx1RZDT#JZxDL1AoHoUc8aJRfJrwMe_gNsFNZoQBSWip5qAppxM)
+- [Unit 4](https://mega.nz/file/cvYQCRxD#Ynl0ApnVEyWAnz3cOzVxRrsOyD1q6Rg8eUAt6NKUs1Q)
+- [Unit 5](https://mega.nz/file/xuIDXI7L#QyiUyrlC-O4paGLYKHccy25HCnSro54Y8ip-Wj7srtY)
+- [Unit 5 - II](https://mega.nz/file/smgwkaRB#gDa-iS7uWUB-ezg5lSq7MbWnAORCkN29QC-tJsD-06s)
+- [Unit 6](https://mega.nz/file/MzgTzCQQ#5r1cpZ1IvuUbH0oO1ihwJTur24sZrDlM4LNzUWaM0Zk)
+- [Unit 7](https://mega.nz/file/c6wVmTAZ#3aMDkSw0V9eM2wP0Jd5REqfEuU68IWH0C5dBYUX_tUI)
+- [Unit 8](https://mega.nz/file/Y3hkBSob#p7J2aSHQx3VPU8tsd4ASwyE3YGyjrS_7ZLR3KY9E34Q)
+- [Unit 9](https://mega.nz/file/kjIzhKjQ#a6JsVDknBRkjuTKeP7g0SCHJnzkbBoyWqEKXvkMISAM)
+- [Unit 10](https://mega.nz/file/Z2Yn3J6J#_juwZn7fkM3qzBZFOsW3TCPXJOsgIVbPjqmasnx5o88)
+
+#### Classified MCQ
+
+- [Unit 2](https://mega.nz/file/djB03bxa#D6aQmT7LQ2WRbsF_ivZMkmDO1pKW87h991FRMoJRkpw)
+- [Unit 3](https://mega.nz/file/lvQXhDCR#tNiVHoHMATA8ub0HP_bAJ5qW7e0nm837gacsTkoPpiU)
+- [Unit 4](https://mega.nz/file/MmhFCYRT#4x-GClX2SRjuJZbDO0E44Q2vSA8Dhg4I18jH3Lpp1D8)
+- [Unit 5](https://mega.nz/file/MuwwFIYa#agXxFH3m83PuBLjgUWFsuAhD0mXEbzQ8fZhKTtda66w)
+- [Unit 6](https://mega.nz/file/ov4FlKjb#VX21G1Vgfi-NMzz8rD_UZZgFND7enaZOFwpcJEKtOSY)
+- [Unit 7](https://mega.nz/file/A3RVBCYR#UeuY8vi_O-u3L8zddj8ccu1YlmftN_oB0LwqhqUErGc)
+- [Unit 8](https://mega.nz/file/cq5kHT7I#quO8jTb6nXhCtdN_LzQ9klNvkuK1BnyLAbboY0Jzojc)
+- [Unit 9](https://mega.nz/file/cmJU3LYA#9KsYCFeP9OTRLQ4STNWBi8hqZrjyCT44-wh3QCVSvCA)
+- [Unit 10](https://mega.nz/file/N2pyHIRS#_B08Nb_1Qm0odiJOCLCxVPURld6DgUMEydNjcElGAlM)
+
+#### Past Papers
+
+2000
+
+- [Essay Paper](https://mega.nz/file/JuonGBiD#PsvBDZ5l4qQnH-jUoxV7OggUYcWS1HW0OsgmbsfhBwE)
+- [MCQ Paper](https://mega.nz/file/8rwnxb7b#h_O1mA59x2qRpMSXhBKvx37o8Lg7iDuxm5acxpMiEFI)
+- [Marking Scheme](https://mega.nz/file/t34ilIII#x0pZEdu_t3CCS7BpAfrxXoWZwGx1tIAsZ0rsqCyC61M)
+
+2001
+
+- [Essay Paper](https://mega.nz/file/5vQmwDZY#wRzdY_NSpqjYwdKLE2voiQeItxHNSN3JNwU-40-iUSQ)
+- [MCQ Paper](https://mega.nz/file/8yBhmT5b#UDr2yn3UpBi9RBhK-zh03NHjvYKPSh658-kvAHK03aE)
+- [Marking Scheme](https://mega.nz/file/RihlmSBC#v2k7xs9xn8H0CO9e-WeIFm31cAV60uovBG7BoFQQl0c)
+
+
+2002
+
+- [Essay Paper](https://mega.nz/file/d3hn0RgD#pyG0hCpDAkFH3cJ_O--hXeRkfPRosOHWbQwGqzLGnWY)
+- [MCQ Paper](https://mega.nz/file/sygSHYiY#HXibjjQdCF9s3A6jeGpszOzdB_UOVa_eHTvLVeqpCks)
+- [Marking Scheme](https://mega.nz/file/Mm5ACQCK#OxnNfD4Xe4d_2ShIBfWfkXKsVk6FtT2PBBeVcdIN4zQ)
+
+2003
+
+- [Essay Paper](https://mega.nz/file/J6YHkCzQ#C94cRo2ZUDvy4_7DsMxfbQDbS0X00O9tJhgrz9BzN1w)
+- [MCQ Paper](https://mega.nz/file/IjYDCDKb#E48wrz-riaIeqK9gTXe2KcGToisavUf4yqAsdvCOeSQ)
+- [Marking Scheme](https://mega.nz/file/ciR3VBBS#bFpvRyrvA7qbo5-WOgJc0blyOgDhIRuLYGqKGyj6y0w)
+
+2004
+
+- [Essay Paper](https://mega.nz/file/5vI2TJgY#VWg__KGbjSoMyPjspieQSAqhwpzxGfdRDgQ1bGMcjUE)
+- [MCQ Paper](https://mega.nz/file/c7pXUBhC#lNw6UWobow-6L7PA8t6VCr9OOXTeNIOW7ZY_Ri_Tmrk)
+- [Marking Scheme](https://mega.nz/file/NyAASJ4S#FuZK99Eyd5r3kFG__RvVFaezrrR06nBk_q-YLX43MRk)
+
+2005
+
+- [Essay Paper](https://mega.nz/file/4uxlWTSS#PVOea5bmJ3gNpKZ9ZJ8AoYI6u9onzzftOPaNK-Lbmek)
+- [MCQ Paper](https://mega.nz/file/hzQ3lYLQ#0CCjqPjOPCSjBl6Eaa-Go6WF9nHop27HiZnwVrQFQAE)
+- [Marking Scheme](https://mega.nz/file/Yq4CCSqA#387hOAcCcVLzTaAJK45myPxjt5c0kDbQR74TbPywVDA)
+
+2006
+
+- [Essay Paper](https://mega.nz/file/QmYCVbCY#qsoY595AK4RhTts63Y2OZPZzsMRfXmkS_Gev1L2EkOo)
+- [MCQ Paper](https://mega.nz/file/pqJzRaJJ#RC65EtIQ-UxtEYTDGD2hBLBzDJ4PCs5E3Yu3DZ8zQhU)
+- [Marking Scheme](https://mega.nz/file/5nA1kZhB#MRM5n3bkSXX5fSaM7WLfDN9DhJJsup0Ax6MOMBKSk3k)
+
+2007
+
+- [Essay Paper](https://mega.nz/file/8npknLKQ#RGl4SR-unmw-15BgjEuI3mm9NLtfnznkWsI0HsUP0Ic)
+- [MCQ Paper](https://mega.nz/file/R6hVRRjZ#bmjemj9a8FocoKQ3s8JzHcTDYwNBWDwW4XsjcxHvYl0)
+- [Marking Scheme](https://mega.nz/file/A2JEwTCJ#7_015ZDdMv-04xTqUsseNrfGx7lu7gdp_vx-nBsCZNE)
+
+2008
+
+- [Essay Paper](https://mega.nz/file/NrhGyRyL#elhrDrZZk-FwxDyjl_fFdOW8RgYmrbPIH6tcAF84RD4)
+- [MCQ Paper](https://mega.nz/file/l7Bi2RrQ#R83xnhsdQgROHtcDrsqAQZB6qqfsKDguGJK-HAoxWRs)
+- [Marking Scheme](https://mega.nz/file/czZCjYhD#C4G5uJHla0eqBXR2tA-CWVo9r5vDjbAQm7t_1k7-8fU)
+
+2009
+
+- [Essay Paper](https://mega.nz/file/cjxEBKjL#f1Nmu3da0jurpf3NcYN01P19GEipcP_r0tGiEHzB8-Q)
+- [MCQ Paper](https://mega.nz/file/Mi53ACJQ#jdMUtQ9PQYQBirTO5UKGCtrDex7xyhdbxVDdx0jTqYg)
+- [Marking Scheme](https://mega.nz/file/0vZ2VbRI#4HG4FB_b1BKELbDeDj8qMZkOuYz1o-zoMKMUpyZIYBY)
+
+2010
+
+- [Essay Paper](https://mega.nz/file/JnAnwaYL#L3ibR2eRcampuh_YFzZbmaHiRfqsTkKsObcKnvghgh8)
+- [MCQ Paper](https://mega.nz/file/Y3p2iJYQ#ZGSG84X-PtCKS6VCd9JuxaCtUjEL4oG1w0HcBTJuQ2o)
+- [Marking Scheme](https://mega.nz/file/MiQigBoZ#VX6PH9rWlVX2g8W0R_KaRvaf0qJRdMBp9lrm6WbL1Fc)
+
+2011
+
+- [Essay Paper](https://mega.nz/file/smAjCQTB#XBggZltEo12pWggBXPEerDvZv_MfBSQEnFb_hqVm86o)
+- [MCQ Paper](https://mega.nz/file/Mjg1kbKJ#DHSSFOi3aFVcfRhic1ehF5EIF-srRYWH_DlOp0lPVs4)
+- [Marking Scheme](https://mega.nz/file/Q6p3mCCA#alQSGYLaus38KGBwNhh0uOmfVW2DObODhi5uPzMY-u4)
+
+2012
+
+- [Essay Paper](https://mega.nz/file/8uRijTBL#eZdksLV6DeGRjt5Nvg_JSukXQuGt5Kg1ieLcCxXT2wc)
+- [MCQ Paper](https://mega.nz/file/JyoxkLLZ#RtainWf1oJyQapvQn6Ul9ILifMCjPZ1i4aYk_g2hmbg)
+- [Marking Scheme](https://mega.nz/file/lzJ0FAyA#Zgsi2wHboOfNeqSFErTF3Uxt2KQQIqB-E8MkoQnWmug)
+
+2013
+
+- [Essay Paper](https://mega.nz/file/wyZVSbiJ#29pYWJ7YjHsDpIpy_GDMF_EQ4Yrf210YgqmaZxS2nwU)
+- [MCQ Paper](https://mega.nz/file/hjhAlDCC#poDlIYoTzX6x9bXPQI4zKKjZkBQSAXaM66kKZUXwG30)
+- [Marking Scheme](https://mega.nz/file/QqhgyCAa#Ufv-EYP94g2cCwqjE0JdLxO2SWLb_8gH1D9ALVzwMGg)
+
+2014
+
+- [Essay Paper](https://mega.nz/file/Zqw2hJwb#F6wcN-dgGuazGXnVTu4UFb3ZeuSS9Af1HIHXVFA8whM)
+- [MCQ Paper](https://mega.nz/file/IqxVDYYL#6TOfqZH3XYbNiK9r6f6gaoGMETbkq1C3CweH1uXORp4)
+- [Marking Scheme](https://mega.nz/file/pvgTCSRR#T2VthxH0pBNuQ-AgZhz8nq_zA4xxTqaBHd7AkGZeEgY)
+
+
+2015
+
+- [Essay Paper](https://mega.nz/file/56IQhTQD#vWOW2G6RM95Npn12foOj8Me5zpvHzEt_ALZzoYaXoRY)
+- [MCQ Paper](https://mega.nz/file/BngkGKQR#QPW0UP38afjsG7bRfWUY2ILQwTVR9IcAPZ1OlYcbXQU)
+- [Marking Scheme](https://mega.nz/file/935yhLJL#JfUQVvZFJCbqdL7AeRwJjmQiXCXQ4x-V14UirgpnVCs)
+
+2016
+
+- [Essay Paper](https://mega.nz/file/U7BGGZyZ#U4z1fw5YizFmMu0CEqtrdLDxyyQNZcxzOaaor7zBQYA)
+- [MCQ Paper](https://mega.nz/file/oyxg2DQa#YO-qe6dv3ybKxtS4JAfZAefbEVmPdZmppTv7SQ4dOhs)
+- [Marking Scheme](https://mega.nz/file/InQ2CIBY#b-byta5mb06GFJQ_eu2hnb35GtjY2DV-n718U-4Ic48)
+
+2017
+
+- [Essay Paper](https://mega.nz/file/oyQSBbAT#YIu5irpa_nXndctQg4aK91xAVoS4XRDJqz3gDBuVa08)
+- [MCQ Paper](https://mega.nz/file/86ARkZpI#9EEYySeeFQZ8607FjRUiRHlGwn7gdh5z6hfKeBkk8Cw)
+- [Marking Scheme](https://mega.nz/file/NyAHULSA#eqTHYeB7mLUh1pGLgXyIT0G3HO0cLMwm542QFrYatSI)
+
+2018
+
+- [Essay Paper](https://mega.nz/file/5moE1LTQ#FLOof53LWAyZi3QRZzYJdWBF2fLMSYYsMY4oBOC9a3I)
+- [MCQ Paper](https://mega.nz/file/tnIShABL#CsBGMW4pBfG4tsvCa_dLxIUwSv27GK4Y13wsLNILxeM)
+- [Marking Scheme](https://mega.nz/file/tvxiEa7R#diGgdq4I2cxSPNMlQNosaMAveyhbYvV-p5FwlzZXbSk)
+
+2019
+
+- [Essay Paper](https://mega.nz/file/9vx0FSDY#b5co9354BlcakGGuLkbbgnlm-TsscZLPXZYzRSUxEu4)
+- [MCQ Paper](https://mega.nz/file/dvolDTab#j0w3um7Vwd31CdMcSxdmplL2Ti8Q_N1PEXvJph8rChE)
+- [Marking Scheme](https://mega.nz/file/VrYnXLLY#lDpXD_YVKx9KGTtk64bcHoDUjB_FBfKyBWL5uURR9ts)
+
+2020
+
+- [Essay Paper](https://mega.nz/file/Jv5DQBwR#oRL9A3OAk4ReG3Erq9p6-wkdgSaKNwPd20SAwc-rS7k)
+- [MCQ Paper](https://mega.nz/file/k3IkWLAA#GufXJKQulHIep82_1AB3ThMqZLsZpBh2idy9-eZLv-8)
+- [Marking Scheme](https://mega.nz/file/4uRxEYyT#QkXNkdb9IPvvDthkyJ5gWBL38eZTQnv1YpBjPj-acT0)
