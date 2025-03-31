@@ -5,11 +5,25 @@ authors: [hirusha]
 tags: [study-resources,al,ol,high-school,school,exams,resources]
 ---
 
-Collection of study resources for high school exams - Ordinary Levels and Advanced Levels 
+A collection of study resources for high school exams - Ordinary Levels and Advanced Levels for multiple syllabi.
 
-<!-- ![a](./shake.gif) -->
+![alt text](quote-real-education-is-about-genuine-understanding-and-the-ability-to-figure-things-out-on-aaron-swartz-120-24-82.jpg)
 
 <!--truncate-->
+
+## Introduction
+
+Sections:
+
+- [Sri Lankan General Certificate of Education (GCE) Advanced Level](#sri-lankan-general-certificate-of-education-gce-advanced-level)
+- [Pearson Edexcel IAL (International Advanved Levels)](#pearson-edexcel-ial-international-advanved-levels)
+- [Pearson Edexcel IGCSE (International General Certificate of Secondary Education)](#pearson-edexcel-igcse-international-general-certificate-of-secondary-education)
+
+For the Sri Lankan General Certificate of Education (GCE) Advanced Level Examinations, past papers were not easily accessible at all. This is a free-of-charge examination conducted by the government, and anyone who has successfully passed the Sri Lankan General Certificate of Education (GCE) Ordinary Level examination can sit for it. Yet, the resources are very hard to access. Despite the government's lack of interest and the "tuition class culture" failing to produce a textbook, they apparently also don’t care about students having easy access to past papers. There are third-party websites that host these, but they are filled with ads, and the content is put behind a paywall. The original government website that students intend to use doesn't have past papers before 2015 for English medium papers. I don’t exactly know whether this is discrimination or just their utter lack of interest. This was as of mid-2023. I don't exactly know whether they've updated them. So, after exploring hundreds of different third-party sites, I found this content inside a Telegram channel with approximately 3,000-ish members.  
+
+For Pearson Edexcel IAL and IGCSE, most of them aren’t my resources or hosted by me. This site just links to them. Also, everything here was found either from publicly visible Reddit posts or Discord servers with thousands of members.
+
+I started collecting these resources and making them publicly available without any advertisements and for free for the first time in early 2023. All of these resources were collected over a relatively large amount of time. The reason I did this was to help out my friends. This blog post says it was written on January 1st, 2023, but it's not. This was written somewhere in Q1 of 2023.
 
 ## Sri Lankan General Certificate of Education (GCE) Advanced Level
 
@@ -19,21 +33,17 @@ Collection of study resources for high school exams - Ordinary Levels and Advanc
 
 :::info FOR SINHALA MEDIUM
 
-For those seeking an excellent A/L Maths class in Sinhala Medium, I highly recommend Ajantha Dissanayake Sir's classes. His approach to each lesson and his meticulously crafted course plan stand out as the best in the field. Ajantha Dissanayake Sir conducts physical classes in Nugegoda, Kandy, and Kurunegala. Alternatively, you can also benefit from his online lessons, where students have the flexibility to pause the videos, attempt the questions on their own, and then review them alongside the instructional content.
+Looking for a top A/L Maths class in Sinhala? Ajantha Dissanayake Sir’s lessons are well-structured and easy to follow. He teaches in Nugegoda, Kandy, Kurunegala, and online.
 
-Stay updated with his latest lessons by visiting his YouTube channel [here](https://www.youtube.com/@ajanthadissanayakeofficial8370/videos).
-
-It's important to note that this article is not affiliated with him in any way and is solely based on my personal experience and opinion.
+Watch his lessons [here](https://www.youtube.com/@ajanthadissanayakeofficial8370/videos). This is just my opinion, not an endorsement.
 
 :::
 
 :::info FOR ENGLISH MEDIUM
 
-I highly recommend attending two classes to enhance your learning experience. First, enroll in an English medium class with a teacher you find comfortable. Additionally, consider joining Ajantha Dissanayake sir's Sinhala medium theory class. Let me explain why.
+Join an English medium class you’re comfortable with and also try Ajantha Dissanayake Sir’s Sinhala theory class. His teaching, notes, and planning are unmatched.
 
-Ajantha Dissanayake sir has a remarkable teaching style—his explanations are nothing short of epic. His notes are unparalleled, and his tutorials are legendary. What sets him apart is his meticulous planning for completing lessons and his exceptional approach to certain topics. Trying out his class at least once can provide a unique perspective on your learning journey.
-
-While it may pose a challenge for some to navigate between Sinhala and English (given the technical jargon), embracing this difficulty can be a rewarding experience. Give it a try and see the difference for yourself!
+Switching between Sinhala and English can be tough, but it’s worth it. Give it a shot!
 
 :::
 
@@ -794,12 +804,6 @@ By year:
 
 ### Mathematics
 
-:::danger
-if you have any doubt regarding any content shared / linked here, contact me and i'll get them removed ASAP
-
-I do not host any of these data. i do not own and i did not purchase anything. everything here is linked to something that has been previously shared online publicly for free by someone (mostly on reddit and huge discord servers).
-:::
-
 :::tip tip
 
 [Click here](#resources) to view this awesome collection of resources, or click the links below:
@@ -1097,7 +1101,7 @@ Youtube Videos
 - [Primrose Kitten's Playlist](https://www.youtube.com/watch?v=hs9DIOqzgRg&list=PL7O6CcKg0HaE8cH9xNR0vNX1MksFgckHd)
 - [Jahrukh's Playlist](https://www.youtube.com/watch?v=X7pqpz_eor8&list=PLE5zhNsPvV3PqaIktl_7csXrnkb9bbEw0)
 
-## Biology
+### Biology
 
 SaveMyExams Revision Notes
 
