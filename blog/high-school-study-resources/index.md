@@ -789,3 +789,382 @@ By year:
 - [Essay Paper](https://mega.nz/file/Jv5DQBwR#oRL9A3OAk4ReG3Erq9p6-wkdgSaKNwPd20SAwc-rS7k)
 - [MCQ Paper](https://mega.nz/file/k3IkWLAA#GufXJKQulHIep82_1AB3ThMqZLsZpBh2idy9-eZLv-8)
 - [Marking Scheme](https://mega.nz/file/4uRxEYyT#QkXNkdb9IPvvDthkyJ5gWBL38eZTQnv1YpBjPj-acT0)
+
+## Pearson Edexcel IAL (International Advanved Levels)
+
+### Mathematics
+
+:::danger
+if you have any doubt regarding any content shared / linked here, contact me and i'll get them removed ASAP
+
+I do not host any of these data. i do not own and i did not purchase anything. everything here is linked to something that has been previously shared online publicly for free by someone (mostly on reddit and huge discord servers).
+:::
+
+:::tip tip
+
+[Click here](#resources) to view this awesome collection of resources, or click the links below:
+- [AS Level Resource Collection](https://drive.google.com/drive/folders/1zdctBrmBvbS6eK0pUOXiZuonyzrl_zHb)
+- [A2 Level Resource Collection](https://drive.google.com/drive/folders/1-Vc4VryLTIBMCm-pKuCgUQvkOrIaXPNr)
+
+:::
+
+#### Books
+
+- [Pure Mathematics 1: (P1)](https://mega.nz/file/PhtD2DDI#tj1NAXmZrLmTi3IkshvwAIwKvLFlUmh3VxhDX_G54Zg)
+- [Pure Mathematics 2: (P2)](https://mega.nz/file/HwkT2JRa#5iVNstc5Lv71u76c8XY0R64WDZLUb4Vk-4JIuttEwMY)
+- [Pure Mathematics 3: (P3)](https://mega.nz/file/i4MRRa7b#T6NuZlAPVqdzK7hZ1z9i5nraALTfbgCqhKAVdSei1iE)
+- [Pure Mathematics 4: (P4)](https://mega.nz/file/il0HGBYK#RfoKzUXthvgmSYXIx7eMrhE1AT63-oisXmfFAH5ZCvY)
+- [Decision Mathematics 1: (D1)](https://mega.nz/file/mgM31STA#V3GkN6wAs8mot4_bl3BKHb5Ce5Qrs1rTjPNDBWy5J1c)
+- [Statistics 1: (S1)](https://mega.nz/file/X98R3bbA#rjGJQBndDKnuN5KWEi8Uo9S_kt3lmApDq9pFLFfOYz8)
+- [Statistics 2: (S2)](https://mega.nz/file/z5klBBgT#1MdvBZ6g_WTDWuH3thlLHm0bLO9V0BwjvkAuFMVYwX8)
+- [Statistics 3: (S3)](https://mega.nz/file/XoVHUQTD#AQFolzcGIddiIF0WDKM8MzCy1hryeApjF-L8I8h9E44)
+- [Mechanics 1: (M1)](https://mega.nz/file/CkNDQQCT#VI_zUTftBUx3Wu5lMlKWirNa-t5Zb9DXSJ53DJvNNYs)
+- [Mechanics 2: (M2)](https://mega.nz/file/St113BjZ#zaEzffRh0GUMzB2sTmuXU1tATdt_TE-7rVuw54sfGmI)
+- [Mechanics 3: (M3)](https://mega.nz/file/719BFBZQ#gSPyuDSn2oy6xs9Gzd2op9iC6Bb6QVpbUO9TwGgz3F4)
+- [Further Pure Mathematics 1: (F1)](https://mega.nz/file/yhEnEIJJ#GY9BVHbwEClZBtmWmoE5wMLqF2f3Jvf_0WV8Ua3GvDY)
+- [Further Pure Mathematics 2: (F2)](https://mega.nz/file/79UHxKYD#nxlXwGcGvOYBrGfujvTjUVsZ1KjRD-35dFzD-1LC_1I)
+- [Further Pure Mathematics 3: (F3)](https://mega.nz/file/m0NF1KKY#vJvL7mDjDCxZsGqLScbgnJBXjt4nCby44LDAcC_vNjc)
+
+
+#### Resources
+
+Collections
+
+- [AS Level Resource Collection](https://drive.google.com/drive/folders/1znSggOp_IbMbQQPpseEYGM4akyT_08EV?usp=drive_link)
+- [A2 Level Resource Collection](https://drive.google.com/drive/folders/107BEVqltvaHhkhs_AaNiQVpQhNtEQCix?usp=drive_link)
+
+Save My Exams
+
+- [Notes](https://drive.google.com/drive/folders/1wN55o4kSc3B9cJyAUS8FVne5Z3ioAo54) (All)
+- 
+
+Other
+
+- [P1 Notes](https://drive.google.com/file/d/1mYqTlLcmQ0AjldQY7b2U3pddXWXw4-z3/view?usp=drive_link)
+- [P2 Notes](https://drive.google.com/file/d/1Px-fq2FXh-jlszUcwL2BHDzliwgmvpKB/view?usp=drive_link) 
+
+YouTube Channels
+
+- [Exam solutions](https://www.youtube.com/@ExamSolutions_Maths) (All units)
+- [Maths deity](https://www.youtube.com/@MathsDeity)
+- [Mr Hassan's math channel](https://www.youtube.com/@MrHassaansMathsChannel)
+- [Bicen maths](https://www.youtube.com/@BicenMaths)
+- [TL maths](https://www.youtube.com/@TLMaths)
+- [Mindful maths](https://www.youtube.com/@MindfulMaths)
+- [Aninda Kumar](https://www.youtube.com/@Aninda_Kumar)
+- [ukmathsteacher](https://www.youtube.com/@schoolmaths)
+- [Hegarty maths](https://www.youtube.com/@HEGARTYMATHS)
+- [MrArnoldsMaths](https://www.youtube.com/@MrArnoldsMaths)
+- [Snaprevise](https://www.youtube.com/@snaprevise)
+- [PIBYME_Maths](https://www.youtube.com/@PIBYME)
+- [GcseMathTutor](https://www.youtube.com/@TheGCSEMathsTutor)
+- [Hegarthy Maths](https://www.youtube.com/@HEGARTYMATHS)
+- [Eddie woo](https://www.youtube.com/@misterwootube)
+
+Notes
+
+1. [Revisely](https://www.revisely.co.uk/alevel/maths/edexcel/)
+2. [StudyWise](https://studywise.co.uk/a-level-revision/maths/)
+3. [MathGenie](https://www.mathsgenie.co.uk/newalevel.html)
+4. [Physics & Maths Tutor](https://www.physicsandmathstutor.com/maths-revision/)
+
+### Physics
+
+
+:::tip tip
+
+[Click here](#resources) to view this awesome collection of resources, or click the links below:
+- [AS Level Resource Collection](https://drive.google.com/drive/folders/1zdctBrmBvbS6eK0pUOXiZuonyzrl_zHb)
+- [A2 Level Resource Collection](https://drive.google.com/drive/folders/1-Vc4VryLTIBMCm-pKuCgUQvkOrIaXPNr)
+
+:::
+
+#### Books
+
+- [Physics Student Book 1: (IAS)](https://mega.nz/file/z09jTJ7Q#Ytc1vdIhGGV_7BVZ0Ei1tRtvQ_pDWZZ3ZTWbIdZE4RA)
+- [Physics Student Book 2: (IAL)](https://mega.nz/file/noExxIaJ#YGy9x13PWJWUgevjAK4PFlJhg7Wl7lPBb_upoa3C7HI)
+- [Edexcel IAL Physics Lab Book:](https://mega.nz/file/H9VQECSB#4DCPKYWMrwZcAtfCbm0XAhWBoilvCXjzy98-yUwYXX4)
+- [Edexcel Physics CGP Year 1 AS Level book:](https://mega.nz/#!atMQnIxC!wnuwOwqr0-XtSLNiJFm9X8dH2_Wadur-7-aTmd7qRVs)
+- [Edexcel Physics CGP Year 2 (A2) book:](https://mega.nz/#!7wMCjA5A!6zt7OFENYFrtPFNCw5nDVVgnvV44aSprzxMWGeK1HTk) 
+
+
+#### Resources
+
+Collections
+
+- [AS Level Resource Collection](https://drive.google.com/drive/folders/1zdctBrmBvbS6eK0pUOXiZuonyzrl_zHb)
+- [A2 Level Resource Collection](https://drive.google.com/drive/folders/1-Vc4VryLTIBMCm-pKuCgUQvkOrIaXPNr)
+
+Save My Exams
+
+- [Unit 1](https://drive.google.com/file/d/1zsFRaZqWnBADPH-hV09T0Lu8wwSKWVOO/view?usp=drive_link)
+- [Unit 2](https://drive.google.com/file/d/1OYk5DhpcXiU7HQo3j3dwDqgNM7mk703D/view?usp=drive_link)
+- [Unit 3](https://drive.google.com/file/d/1GNsQS2jYK3rnIrNdzUfq3NMIXl0gTK8r/view?usp=drive_link)
+- [Unit 4](https://drive.google.com/file/d/1GNsQS2jYK3rnIrNdzUfq3NMIXl0gTK8r/view?usp=drive_link)
+- [Unit 5](https://drive.google.com/file/d/1z9D565duhR-vbJHQbbQz1fdt68fhQCpy/view?usp=drive_link)
+- [Unit 6](https://drive.google.com/file/d/1vY16IvTF7obQyLnKrb4LMLVjNs30iJlI/view?usp=drive_link)
+- [Questions (AS Level)](https://drive.google.com/drive/folders/1L63zwy0TVZp6zUsvegzbIFwrvQLJrGNp)
+- [Questions (A2 Level)](https://drive.google.com/drive/folders/1LFSB29N-DNZltSsqZ2kqx3wuYA2WuFjU)
+- [Questions with Marking Schemes (Mixed)](https://drive.google.com/drive/folders/1T2QjBkCjqEWyUd_-KCy-RgbbCvM_-W2r)
+
+
+YouTube
+
+- specifically related to Edexcel IAL 
+
+    - [Physics A-Level (U123456)](https://youtube.com/playlist?list=PLkocNW0BSuEFkzB_ps8kIX-5lIS-MFV_g) - Study Guides
+    - [Naturalsciencesolution](https://www.youtube.com/@naturalsciencesolution3400) - Past Paper discussions
+
+- for understanding concepts
+
+    - [Physics Online](https://www.youtube.com/@PhysicsOnline)
+    - [Science Shorts](https://www.youtube.com/@ScienceShorts)
+    - [Nutshell Physics](https://www.youtube.com/@nutshellphy)
+    - [ZPhysics](https://www.youtube.com/@zhelyo_physics)
+    - [SnapRevise](https://www.youtube.com/@snaprevise)
+    - [DrPhysicsA](https://www.youtube.com/@DrPhysicsA)
+    - [ETPhysics](https://www.youtube.com/@ETphysics)
+    - [MedDude](https://www.youtube.com/@MedDudee)
+    - [Teaching Circle](https://www.youtube.com/@PhysicswithNausherAlam)
+    - [Khan Academy](https://www.youtube.com/@khanacademy)
+
+Notes
+
+- [Revisely](https://www.revisely.co.uk/alevel/physics/edexcel/)
+- [StudyWise](https://studywise.co.uk/a-level-revision/physics/)
+- [isaacphysics](https://isaacphysics.org/concepts)
+- [Physics & Maths Tutor](https://www.physicsandmathstutor.com/physics-revision/a-level-edexcel-ial/)
+
+
+Theres more information like questions and stuff. You can find them [here](https://github.com/hirusha-adi/hirusha/blob/old-site-early2025-docusaurus/src/pages/study/edexcel-ial/physics.md).
+
+### Chemistry
+
+#### Books
+
+- [AS Level](https://mega.nz/file/C9MjRAqQ#amW9Bkr8rmack8I46h_E_uNo5vpuDr679MOHNvPkp94)
+- [A2 Level](https://mega.nz/file/jpcj1KBJ#dPNHvCO3fAFJo68vytI8GjMLQ4C5nYyu1KjyYOeao-c)
+- [Edexcel IAL Chemistry Lab Book](https://mega.nz/file/3xUQTILL#9hjL6b88F7K-aMLmB_Pi0Nr1zeN5Hlj_5-zocIct60Y)
+- [CGP A-Level Chemistry: Edexcel Year 1 & 2 Complete Revision & Practice](https://mega.nz/file/S88hXQYI#nU7osk0HL27tBoOZzQfNn_ItscFtmOjqkuMwmLfrXGM)
+
+#### Save My Exams
+
+- [Unit 1](https://mega.nz/file/N2YiELBD#j5vERS7-i4PSSNPXo1QdgpfXYE2DaNWKMcgmSW1ShWU)
+- [Unit 2](https://mega.nz/file/83ZhjaiZ#Ny5ZAyIT_grFfVjylx7grZypsJChtr7l8XiekXwcLh4)
+- [Unit 3](https://mega.nz/file/RvRzXLzb#BxZ1VKLJeU9AdnQ01b68FhSSbzUcS7bWhA39ljmQHuw)
+- [Unit 4](https://mega.nz/file/liBAUZ7Y#BR6CO8tgy5Dms4KqzIfMb2iGmK5q-BLO2FyoAYqtOus)
+- [Unit 5](https://mega.nz/file/w6gGjKwD#h44_keC50yRhtyZyCUV3j1DfM50IdHvGOxtq9u_L3IY)
+- [Questions with Marking Schemes](https://drive.google.com/drive/folders/1shOhQEJFuODfc24uTkGR7LtciwQNCShv)
+
+#### Other
+
+- [AS Level Notes + Other](https://drive.google.com/drive/folders/12pS7OM9uJnsiycNLOAag92_XY1ARFJYj)
+- [1 - formulae equations and amount of substance](https://mega.nz/file/Uzg0UADC#Gz4ZnEUf6GZ8WR5yi30FoOVFXArTUZmU7cYC1KOF2Rw)
+- [2 - atomic structure and periodic table](https://mega.nz/file/UmJnFRiQ#1WYTKvzf9vMI3ObUFLzWs8QP0XlLSY58KO9s6lr6ygw)
+- [3 - bonding](https://mega.nz/file/s2RwmY7I#FZfdxQNEBD94VrdBjg_ek5IeSXKDZvZy9vNHmhAlRt0)
+- [4 - introductory organic chemistry and alkanes](https://mega.nz/file/su4mQToQ#W4Ql80zy5Da04D1qre25sI3CprAlvkj4_WUF_cR84KM)
+- [5 - alkenes](https://mega.nz/file/xzoBlaaA#Mbv_OXteUMmzh__LzhlrBVAaYpCxaqcopN0EQpS1Yvk)
+
+You can find more information [here](https://github.com/hirusha-adi/hirusha/blob/old-site-early2025-docusaurus/src/pages/study/edexcel-ial/chemistry.md).
+
+### Biology
+
+#### Books
+
+- [Biology Student Book 1: (IAS)](https://mega.nz/file/qpUnwKBb#1XbDWrBXq9UOF2dfzQAohkUt1rJqtUkC_OPnKUCNdBs)
+- [Biology Student Book 2: (IAL)](https://mega.nz/file/GsdH2Ipa#FRctPm9vcUbm_HO_5C_dWvle849sAPg41Bwo2lYDfhQ)
+- [Edexcel IAL Biology Lab Book:](https://mega.nz/file/bgdUwCYI#9mQn1GWUs2HqzwjbcqiZmW18zNdNyJQJRUqJgk5s588)
+- [Edexcel CGP A-Level Biology: Edexcel A-Level Year 1 & 2](https://mega.nz/#!OhM2XChS!NC9HmbXcVctzPIRbRuhKFUN-t5sZq74NOaWiAFes9jM)
+
+#### Resources
+
+Collection
+
+- [AS Level Resource Collection](https://drive.google.com/drive/folders/1zhcNg61OMWPz27tgAdEYgUrNxb2axlva?usp=drive_link)
+- [A2 Level Resource Collection](https://drive.google.com/drive/folders/1-fd8OrVlilTq-0awF3iCA8v_xywxRW6A?usp=drive_link)
+
+
+Save My Exams
+
+- [Revision Notes](https://drive.google.com/drive/folders/1z55uWV1tnnKfg12bpyt6Tw3u6lBjHF-3) (8 files)
+- [Questions (AS Level)](https://drive.google.com/drive/folders/1LEljkyGlN_L7iV8J1JLSm3qBlA5jBlcN)
+- [Questions (A2 Level)](https://drive.google.com/drive/folders/1LJ4rD6HjlcRx9j9_HHnQFmJGUnntD0U0)
+
+YouTube
+
+- [Bio U4](https://youtube.com/playlist?list=PLM3KZVmGHyMFY0bukzTVr8DL4MP35w5kv)
+- [Biorach](https://www.youtube.com/@BioRach)
+- [Snap Revise](https://www.youtube.com/@snaprevise)
+- [Crashcourse](https://www.youtube.com/@crashcourse)
+- [Amoeba sisters](https://www.youtube.com/@AmoebaSisters)
+
+Notes
+
+- [The Biology Vailt](https://sites.google.com/view/thebiologyvault/ias-resources/biology)
+- [Physics & Maths Tutor](https://www.physicsandmathstutor.com/biology-revision/a-level-edexcel-ial/)
+- [Revisely](https://www.revisely.co.uk/alevel/biology/edexcel/)
+- [StudyWise](https://studywise.co.uk/a-level-revision/biology/)
+- [A Start Biology](http://astarbiology.com/a-level/edexcel/notes/)
+
+## Pearson Edexcel IGCSE (International General Certificate of Secondary Education)
+
+### Mathematics
+
+Past Papers
+
+- [from Pearson's Website](<https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html?Qualification-Family=International-GCSE&Qualification-Subject=Mathematics%20A%20(2016)&Status=Pearson-UK:Status%2FLive&Specification-Code=Pearson-UK:Specification-Code%2Figcse16-mathsA%22%20OR%20category:%22Pearson-UK:Specification-Code%2Figcse16-mathsa>)
+- [from SaveMyExams](https://www.savemyexams.com/igcse/maths/edexcel/-/pages/past-papers/)
+
+Quizes
+
+- SaveMyExams
+  - [Past Paper Topic Questions](https://www.savemyexams.co.uk/igcse/maths/edexcel/-/pages/topic-questions-pdf/)
+  - [Topic Questions](https://www.savemyexams.co.uk/igcse/maths/edexcel/18/topic-questions/)
+  - [Bronze-Silver-Gold Questions](https://www.savemyexams.co.uk/igcse/maths/edexcel/-/pages/bronze-silver-gold-questions/)
+- [Cognito](https://cognitoresources.org/resources/gcse/qsbytopic/maths)
+
+Youtube Videos
+
+- [Science with Hazel's Playlist](https://www.youtube.com/watch?v=WA6RlXyBZEg&list=PLwhU4dGC-zFFNz9K_nvLhNVv4FRQZ70Zl)
+- [Yacine Koucha's Playlist](https://www.youtube.com/watch?v=vawjkdARqlk&list=PLroe1AylKFTKRb6dkW2E0KvCNRy7-8UGU)
+- [The GCSE Maths Tutor's Playlists](https://www.youtube.com/@TheGCSEMathsTutor/playlists)
+- [The GCSE Maths Tutor's Revision 1](https://www.youtube.com/watch?v=8A3crqKb13I)
+- [The GCSE Maths Tutor's Revision 2](https://www.youtube.com/watch?v=o9VuZhCqR2U)
+
+### Physics
+
+SaveMyExams Revision Notes
+
+- [All Notes Combined](https://mega.nz/file/E6RmHA4K#e2kYr2XlxGYowpgGHdk-iT7-8HUAg1X2ceJSJBUQbB0)
+- [1. FORCES & MOTION](https://mega.nz/folder/AyIWwCyJ#3_uqSfLjeb2hokYbd9qr-g)
+- [2. ELECTRICITY](https://mega.nz/folder/wmIEURYA#OMipRZM2VExAzYJonPetAg)
+- [3. WAVES](https://mega.nz/folder/AqxHWTDA#nj0kNP0ZeXvkkVZ_0KR8tQ)
+- [4. ENERGY RESOURCES & ENERGY TRANSFERS](https://mega.nz/folder/N7xRmQRA#8qiY-Optft6zL_7ASOHDLw)
+- [5. SOLIDS, LIQUIDS & GASES](https://mega.nz/folder/0mAUzK6S#XisYZXGQKhHQEvI6lC58Hg)
+- [6. MAGNETISM & ELECTROMAGNETISM](https://mega.nz/folder/5nA0jZKB#OCTNTH05CoDzAAfZB7Nz5w)
+- [7. RADIOACTIVITY & PARTICLES](https://mega.nz/folder/4mZRHT4S#xkutxtYQoFFXU0IH46nHYg)
+- [8. ASTROPHYSICS](https://mega.nz/folder/hyhmBRxb#Kyqg9q_-MrS8lOl_0zA8sw)
+
+Past Papers
+
+- [from Pearson's Website](<https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html?Qualification-Family=International-GCSE&Qualification-Subject=Physics%20(2017)&Status=Pearson-UK:Status%2FLive&Specification-Code=Pearson-UK:Specification-Code%2Figcse17-physics>)
+- [from SaveMyExams](https://www.savemyexams.com/igcse/physics/edexcel/-/pages/past-papers/)
+
+Quizes
+
+- SaveMyExams
+  - [Topical Questions (Interactive)](https://www.savemyexams.co.uk/igcse/physics/edexcel/19/topic-questions/)
+  - [Topic Questions (PDF)](https://www.savemyexams.co.uk/igcse/physics/edexcel/19/topic-questions/pdf-list/)
+  - [Past Paper Questions](https://www.savemyexams.co.uk/igcse/physics/edexcel/-/pages/topic-questions/)
+- [Cognito](https://cognitoresources.org/resources/gcse/qsbytopic/physics/edexceligcse)
+
+Youtube Videos
+
+- [Quick Revision - Paper 1](https://www.youtube.com/watch?v=9rP_kXumNdo)
+- [Quick Revision - Paper 2](https://www.youtube.com/watch?v=P8M5MBrQFlg)
+- [Cognito's Playlist](https://www.youtube.com/watch?v=JGwcDCeYRYo&list=PLidqqIGKox7UVC-8WC9djoeBzwxPeXph7)
+- [Ben Ryder's Playlist](https://www.youtube.com/watch?v=6GYx9c_NQTU&list=PL824F0FA17CE3947A)
+
+### Chemistry
+
+SaveMyExams Revision Notes
+
+- [All Notes Combined](https://mega.nz/file/guhWhAiS#dxji8B0rQZK14VBISPicPDRqeRf1K-sOEzV49iAef0I)
+- [1. PRINCIPLES OF CHEMISTRY](https://mega.nz/folder/ZuJnFRxL#wjgTEJBvnUM4oGTXBb6SwQ)
+- [2. INORGANIC CHEMISTRY](https://mega.nz/folder/o2gmXLbK#O3b-tINOWEAZ_Ird8aHpPw)
+- [3. PHYSICAL CHEMISTRY](https://mega.nz/folder/xrZX2STT#pmxqFL0Vhyw0-Txn3hEkvQ)
+- [4. ORGANIC CHEMISTRY](https://mega.nz/folder/suZh1Kaa#8Hbuva-e4YQdzSnx1F-YBQ)
+
+Past Papers
+
+- [from Pearson's Website](<https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html?Qualification-Family=International-GCSE&Qualification-Subject=Chemistry%20(2017)&Status=Pearson-UK:Status%2FLive&Specification-Code=Pearson-UK:Specification-Code%2Figcse17-chemistry>)
+- [from SaveMyExams](https://www.savemyexams.com/igcse/chemistry/edexcel/-/pages/past-papers/)
+
+Quizes
+
+- SaveMyExams
+  - [Topical Questions (Interactive)](https://www.savemyexams.co.uk/igcse/chemistry/edexcel/19/topic-questions/)
+  - [Topic Questions (PDF)](https://www.savemyexams.co.uk/igcse/chemistry/edexcel/19/topic-questions/pdf-list/)
+  - [Past Paper Questions](https://www.savemyexams.co.uk/igcse/chemistry/edexcel/-/pages/topic-questions/)
+- [Cognito](https://cognitoresources.org/resources/gcse/qsbytopic/chemistry/edexceligcse)
+
+Youtube Videos
+
+- [Quick Revision - Paper 1](https://www.youtube.com/watch?v=gByp8y6SEtE)
+- [Quick Revision - Paper 2](https://www.youtube.com/watch?v=V89LfW12JOo)
+- [Cognito's Playlist](https://www.youtube.com/watch?v=fN8kH9Vvqo0&list=PLidqqIGKox7WeOKVGHxcd69kKqtwrKl8W)
+- [Yi MakesItEasy's Playlist](https://www.youtube.com/watch?v=C4msRJ7AcS4&list=PLS-TIpNmaiIDs8nFo79YU6wRAvYM-8CiF)
+- [Primrose Kitten's Playlist](https://www.youtube.com/watch?v=hs9DIOqzgRg&list=PL7O6CcKg0HaE8cH9xNR0vNX1MksFgckHd)
+- [Jahrukh's Playlist](https://www.youtube.com/watch?v=X7pqpz_eor8&list=PLE5zhNsPvV3PqaIktl_7csXrnkb9bbEw0)
+
+## Biology
+
+SaveMyExams Revision Notes
+
+- [All Notes Combined](https://mega.nz/file/Mqx1CZDZ#fkNRMuKdPWBXWCNFF5ZhaqXQp1R8WNnvDFh03MP5ciA)
+- [1. THE NATURE & VARIETY OF LIVING ORGANISMS](https://mega.nz/folder/BvxB3ZgS#lNPnNx75sPE3ib6CrevPRA)
+- [2. STRUCTURE & FUNCTION IN LIVING ORGANISMS](https://mega.nz/folder/xrgQRbqB#F4UOS_1_uQ2SfAbEP8SoSA)
+- [3. REPRODUCTION & INHERITANCE](https://mega.nz/folder/w7BhRTwR#FPU1BTQAZvntzZ82nuH-_w)
+- [4. ECOLOGY & THE ENVIRONMENT](https://mega.nz/folder/I3oxxS6I#lsBBt7bvBZ1PaC3TLpg5fg)
+- [5. USE OF BIOLOGICAL RESOURCES](https://mega.nz/folder/dn4nGBYY#NtJ4HGfUrqlynIahl2CHLQ)
+
+Past Papers
+
+- [from Pearson's Website](<https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html?Qualification-Family=International-GCSE&Qualification-Subject=Biology%20(2017)&Status=Pearson-UK:Status%2FLive&Specification-Code=Pearson-UK:Specification-Code%2Figcse17-biology>)
+- [from SaveMyExams](https://www.savemyexams.com/igcse/biology/edexcel/-/pages/past-papers/)
+
+Quizes
+
+- SaveMyExams
+  - [Interactive](https://www.savemyexams.co.uk/igcse/biology/edexcel/19/topic-questions/)
+  - [PDF](https://www.savemyexams.co.uk/igcse/biology/edexcel/-/pages/topic-questions/)
+- [Cognito](https://cognitoresources.org/resources/gcse/qsbytopic/biology/edexceligcse)
+
+Youtube Videos
+
+- [revision Hub's Playlist](https://www.youtube.com/watch?v=bX3dusGHGDg&list=PLxemOu1G_P7joe1eh7w6z9jx3ZPpwYvBv)
+- [Mr Exham Biology's Playlist](https://www.youtube.com/watch?v=oGI7rd6nCO0&list=PLhwQ_-6xAMHugUT7lD13V-K3G3aGu6d56)
+- [Primrose Kitten's Playlist](https://www.youtube.com/watch?v=raNBE_C1A4w&list=PL7O6CcKg0HaEgJ69ORzV_C_aQje7DXWlV)
+- [Science with Hazel's Paper 1 Guide](https://www.youtube.com/watch?v=REDhrBFnQ_M)
+- [Science with Hazel's Paper 2 Guide](https://www.youtube.com/watch?v=ygxNEqdNnlQ)
+- [Cognito's Playlist](https://www.youtube.com/watch?v=Xzy4Ze93G3g&list=PLidqqIGKox7X5UFT-expKIuR-i-BN3Q1g)
+
+## Legal Disclaimer
+
+**LEGAL DISCLAIMER**
+
+The content provided on this website, including but not limited to text, images, videos, documents, and external links, is for educational and informational purposes only. The website owner does not claim ownership of any copyrighted material unless explicitly stated. Any third-party content shared, embedded, or linked to from this site is the intellectual property of its respective owners, and all copyright laws apply.
+
+**FAIR USE NOTICE**
+
+This website may contain copyrighted material, the use of which has not always been specifically authorized by the copyright owner. Such material is made available for educational purposes, research, commentary, criticism, and news reporting as allowed under the "fair use" provisions of copyright law (17 U.S.C. §107). If you are a copyright owner and believe that your work has been used improperly, please contact us with a detailed request, and we will promptly address your concerns.
+
+**LIMITATION OF LIABILITY**
+
+The website owner assumes no responsibility or liability for any unauthorized use of copyrighted material by third parties. Users accessing, sharing, or downloading any content from this website do so at their own risk and are encouraged to verify the legality of their actions. The website owner is not responsible for any legal consequences resulting from the misuse or misinterpretation of content.
+
+**EXTERNAL LINKS DISCLAIMER**
+
+This website may contain links to external sites that are not under the control of the website owner. We do not endorse, guarantee, or assume responsibility for the accuracy, legality, or completeness of content hosted on third-party websites. Users should review the terms and conditions of any external sites they visit.
+
+**COPYRIGHT INFRINGEMENT NOTICE**
+
+If you believe that content on this website infringes upon your copyright, please send a written notification to our designated contact with the following information:
+
+1. A description of the copyrighted work that you claim has been infringed.
+2. The specific location (URL) of the allegedly infringing content.
+3. Your contact information, including name, address, phone number, and email.
+4. A statement affirming that you have a good faith belief that the use of the material is not authorized by the copyright owner, its agent, or the law.
+5. A statement, under penalty of perjury, that the information in the notification is accurate and that you are the copyright owner or authorized to act on their behalf.
+
+Upon receiving a valid copyright infringement claim, we will review and take appropriate action, which may include removal of the content in question.
+
+**CHANGES TO THIS DISCLAIMER**
+
+The website owner reserves the right to modify this legal disclaimer at any time without prior notice. Users are encouraged to review this page periodically to stay informed of any updates.
+
+By using this website, you acknowledge and agree to the terms outlined in this legal section.
+
+---
+
+Last updated on 31/3/2025.
