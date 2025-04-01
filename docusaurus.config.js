@@ -36,7 +36,7 @@ const config = {
       navbar: {
         // title: 'My Site', // removed the title
         logo: {
-          alt: 'My Site Logo',
+          alt: 'informati.cc',
           src: 'img/logo.png',
         },
         items: [
@@ -63,6 +63,11 @@ const config = {
           {
             to: '/blog/archive',
             label: 'Archive',
+            position: 'right'
+          },
+          {
+            to: '/legal',
+            label: 'Legal',
             position: 'right'
           }
         ],
