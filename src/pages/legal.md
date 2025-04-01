@@ -24,8 +24,10 @@ This website and its content are not, under any circumstances, to be interpreted
 ### 6. External Links and Third-Party Content
 This website may contain hyperlinks to third-party websites or external content. These links are provided solely for informational and convenience purposes. Informati.cc does not endorse, control, verify, or assume responsibility for the accuracy, legality, or appropriateness of any third-party content, policies, or practices. Users access such external links at their own risk and are advised to review the respective terms of use and privacy policies of any third-party websites.
 
-### 7. Intellectual Property Rights
+### 7. Intellectual Property Rights and Copyright Disclaimer
 All content, including but not limited to text, images, graphics, code, and software, displayed on informati.cc is the intellectual property of the website’s owners, authors, or third-party licensors. Unauthorized reproduction, distribution, modification, or commercial use of any content from this website is strictly prohibited without prior written consent from the rightful owner(s). Any unauthorized use may result in legal action.
+
+Informati.cc respects intellectual property rights and makes reasonable efforts to attribute third-party content appropriately. However, some images, references, or excerpts may be sourced from publicly available or similar blog posts under fair use principles. If you believe that any content infringes upon your copyright, you may contact us with a takedown request, and we will address it accordingly. Neither informati.cc nor its authors shall be held liable for any alleged copyright violations caused by third-party contributions or external references.
 
 ### 8. Indemnification
 By using this website, you agree to indemnify, defend, and hold harmless informati.cc, its owners, authors, contributors, affiliates, and partners from and against any and all claims, liabilities, damages, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or in connection with your use of this website, violation of these terms, or infringement of any third-party rights.
