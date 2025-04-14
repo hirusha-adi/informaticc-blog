@@ -199,13 +199,136 @@ If you see something like this, it means your setup is successfull.
 Also, do note that fail2ban is a very powerful tool and it can be combined with a lot of services easily. To get started, you can see this [awesome guide](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-debian-11) and also the [official documentation](https://github.com/fail2ban/fail2ban/wiki).
 
 
-## Docker (TODO)
+## Docker
 
-### Rootless Setup (TODO)
+docker can be installed the traditional (rootful) way, where the docker daemon (`dockerd`) runs as the root user. In this setup:
 
-### Best Practices (TODO)
+- The UNIX socket `/var/run/docker.sock` is owned by root.
+- Any process or user with access to this socket can effectively gain root privileges on the host.
+- This is because interacting with the docker daemon gives the ability to mount volumes, modify the network, and run privileged containers - essentially allowing full control over the host.
 
-## Firewalls (TODO)
+Many containers, especially the ones for development or CI/CD tools (like Portainer, Gitea, etc...), request access to this socket to control other containers. The issue here is that if one container like this gets compromised, our host system will be at risk.
+
+To avoid these risks, we will proceed by installing docker in rootless mode, which runs the docker daemon and client as our non root user (`debian`). 
+
+However, do note that some features are not supported but most of the commonly used features now have workarounds. Make sure you read the [official documentation](https://docs.docker.com/engine/security/rootless) and see if it fits your use case, otherwise, just proceed with the traditional rootful docker setup and harden in yourself. In this article, we will be looking at the rootless setup.
+
+### Rootless Setup
+
+To installl rootless docker, the easiest way I found after testing for multiple times is to first install docker the traditional rootful way. Then, we will setup it to be rootless. 
+
+Follow the [official documentation](https://docs.docker.com/engine/install/debian/#install-using-the-repository) to install docker the rootful way.
+
+First, lets setup the repositories.
+
+```bash
+# Make sure you are inside your home directory:
+cd ~
+
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+```
+
+And then install the packages.
+
+```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin curl
+```
+
+Optionally, you can also follow the [post installation setup](https://docs.docker.com/engine/install/linux-postinstall/) of docker. But i haven't tested this and it might break things with the rootless install. So, its better not to proceed. 
+
+Now let's setup rootless docker. [Click here](https://docs.docker.com/engine/security/rootless/) to see the official documentation for the setup. 
+
+First, lets disable rootful docker and get rid of the `docker.sock`
+
+```bash
+sudo systemctl disable --now docker.service docker.socket
+sudo rm /var/run/docker.sock
+```
+
+Next, run the rootless docker script.
+
+```bash
+curl -fsSL https://get.docker.com/rootless | sh
+```
+
+You will then see something like this at the very end of the installation logs (if everything was successfull).
+
+```bash
+# ...
+[INFO] Installed docker.service successfully.
+[INFO] To control docker.service, run: `systemctl --user (start|stop|restart) docker.service`
+[INFO] To run docker.service on system startup, run: `sudo loginctl enable-linger debian`
+
+[INFO] Creating CLI context "rootless"
+Successfully created context "rootless"
+[INFO] Using CLI context "rootless"
+Current context is now "rootless"
+
+[INFO] Make sure the following environment variable(s) are set (or add them to ~/.bashrc):
+export PATH=/home/debian/bin:$PATH
+
+[INFO] Some applications may require the following environment variable too:
+export DOCKER_HOST=unix:///run/user/1000/docker.sock
+```
+
+Follow these instructions and add the contents below to all these files listed below. This is confirm that its the same rootless docker installation being used by all the users. If you have multiple users with their own rootless docker installs for some reasons, only edi the `~/.bashrc` and not the other files.
+
+```bash
+sudo nano ~/.bashrc
+sudo nano /etc/profile
+sudo nano /etc/bash.bashrc
+```
+
+```bash
+# docker rootless
+export PATH=/home/debian/bin:$PATH
+export DOCKER_HOST=unix:///run/user/1000/docker.sock
+```
+
+To confirm the installation was successfull, log out and log back in to confirm:
+
+```bash
+debian@vps-9ea0e519:~$ which docker
+/home/debian/bin/docker
+```
+
+![alt text](image-3.png)
+
+
+### Best Practices
+
+Some containers might shit itself while running and crash after using all the resouces. Therefore, limiting the resources of the container is always a good idea. Below is an example `docker-compose`.
+
+```yml
+deploy:
+  resources:
+    limits:
+      cpus: '0.50'
+      memory: 256M
+```
+
+For credintials, use docker secrets to handle them securely.
+
+You might also want to consider running containers as non root by editing their `Dockerfile`, by doing something like this.
+
+```dockerfile
+USER appuser
+```
+
+## Networks & Firewalls (TODO)
+
 
 ## Kernel Hardnening (TODO)
 
