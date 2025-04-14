@@ -1,5 +1,5 @@
 ---
-title: Basic Server Hardening Guide (INCOMPLETE)
+title: Basic Server Hardening Guide
 authors: [hirusha]
 tags: [linux,hardening,security]
 ---
@@ -327,12 +327,166 @@ You might also want to consider running containers as non root by editing their 
 USER appuser
 ```
 
-## Networks & Firewalls (TODO)
+## Networks & Firewalls
+
+### Configuring Kernel Parameters
+
+We will now configure some kernal parameters by editing the `sysctl.conf` file to harden some of the networking related configurations. This file is located at `/etc/sysctl.conf`
+
+```bash
+sudo nano /etc/sysctl.conf
+```
+
+Then, add the things you want. I've added some comments to make things easier for you.
+
+```bash
+# Turn on Source Address Verification in all interfaces to
+# prevent some spoofing attacks
+# ------------------------------------------------------------
+net.ipv4.conf.default.rp_filter=1
+net.ipv4.conf.all.rp_filter=1
+
+# Uncomment the next line to enable TCP/IP SYN cookies
+# See http://lwn.net/Articles/277146/
+# Note: This may impact IPv6 TCP sessions too
+# this can prevent prevent SYN flood
+# ------------------------------------------------------------
+net.ipv4.tcp_syncookies=1
+
+# Do not accept ICMP redirects (prevent MITM attacks)
+# ------------------------------------------------------------
+net.ipv4.conf.all.accept_redirects = 0
+net.ipv6.conf.all.accept_redirects = 0
+
+# Do not send ICMP redirects (we are not a router)
+# ------------------------------------------------------------
+net.ipv4.conf.all.send_redirects = 0
+
+# Do not accept IP source route packets (we are not a router)
+# ------------------------------------------------------------
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv6.conf.all.accept_source_route = 0
+```
+
+Save it and exit to apply reload the settings. To do it, run the command below.
+
+```bash
+sudo sysctl -p
+```
+
+You will then see somehing like this.
+
+```bash
+debian@vps-9ea0e519:~$ sudo sysctl -p
+
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.tcp_syncookies = 1
+net.ipv4.conf.all.accept_redirects = 0
+net.ipv6.conf.all.accept_redirects = 0
+net.ipv4.conf.all.send_redirects = 0
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv6.conf.all.accept_source_route = 0
+```
+
+### Disable IPv6
+
+If you dont want to use IPv6 on your server, you can disable it by editing the aforementioned `/etc/sysctl.conf` file. Add the contents below and repeat all the above mentioned steps to save and apply them.
+
+```bash
+net.ipv6.conf.all.disable_ipv6=1
+net.ipv6.conf.default.disable_ipv6=1
+net.ipv6.conf.lo.disable_ipv6=1
+```
+
+### Firewalls
+
+Most of the time, you'll be dealing with packet filtering firewalls like `ufw` (Uncomplicated Firewall). Using this along with docker is a bad idea since `ufw` works by modifying `iptables` (or `nftables` on newer systems) directly, in ways that can interfere with docker's own network management.
+
+Docker dynamically configures firewall rules to allow container traffic, and when UFW is enabled, it can override or conflict with these rules, there breaking container networking.
+
+To work ourselves around this issue, its best to use `nftables` directly or configure the firewalls in a docker aware way.
+
+Please refer to the official documentation about [docker with packet filtering and firewalls](https://docs.docker.com/engine/network/packet-filtering-firewalls/)
+
+## Kernel Hardnening
+
+### `sysctl.conf` parameters
+
+Even if someone gets access to the system by escaping out of the docker container - he might not always be root. While priviliage escalation can be done, its always better to hard everything as much as possible. These are specially useful if the server has multiple users and you dont want everyone to all the system logs. This will save you from other users going rougue.
+
+Lets now edit the `systctl.conf` file to manage some kernel parameters.
 
 
-## Kernel Hardnening (TODO)
+This line will ensure that only the root user (UID 0) can read kernel logs using `dmesg`. Other non-priviliaged users will get a permissions denied error. 
 
-## Lynis (TODO)
+```bash
+kernel.dmesg_restrict=1
+```
+
+You might also need to consider using Address Space Layout Randomization (ASLR). This is a technique used to randomize the memory address space of a process. This will save us from some attacks like buffer overflow most of the time.
+
+```bash
+kernel.randomize_va_space=2
+```
+
+We can also enable "Exec Shield" protection. This will also protect you from buffer overflow attacks by randomizing the virtual address space.
+
+```bash
+kernel.exec-shield=1
+```
+
+You can also restrict access to kernal pointers. This will restrict access to kernel pointers for unpriviliaged users. This too can help protect your server from kernal vulnerabilities.
+
+```bash
+kernel.kptr_restrict=2
+```
+
+To prevent users from loading additional and potentially mailicous kernal modules, add the line below. 
+
+> NOTE: Before applying this, ensure that all the necessary modules are loaded beofore setting this parameter - as it cannot be undone without a reboot.  
+
+```bash
+kernel.modules_disabled=1
+```
+
+Finally, as you already know, just apply the changes.
+
+```bash
+sudo sysctl -p
+```
+
+## Lynis
+
+This step is optional. Lynis is a security auditing tool, and it assists you a lot with security compliance testing. It will also tell you what improvements can be made to harden the server more.
+
+> "Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional." - [GitHub Repository](https://github.com/CISOfy/lynis)
+
+As this is a third party tool, we will get started by installing Lynis.
+
+```bash
+sudo apt install lynis
+```
+
+To perform an audit, run the command below.
+
+```bash
+lynis audit system
+```
+
+Lynis will then execute a series of tests on kernel parameters, authentication mechanisms, network configurations, file permissions, installed packages, and a whole lot of other stuff and display the results, including links to why/how to fix the issue.
+
+HOWEVER, you should be careful when implementing these recommendations on systems with docker as some hardnening techniques/measures might inadvertenly interfere with docker's functionality.
+
+Also, Lynis will generate a detailed report located at `/var/log/lynis-report.dat` of the last system audit performed.
+
+If you just want to get started, [this video](https://www.youtube.com/watch?v=xMQz9xH--EY) covers the very basics of Lynis.
+
+Applying these recommended tweaks go beyong this article's scope.
+
+---
+
+That's it! You now have a basic understanding of server hardening. Always make sure you understand the fundamentals and know exactly what you're doing before applying any of the techniques mentioned here, as improper changes can affect system stability or functionality.
 
 ---
 
