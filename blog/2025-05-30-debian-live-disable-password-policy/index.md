@@ -86,3 +86,5 @@ Try entering a simple password now and it should work without any restrictions.
 ## Note!
 
 I strongly suggest you **NOT** to do this on bare-metal installations.
+
+A short version of this article can be found here: https://gist.github.com/hirusha-adi/676724ea65abdd17b9d05b8eb76833fd
