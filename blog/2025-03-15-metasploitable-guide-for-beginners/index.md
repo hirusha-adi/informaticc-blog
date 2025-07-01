@@ -8,7 +8,7 @@ This is my first time (well, actually the second time) playing with Metasploitab
 
 <!--truncate-->
 
-:::warn
+:::info NOTE
 
 This post is still incomplete and, therefore, could be inaccurate.
 
