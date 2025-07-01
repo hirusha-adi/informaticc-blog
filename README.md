@@ -68,3 +68,9 @@ comments.informati.cc {
     reverse_proxy hirusha-informaticc-artalk:23366
 }
 ```
+
+After `docker compose up -d`, make sure to run the command below to create a new user:
+
+```
+docker exec -it hirusha-informaticc-artalk artalk admin
+```
