@@ -1,41 +1,70 @@
 # Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Hey! There are the files of https://informati.cc blog.
 
-### Installation
+## Comments Setup
 
-```
-$ yarn
-```
+> Powered by [Artalk](https://github.com/ArtalkJS/Artalk)
 
-### Local Development
+### Frontend Setup
 
-```
-$ yarn start
-```
+The configuration related to comments are stored in the `./src/components/Comments.jsx` file.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Look for the dictionary/object inside `Artalk.init({ ... })`. This is where you have the main configuration related to comments.
 
-### Build
-
-```
-$ yarn build
+```javascript
+Artalk.init({
+  server: 'https://comments.informati.cc/',
+  site: 'Informaticc Blog',
+});
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- `server` is the url of the self-hosted Artalk server.
+- `site` should be the name of the project/site added via the web ui of Artalk.
 
-### Deployment
+The Artalk web dashboard should look like this:
 
-Using SSH:
+![alt text](.github/image.png)
 
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
+Make sure to change the URL. This is for CORS. Just add it as follows:
 
 ```
-$ GIT_USER=<Your GitHub username> yarn deploy
+http://informati.cc,https://informati.cc
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+If you want this to work while testing, temporarily add `http://localhost:3000` BUT make sure to remove it after testing. Or maybe have another **site** made in the web ui seperately for testing purposes.
+
+### Backend Setup
+
+`docker-compose.yml` file:
+
+```yml
+services:
+  artalk:
+    container_name: hirusha-informaticc-artalk
+    image: artalk/artalk-go
+    restart: unless-stopped
+#    ports:
+#      - 8080:23366
+    volumes:
+      - ./data:/data
+    environment:
+      - TZ=Australia/Melbourne
+      - ATK_LOCALE=en
+      - ATK_SITE_DEFAULT=informaticc
+      - ATK_SITE_URL=https://comments.informati.cc
+    networks:
+      - intranet_1
+
+networks:
+  intranet_1:
+    external: true
+```
+
+And the `Caddyfile` should look something like this assuming caddy also has access to that same (shared) network (`intranet_1` in this case).
+
+```caddyfile
+comments.informati.cc {
+    reverse_proxy hirusha-informaticc-artalk:23366
+}
+```
