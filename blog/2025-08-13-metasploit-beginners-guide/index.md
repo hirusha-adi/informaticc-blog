@@ -6,7 +6,7 @@ tags: [kali,metasploit,hacking]
 
 If you are just getting into the field of cyber security, you will quickly notice this one tool called "Metasploit" popping up everywhere. 
 Metasploit a very popular tool among penetration testers, and is developed by [Rapid7](https://www.rapid7.com/). In fact, learning the basics of Metasploit is considered so important, that Rapid7 even made their own vulnerable virtual machine called [Metasploitable](https://docs.rapid7.com/metasploit/metasploitable-2/) for students to learn and play around with. 
-If you were to look for books about Metasploit, you will easily be able to find hundreds... Among these, the Metasploit Cookbook ([Amazon](https://www.amazon.com.au/Metasploit-Penetration-Testing-Cookbook-Third/dp/1788623177), [PDF](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/Metasploit%20Penetration%20Testing%20Cookbook.pdf)) is an excelled resource and is something that I can recommend personally.
+If you were to look for books about Metasploit, you will easily be able to find hundreds... Among these, the Metasploit Cookbook ([Amazon](https://www.amazon.com.au/Metasploit-Penetration-Testing-Cookbook-Third/dp/1788623177), [PDF](https://edu.anarcho-copy.org/Against%20Security%20-%20Self%20Security/Metasploit%20Penetration%20Testing%20Cookbook.pdf)) is an excellent resource and is something that I can recommend personally.
 
 With all the "snake oil" hype surrounding metasploit, it can be hard to know where to begin from and this article is to guide you through the basic, common concepts and to help you get up and running.
 
