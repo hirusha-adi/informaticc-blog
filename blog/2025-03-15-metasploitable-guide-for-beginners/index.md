@@ -64,28 +64,22 @@ Todo: this is too long, possibly incorrect and conflicts a LOT and maybe it's no
 Next, I'll also run a comprehensive scan:
 
 ```bash
-nmap -v -sS -sV -sC -A -O 192.168.1.41
+nmap -v -sV -sC -A -O 192.168.1.41
 ```
 
 In the command above,
 
 - `-v`: Runs nmap in verbose mode, providing more detailed output.
-- `-sS`: Performs a TCP SYN scan, also known as a "stealth scan" or "half open scan".
-  - The TCP handshake consists of three stages. Therefore, this is sometimes also reffered to as the three way handshake.
-    1. **SYN**: The client sends a SYN (synchronize) packet to the server to initiate the connection.
-    2. **SYN-ACK**: The server responds with a SYN-ACK (synchronize-acknowledge) packet, confirming readiness to establish the connection.
-    3. **ACK**: The client completes the handshake by sending an ACK (acknowledge) packet.
-  - With `-sS`, we send the SYN packet, and if the service is up, the server will respond with a SYN-ACK. However, we don't complete the handshake by sending back the final ACK packet. Instead, we send a RST (reset) packet to abort the connection, preventing the handshake from fully completing. This results in a "stealthy" scan since no actual connection is established, and the application layer won't log the connection.
 - `-sV`: Detects the versions of services running on open ports. Nmap either grabs the banner or uses other techniques to determine the version number.
-- `-sC`: Executes the default nmap scripts to gather additional information or check for misconfigurations. This shouldn't conflict with the `-sS` flag, as the scripts generally run after the port scanning phase.
-- `-A`: Performs an aggressive scan, attempting to gather as much information as possible. It is indeed noisy, but it should not conflict with the `-sS` scan as it mainly triggers additional scans and probes after the initial port scan.
+- `-sC`: Executes the default nmap scripts to gather additional information or check for misconfigurations. 
+- `-A`: Performs an aggressive scan, attempting to gather as much information as possible.
 - `-O`: Attempts to detect the operating system of the target.
 
 It gave me this output:
 
 ```
 ┌──(kali㉿kali)-[~]
-└─$ nmap -v -sS -sV -sC -A -O 192.168.1.41
+└─$ nmap -v -sV -sC -A -O 192.168.1.41
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-15 13:24 EDT
 NSE: Loaded 156 scripts for scanning.
 NSE: Script Pre-scanning.

@@ -1,5 +1,5 @@
 ---
-title: Metasploit - Beginner's Guide! What you need to know to get started! (INCOMPLETE!)
+title: Metasploit - Beginner's Guide! What you need to know to get started!
 authors: [hirusha]
 tags: [kali,metasploit,hacking]
 ---
