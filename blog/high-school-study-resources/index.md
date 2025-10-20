@@ -33,7 +33,7 @@ I started collecting these resources and making them publicly available without 
 
 :::info FOR SINHALA MEDIUM
 
-Looking for a top A/L Maths class in Sinhala? Ajantha Dissanayake Sir’s lessons are well-structured and easy to follow. He teaches in Nugegoda, Kandy, Kurunegala, and online.
+Looking for a top A/L Maths class in Sinhala? Ajantha Dissanayake’s lessons are well-structured and easy to follow. He teaches in Nugegoda, Kandy, Kurunegala, and online.
 
 Watch his lessons [here](https://www.youtube.com/@ajanthadissanayakeofficial8370/videos). This is just my opinion, not an endorsement.
 
@@ -41,7 +41,7 @@ Watch his lessons [here](https://www.youtube.com/@ajanthadissanayakeofficial8370
 
 :::info FOR ENGLISH MEDIUM
 
-Join an English medium class you’re comfortable with and also try Ajantha Dissanayake Sir’s Sinhala theory class. His teaching, notes, and planning are unmatched.
+Join an English medium class you’re comfortable with and also try Ajantha Dissanayake's Sinhala theory class. His teaching, notes, and planning are unmatched.
 
 Switching between Sinhala and English can be tough, but it’s worth it. Give it a shot!
 
