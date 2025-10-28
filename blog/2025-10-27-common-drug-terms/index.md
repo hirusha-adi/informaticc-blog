@@ -167,19 +167,60 @@ Some examples include Finasteride, Methotrexate and many more...
 
 #### Catgeory N
 
+TLDR: Unclassified
+
 This means that the FDA has not assigned one of the standard letters yet, as the drug is still under research or due to the lack of insufficient data to classify it as safe or bad. Unclassified doesn't mean the drug is safe.
 
 ### FDA System (New, PLLR)
 
 After the June 30th of 2015, all prescription drugs and biologic products submitted uses the new format. The already labelled and approved prescription drugs are also being converted to the new format gradually.
 
+Apart from that, the catgeories has slightly changed and a new catgeory related to fertility has been introduced.
 
-- https://www.fda.gov/drugs/labeling-information-drug-products/pregnancy-and-lactation-labeling-resources
+![alt text](image.png)
+
+Now, instead of using simple labels, each drug should include detailed narrative summaries for all of the three categories mentioned above - Pregnancy, Lactation and Females and Males Reproductive Potential.
+
+This information can be found in [NIH's DailyMed](https://dailymed.nlm.nih.gov/dailymed/) website. For example, [click here](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dd035a9f-cd40-4314-b9d8-2294b8a924e2) to open information about Methotrexate.
+
+TODO: Not sure whether this is the best site ^^^
 
 ### TGA System
 
 - https://www.tga.gov.au/products/medicines/find-information-about-medicine/prescribing-medicines-pregnancy-database/australian-categorisation-system-prescribing-medicines-pregnancy
 - https://www.tga.gov.au/products/medicines/find-information-about-medicine/prescribing-medicines-pregnancy-database
+
+## Legal Status
+
+## Route of Administration
+
+- https://www.fda.gov/drugs/data-standards-manual-monographs/route-administration
+
+- https://mdwiki.org/wiki/Route_of_administration
+- https://romanpub.com/resources/ijpsr%20v11-2020-7.pdf
+- https://www.ncbi.nlm.nih.gov/books/NBK568677/
+
+## Pharmocokinetic Data
+
+### Bioavailability
+
+### Potein Binding
+
+### Metabolism
+
+### Elimination half-life
+
+### Excretion
+
+## Chemical Data
+
+### Formula
+
+### Molar Mass
+
+### 3D Models from JSmol
+
+### Smiles
 
 
 ## References:
@@ -194,4 +235,6 @@ After the June 30th of 2015, all prescription drugs and biologic products submit
 - https://www.drugs.com/pregnancy-categories.html
 - https://chemm.hhs.gov/pregnancycategories.htm
 - https://www.medicinesinpregnancy.org/leaflets-a-z/methotrexate/
-
+- https://www.fda.gov/drugs/labeling-information-drug-products/pregnancy-and-lactation-labeling-resources
+- https://mdwiki.org/wiki/Methotrexate
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dd035a9f-cd40-4314-b9d8-2294b8a924e2
