@@ -117,19 +117,66 @@ Just look things up as you meet them. Google and [MDWiki](https://mdwiki.org/) a
 
 ## Pregnancy Risk Categories
 
-TODO
+Every drug has a side effects and is at least slightly toxic! Yes! Even Acetaminophen. That’s why it’s important to know how medications are classified when it comes to pregnancy. Pregnancy risk categories are a way of describing how safe or risky a medication is to use during pregnancy, based on the available scientific evidence of potential harm to the fetus.
 
-### Old FDA System (A, B, C, D, X)
+These categories help doctors, pharmacists, and even patients quickly understand whether a medication is considered safe, risky, or somewhere in between. The idea is to balance the potential benefits of treating the mother against any possible risks to the fetus. Just like the drug names, there are multiple standards for this as well. We will focus on the main three.
 
-- https://mothertobaby.org/baby-blog/fda-pregnancy-risk-categories-going-away-for-good/
-- https://www.drugs.com/pregnancy-categories.html
-- https://chemm.hhs.gov/pregnancycategories.htm
+Apart from pregnancy, drugs are also assessed for how they might affect labor and delivery ("Labor and Delivery") or whether they are safe during breastfeeding ("Lactation"). However, the pregnancy classification is the one you’ll see most often.
 
-### New FDA System (PLLR: Pregnancy and Lactation Labeling Rule)
+Keep in mind that "safe" might not always mean it's completely harmless as they are classified only from what we know.
+
+### FDA System (Old)
+
+This was the classic classification approach used until 2015. Eventhough this has been deprecated, this can still be seen almost everywhere. Each risk catgeory is given a letter from "A, B, C, D, X" and N with A being the safest and X being the most harmful. Let's break this down.
+
+#### Catgeory A
+
+TLDR: Safe to use
+
+Adequate and well-controlled studies have failed to demonstrate a risk to the fetus in the first trimester of pregnancy (and there is no evidence of risk in later trimesters). 
+Some examples includes Levothyroxine, Acetaminophen and many more...
+
+#### Catgeory B
+
+TLDR: Probably safe
+
+Animal reproduction studies have failed to demonstrate a risk to the fetus and there are no adequate and well-controlled studies in pregnant women. 
+Some examples includes Metformin, Amoxicillin, Cyclobenzaprine and many more...
+
+#### Catgeory C
+
+TLDR: Use only if necessary
+
+Animal reproduction studies have shown an adverse effect on the fetus and there are no adequate and well-controlled studies in humans, but potential benefits may warrant use of the drug in pregnant women despite potential risks.
+Some examples includes Gabapentin, Amlodipine, Trazodone and many more...
+
+#### Catgeory D
+
+TLDR: Usually avoid, unless life threatening situation to the mother.
+
+There is positive evidence of human fetal risk based on adverse reaction data from investigational or marketing experience or studies in humans, but potential benefits may warrant use of the drug in pregnant women despite potential risks.
+Some examples include Losartan Potassium and many more...
+
+#### Catgeory X
+
+TLDR: Contraindicated in pregnancy. Just dont!
+
+Studies in animals or humans have demonstrated fetal abnormalities and/or there is positive evidence of human fetal risk based on adverse reaction data from investigational or marketing experience, and the risks involved in use of the drug in pregnant women clearly outweigh potential benefits.
+Some examples include Losartan Potassium and many more...
+Some examples include Finasteride, Methotrexate and many more... 
+
+#### Catgeory N
+
+This means that the FDA has not assigned one of the standard letters yet, as the drug is still under research or due to the lack of insufficient data to classify it as safe or bad. Unclassified doesn't mean the drug is safe.
+
+### FDA System (New, PLLR)
+
+After the June 30th of 2015, all prescription drugs and biologic products submitted uses the new format. The already labelled and approved prescription drugs are also being converted to the new format gradually.
+
 
 - https://www.fda.gov/drugs/labeling-information-drug-products/pregnancy-and-lactation-labeling-resources
 
-### Australian TGA System
+### TGA System
 
 - https://www.tga.gov.au/products/medicines/find-information-about-medicine/prescribing-medicines-pregnancy-database/australian-categorisation-system-prescribing-medicines-pregnancy
 - https://www.tga.gov.au/products/medicines/find-information-about-medicine/prescribing-medicines-pregnancy-database
@@ -143,5 +190,8 @@ TODO
 - https://mdwiki.org/wiki/Trimethoprim/sulfamethoxazole
 - https://en.wikipedia.org/wiki/Carbidopa/levodopa
 - https://en.wikipedia.org/wiki/Drug_class
-
+- https://mothertobaby.org/baby-blog/fda-pregnancy-risk-categories-going-away-for-good/
+- https://www.drugs.com/pregnancy-categories.html
+- https://chemm.hhs.gov/pregnancycategories.htm
+- https://www.medicinesinpregnancy.org/leaflets-a-z/methotrexate/
 
