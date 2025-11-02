@@ -187,10 +187,120 @@ TODO: Not sure whether this is the best site ^^^
 
 ### TGA System
 
-- https://www.tga.gov.au/products/medicines/find-information-about-medicine/prescribing-medicines-pregnancy-database/australian-categorisation-system-prescribing-medicines-pregnancy
-- https://www.tga.gov.au/products/medicines/find-information-about-medicine/prescribing-medicines-pregnancy-database
+Therapeutic Goods Administration (TGA) regulated by the Australian Government has their own classification system. This is very similiar to the old FDA's classification system. The main difference is the catgeory types and their names, which are "A, B1, B2, B3, C, D, and X" with A being the safest and X being the most harmful. Let's break this down. [Click here](https://www.tga.gov.au/products/medicines/find-information-about-medicine/prescribing-medicines-pregnancy-database/) to learn more. Moreover, information/database about prescribing drugs in pregnancy can be found [here](https://www.tga.gov.au/resources/health-professional-information-and-resources/australian-categorisation-system-prescribing-medicines-pregnancy/prescribing-medicines-pregnancy-database).
+
+#### Catgeory A
+
+TLDR: Widely used and considered safe
+
+Drugs which have been taken by a large number of pregnant women and women of childbearing age without any proven increase in the frequency of malformations or other direct or indirect harmful effects on the fetus having been observed.
+
+#### Catgeory B1
+
+TLDR: Probably safe. Animals showed no issues, but human data is limited.
+
+Drugs which have been taken by only a limited number of pregnant women and women of childbearing age, without an increase in the frequency of malformation or other direct or indirect harmful effects on the human fetus having been observed.
+
+Studies in animals have not shown evidence of an increased occurrence of fetal damage.
+
+#### Catgeory B2
+
+TLDR: Seems okay. Not much data available, no red flags
+
+Drugs which have been taken by only a limited number of pregnant women and women of childbearing age, without an increase in the frequency of malformation or other direct or indirect harmful effects on the human fetus having been observed.
+
+Studies in animals are inadequate or may be lacking, but available data show no evidence of an increased occurrence of fetal damage.
+
+#### Catgeory B3
+
+TLDR: Some risk seen in animals. Use only if really needed.
+
+Drugs which have been taken by only a limited number of pregnant women and women of childbearing age, without an increase in the frequency of malformation or other direct or indirect harmful effects on the human fetus having been observed.
+
+Studies in animals have shown evidence of an increased occurrence of fetal damage, the significance of which is considered uncertain in humans.
+
+#### Catgeory C
+
+TLDR: Can cause reversible side effects. Weigh risks vs benefits.
+
+Drugs which, owing to their pharmacological effects, have caused or may be suspected of causing, harmful effects on the human fetus or neonate without causing malformations. These effects may be reversible. Accompanying texts should be consulted for further details.
+
+#### Catgeory D
+
+TLDR: Can cause birth defects. Avoid unless absolutely necessary.
+
+Drugs which have caused, are suspected to have caused or may be expected to cause, an increased incidence of human fetal malformations or irreversible damage. These drugs may also have adverse pharmacological effects. Accompanying texts should be consulted for further details.
+
+#### Catgeory X
+
+TLDR: Extremely dangerous. Completely off limits in pregnancy.
+
+Drugs which have such a high risk of causing permanent damage to the fetus that they should not be used in pregnancy or when there is a possibility of pregnancy.
 
 ## Legal Status
+
+Just like the pregnancy categories tell you how safe a drug is to use during pregnancy, the legal status tells you how tightly controlled it is. These classifications determine who can buy it, who can sell it, whether you need a prescription, and many other factors.
+
+This varies greatly from country to country due to differences in legal frameworks and regulatory systems.
+
+In this section, I'll be using two acronyms: 
+- POM: Prescription Only Medicine and 
+- OTC: Over the Counter.
+
+### USA
+
+#### Regulation Authorities
+
+In the US, drugs are regulated by two authorities.
+
+1. The FDA (Food and Drug Administration)
+    - Decides which drugs to approve for use in humans.
+    - Determines whether the drug should be POM or OTC.
+
+2. The DEA (Drug Enforcement Administration)
+    - Controls drugs that have potential for abuse or addiction under the Controlled Substances Act
+    - Some examples include Oxymorphone as seen in [this official DEA document](https://www.deadiversion.usdoj.gov/drug_chem_info/oxymorphone.pdf)
+
+#### Legal Levels
+
+1. Over the Counter (OTC)
+    - Safe for self-use when directions are followed as used as intended.
+    - Examples: Acetaminophen (NSAID), Chlorpheniramine (Antihistamine, H1 antagonist), etc...
+
+2. Prescription Only (Rx Only)
+    - Requires a prescription from a liscened medical practioner because the drug may have stronger effects or side effects that need monitoring or they might be abused or misused.
+    - Examples: Amoxicillin (β-lactam Antibiotic), Sertraline (SSRI), Losartan ,(Angiotensin II Receptor Blocker), etc...
+
+3. Controlled Substances
+    - Drugs with potential for abuse or dependence.
+    - They are divided into give shedules with Schedule V being the lowest and Schedule I being the most strictly controlled.
+        - Schedule V
+            - These drugs have the lowest risk of abuse, often used for mild pain, cough suppression, or nerve pain. 
+            - However, they are still controlled due to opiod content.
+            - Can be purchased OTC in limited quantities. The limits vary from state to state.
+            - Example: Pregabalin (Anticonvulsants)
+        - Schedule IV
+            - These drugs have legitimate medical use and are less addictive, but misuse can still lead to dependence.
+            - These are prescription only and refills are allowed upto 5 times in 6 months.
+            - Examples: Diazepam (Benzodiazepines), Tramadol (Opiods)
+        - Schedule III
+            - These drugs are useful but still pose a risk of misuse, especially when taken in large doses or for non-medical purposes.
+            - These are prescription only and refills are allowed upto 5 times in 6 months.
+            - Example: Nandrolone (Anabolic Androgenic Steroids)
+        - Schedule II
+            - These drugs are medically useful but extremely addictive, requiring close monitoring and strict prescription control.
+            - These require a written prescription and will not allow any refills.
+            - Electronic orders are only allowed in emergencies.
+            - Examples: Oxycodone, Hydromorphone (Strong Opiods), Amobarbital (Barbiturates)
+        - Schedule I
+            - These substances have no accepted therapeutic use and are considered unsafe even under medical supervision.
+            - Examples: Heroin (Opiods), Psilocybin (Hallucinogens)
+
+:::info Fun Fact
+
+In countries like Switzerland, Germany, and the Netherlands, diamorphine (heroin or diacetylmorphine) is used in medically supervised environments as part of their heroin assisted treatment programs for people with opioid dependence who have not responded to other treatments.
+
+:::
 
 ## Route of Administration
 
@@ -238,3 +348,7 @@ TODO: Not sure whether this is the best site ^^^
 - https://www.fda.gov/drugs/labeling-information-drug-products/pregnancy-and-lactation-labeling-resources
 - https://mdwiki.org/wiki/Methotrexate
 - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dd035a9f-cd40-4314-b9d8-2294b8a924e2
+- https://www.tga.gov.au/products/medicines/find-information-about-medicine/prescribing-medicines-pregnancy-database/australian-categorisation-system-prescribing-medicines-pregnancy
+- https://www.tga.gov.au/products/medicines/find-information-about-medicine/prescribing-medicines-pregnancy-database
+- https://www.deadiversion.usdoj.gov/drug_chem_info/oxymorphone.pdf
+
