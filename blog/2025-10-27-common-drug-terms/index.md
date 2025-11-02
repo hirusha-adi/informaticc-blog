@@ -263,42 +263,48 @@ In the US, drugs are regulated by two authorities.
 
 #### Legal Levels
 
+Drugs can either be issued over the counter or they can sometimes be prescription only.
+
 1. Over the Counter (OTC)
-    - Safe for self-use when directions are followed as used as intended.
+    - Safe for self-use when directions are followed and the drug is used as intended.
     - Examples: Acetaminophen (NSAID), Chlorpheniramine (Antihistamine, H1 antagonist), etc...
 
 2. Prescription Only (Rx Only)
-    - Requires a prescription from a liscened medical practioner because the drug may have stronger effects or side effects that need monitoring or they might be abused or misused.
+    - Requires a prescription from a licensed medical practitioner because the drug may have stronger effects, significant side effects, or potential for misuse.
     - Examples: Amoxicillin (β-lactam Antibiotic), Sertraline (SSRI), Losartan ,(Angiotensin II Receptor Blocker), etc...
 
-3. Controlled Substances
-    - Drugs with potential for abuse or dependence.
-    - They are divided into give shedules with Schedule V being the lowest and Schedule I being the most strictly controlled.
-        - Schedule V
-            - These drugs have the lowest risk of abuse, often used for mild pain, cough suppression, or nerve pain. 
-            - However, they are still controlled due to opiod content.
-            - Can be purchased OTC in limited quantities. The limits vary from state to state.
-            - Example: Pregabalin (Anticonvulsants)
-        - Schedule IV
-            - These drugs have legitimate medical use and are less addictive, but misuse can still lead to dependence.
-            - These are prescription only and refills are allowed upto 5 times in 6 months.
-            - Examples: Diazepam (Benzodiazepines), Tramadol (Opiods)
-        - Schedule III
-            - These drugs are useful but still pose a risk of misuse, especially when taken in large doses or for non-medical purposes.
-            - These are prescription only and refills are allowed upto 5 times in 6 months.
-            - Example: Nandrolone (Anabolic Androgenic Steroids)
-        - Schedule II
-            - These drugs are medically useful but extremely addictive, requiring close monitoring and strict prescription control.
-            - These require a written prescription and will not allow any refills.
-            - Electronic orders are only allowed in emergencies.
-            - Examples: Oxycodone, Hydromorphone (Strong Opiods), Amobarbital (Barbiturates)
-        - Schedule I
-            - These substances have no accepted therapeutic use and are considered unsafe even under medical supervision.
-            - Examples: Heroin (Opiods), Psilocybin (Hallucinogens)
+#### Controlled Substances
+
+> A controlled substrance is "a drug or other substance that is tightly controlled by the government because it may be abused or cause addiction. The control applies to the way the substance is made, used, handled, stored, and distributed. Controlled substances include opioids, stimulants, depressants, hallucinogens, and anabolic steroids. Controlled substances with known medical use, such as morphine, Valium, and Ritalin, are available only by prescription from a licensed medical professional. Other controlled substances, such as heroin and LSD, have no known medical use and are illegal in the United States." - [NIH](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/controlled-substance)
+
+They are divided into give shedules with Schedule V being the lowest and Schedule I being the most strictly controlled.
+
+- Schedule V
+    - These drugs have the lowest risk of abuse, often used for mild pain, cough suppression, or neuropathic pain.
+    - Still controlled, sometimes due to opioid content.
+    - Can be purchased OTC in limited quantities. The limits vary from state to state.
+    - Example: Pregabalin (Anticonvulsants)
+- Schedule IV
+    - These drugs have legitimate medical use and are less addictive comparatively to Schedule III-I, but misuse can still lead to dependence.
+    - These are prescription only and refills are allowed upto 5 times in 6 months.
+    - Examples: Diazepam (Benzodiazepines), Tramadol (Opiods)
+- Schedule III
+    - These drugs are useful but still pose a risk of misuse, especially when taken in large doses or for non-medical purposes.
+    - These are prescription only and refills are allowed upto 5 times in 6 months.
+    - Example: Nandrolone (Anabolic Androgenic Steroids)
+- Schedule II
+    - These drugs are medically useful but extremely addictive, requiring close monitoring and strict prescription control.
+    - These require a written prescription and will not allow any refills.
+    - Electronic orders are only allowed in emergencies.
+    - Examples: Oxycodone, Hydromorphone (Strong Opiods), Amobarbital (Barbiturates)
+- Schedule I
+    - These substances have no accepted therapeutic use and are considered unsafe even under medical supervision.
+    - Examples: Heroin (Opiods), Psilocybin (Hallucinogens)
+
 
 :::info Fun Fact
 
-In countries like Switzerland, Germany, and the Netherlands, diamorphine (heroin or diacetylmorphine) is used in medically supervised environments as part of their heroin assisted treatment programs for people with opioid dependence who have not responded to other treatments.
+However, in countries like Switzerland, Germany, and the Netherlands, diamorphine (aka heroin or diacetylmorphine) is used in medically supervised environments as part of their heroin assisted treatment programs for people with opioid dependence who have not responded to other treatments.
 
 :::
 
