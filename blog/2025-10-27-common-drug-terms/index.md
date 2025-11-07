@@ -241,7 +241,7 @@ Drugs which have such a high risk of causing permanent damage to the fetus that 
 
 Just like the pregnancy categories tell you how safe a drug is to use during pregnancy, the legal status tells you how tightly controlled it is. These classifications determine who can buy it, who can sell it, whether you need a prescription, and many other factors.
 
-This varies greatly from country to country due to differences in legal frameworks and regulatory systems.
+This varies greatly from country to country due to differences in legal frameworks and regulatory systems. I will be focusing only on the US and Australia as that is what's relevant to me.
 
 In this section, I'll be using two acronyms: 
 - POM: Prescription Only Medicine and 
@@ -271,7 +271,7 @@ Drugs can either be issued over the counter or they can sometimes be prescriptio
 
 2. Prescription Only (Rx Only)
     - Requires a prescription from a licensed medical practitioner because the drug may have stronger effects, significant side effects, or potential for misuse.
-    - Examples: Amoxicillin (β-lactam Antibiotic), Sertraline (SSRI), Losartan ,(Angiotensin II Receptor Blocker), etc...
+    - Examples: Amoxicillin (β-lactam Antibiotic), Sertraline (SSRI), Losartan (Angiotensin II Receptor Blocker), etc...
 
 #### Controlled Substances
 
@@ -308,13 +308,62 @@ However, in countries like Switzerland, Germany, and the Netherlands, diamorphin
 
 :::
 
+### Australia
+
+In Australia, drugs are controlled by the TGA (Therapeutic Goods Administration). However, the Poisons Standard (also called the Standard for the Uniform Scheduling of Medicines and Poisons or SUSMP) is what classifies the drugs legally.
+
+Australia also has a "Schedule" system similiar to that of US.
+
+#### Unscheduled
+
+These drugs can be sold anywhere. 
+Examples include NSAIDS like Aciteminophen and local analgesics like Lidocaine in cough medication.
+
+#### S2 (Pharmacy Medicine)
+
+These drugs are only sold in pharmacies, but no prescription is required.
+Examples include antihistamines like Diphenhydramine or Chlorphenamine.
+
+#### S3 (Pharmacist Only Medicine)
+
+These drugs require no prescription, but they must be supplied by a pharmacist. They might ask questions before issuing them.
+Examples include emergency OCP like Lovengerstrel.
+
+#### S4 (Prescription Only Medicine)
+
+These drugs require a prescription and must be issued by a pharmacist.
+Examples include antibiotics like Cefalexin, antifungals like Clindamycin and antidepressants.
+
+#### S8 (Controlled Drug)
+
+These drugs are strictly regulated due to potential addiction and/or misuse.
+These drugs are only used in hospital environments and only if required.
+Examples include opiod based painkillers like Oxycodone and many more.
+
+#### S9 (Prohibited Substance)
+
+These drugs are illegal for general use and is used for research purposes only!
+Examples include drugs such as Heroin and LSD.
+
+#### Other Schedules
+
+Shcedule 1, 5, 6, 7 and 10 are mostly used in industrial and checmical goods rather than medicine.
+
 ## Route of Administration
 
-- https://www.fda.gov/drugs/data-standards-manual-monographs/route-administration
+This refers to how a drug enters the body. Routes of administration are usually classified based on the site of application or the method of exposure. [Click here](https://www.fda.gov/drugs/data-standards-manual-monographs/route-administration) to open a list of all common routes of administration as classified by the FDA. [This artcle](https://mdwiki.org/wiki/Route_of_administration) also has a list of routes explained in detail. As seen in these lists, there are hundreds of possible routes through which a drug can be administered.
 
-- https://mdwiki.org/wiki/Route_of_administration
-- https://romanpub.com/resources/ijpsr%20v11-2020-7.pdf
-- https://www.ncbi.nlm.nih.gov/books/NBK568677/
+To keep things simple, we'll focus on some of the most common routes:
+
+1. Oral: Administration to or by way of the mouth.
+
+The oral route is the most common, convenient, and cost-effective way to take medication. Drugs are swallowed as tablets, capsules, or liquids and absorbed through the gastrointestinal (GI) tract. Once the drug has been swallowed, it will go through the stomach to the intestines, where it will be absorbed into the bloodstream through the intestinal wall. From there, the portal vein will carry this drug to the liver where a part of it may be broken down (first pass metabolism). Most of the drugs are taken this way.
+
+2. Topical: Administration to a particular spot on the outer surface of the body.
+
+
+
+3. Intravenous (IV): Administration within or into a vein or veins.
 
 ## Pharmocokinetic Data
 
@@ -357,4 +406,7 @@ However, in countries like Switzerland, Germany, and the Netherlands, diamorphin
 - https://www.tga.gov.au/products/medicines/find-information-about-medicine/prescribing-medicines-pregnancy-database/australian-categorisation-system-prescribing-medicines-pregnancy
 - https://www.tga.gov.au/products/medicines/find-information-about-medicine/prescribing-medicines-pregnancy-database
 - https://www.deadiversion.usdoj.gov/drug_chem_info/oxymorphone.pdf
-
+- https://www.fda.gov/drugs/data-standards-manual-monographs/route-administration
+- https://mdwiki.org/wiki/Route_of_administration
+- https://romanpub.com/resources/ijpsr%20v11-2020-7.pdf
+- https://www.ncbi.nlm.nih.gov/books/NBK568677/
