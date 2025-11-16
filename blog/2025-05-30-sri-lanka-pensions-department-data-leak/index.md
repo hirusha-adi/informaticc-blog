@@ -88,7 +88,7 @@ Media coverage has largely emphasized that systems have been restored and are cu
 
 > *"Technical teams worked around the clock to isolate the threat and restore access, coordinating closely with cybersecurity experts to secure the network and conduct a full system audit. The rapid response, according to authorities, played a crucial role in ensuring service continuity and safeguarding sensitive information belonging to thousands of pensioners."* - [Lanka News Web](https://lankanewsweb.net/archives/73947/pension-dept-recovers-from-cyberattack-with-systems-fully-restored/)
 
-The only thing that's even close to mentioning that the data was released publicly was posted by Newswire and/or Derana News. Both of them looks exactly identical. I have no clue as to who copied from whom. 🤣
+The only thing that's even close to mentioning that the data was released publicly was posted by Newswire and/or Derana News. Both of them looks exactly identical.
 
 > *"Cybersecurity monitoring platform FalconFeeds.io has attributed the attack to the Cloak ransomware group, a known cybercriminal outfit that typically encrypts sensitive data and demands ransom payments for its release or non-disclosure."* - [Derana News](https://www.newswire.lk/2025/05/28/cyber-attack-pension-dept-issues-clarification/)
 
