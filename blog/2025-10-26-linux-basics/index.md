@@ -12,7 +12,7 @@ Note that I'll only be touching the surface of everything with very brief descri
 
 At the very low level, you have your hardware. 
 
-## Kernel
+## Linux Kernel
 
 An operating system is not just one software. They consist of multiple major components. At the core is the kernel. This is what directly communicates with your hardware and exposes them through something called system calls (commonly referred to as "syscalls"). Every time a program needs to read a file, allocate memory, or send network data, it's the kernel that actually does it on behalf of that program.
 
@@ -47,4 +47,43 @@ If it doesn't, your next step is to check whether there's a package available fo
 If you can't find an official package, try searching online (especially on GitHub) to see if someone from the community has written or ported a driver for your chipset. If you find one, you can usually compile it from source and pray for it to work.
 
 If you've tried all that and still can't get it to work, just give up at this point. Buy a new WiFi adapter that supports linux out the box to use 
+
+### Init System
+
+In the boot process of a linux system, once the kernel loads, a special userspace program called the "init system" starts. The kernel launches this with a PID (Process ID) of a `1`. This acts like the root of all other processes. An init system is responsible for orchestrating the boot process. It starts all the other system services, handles shutdown and reboot sequences, and managed all the system services.
+
+In linux systems, there are multiple init systems. At the very beginning, everything used the "SysV Init" system - short of System V Init. This was built to function like Unix System V. This uses 0-6 different run levels to define boot states and to make things simple, it is script based. All the init scripts are stored inside `/etc/init.d/`. Here, all the services launch sequencially (via those scripts) - therefore, resulting in a slower startup times. This init system is simple and easy to use but it lacks a lot of modern features like parallel startup of processes and the ability to monitor services.
+
+Around 2006, Canonical released Upstart - a modern alternative to SysV. This performed faster comparatively and was event based. This gave the ability to perform certain things when an event was triggered - such as "when a device appears". 
+
+In late 2014, systemd was released. This is not just a basic init system, it is a complete system manager with modern highly sophisticated features.
+It introduced features like parallel startup of processes, service supervision (auto restart and service dependency ordering/management), a unified centralized logging system, a consistent configuration file format, timers and socket activation. Canonical discontinued upstart and adopted systemd for their linux distribution named Ubuntu. Most modern linux distributions use systemd as their init system. 
+
+Systemd works with service files, called units (basically configuration files). They define how a component behaves. By convention, each unit file is given a suffix to suggest the component type. Let's take a look at some of those.
+
+- `.service`: These are used to contain information about individual services. They are also called daemons.
+- `.timer`: These are used to perform shceduled jobs.
+- `.mount`: These are used for file system mounts.
+- `.target`: This is basically a group of services to start. An example is `graphics.target`, which starts all the graphics related services.
+
+A simple `.service` unit file can be found below. As you can see below, using things like `After=`, you can handle dependencies easily. Here, the `After=network.target` will ensure that this service will start only after `network.target` component has been started. A list of all these directives can be found [here](https://man.archlinux.org/man/systemd.service.5#OPTIONS) in the official documentation.
+
+```ini
+[Unit]
+Description=MyApp Service
+After=network.target
+
+[Service]
+ExecStart=/apps/myapp/executable
+WorkingDirectory=/apps/myapp
+Restart=always
+User=serviceuser
+Group=servicegroup
+
+[Install]
+WantedBy=multi-user.target
+```
+
+To communicate with systemd, you should use the `systemctl` command line utility. [This blog post](../2024-12-06-custom-systemd-services/) covers the basic usage of services with systemd along with the basic usage of the `systemctl` command.
+
 
