@@ -361,6 +361,13 @@ The oral route is the most common, convenient, and cost-effective way to take me
 
 2. Topical: Administration to a particular spot on the outer surface of the body.
 
+The topical route is another common route. Here, the drug is directly applied to the required specific area of the skin or mucous membranes. This allows the drug to act directly and locally at the site of application. This route is used with creams, ointments, gels, lotions, patches, etc... designed to treat skin conditions, inflammation, infections, pain or whatever the condition that required direct local application of such drugs.
+
+Some drugs manage penetrate the outer layers of skin and may act on surface tissues or in some cases, they might can also be absorbed into deeper layers. Topical preparations such as transdermal patches is an example for this. They are made to deliver the drug into the bloodstream for systemic effects while avoiding the gastrointestinal tract and first pass metabolism. However, this is a rare use case. This route is mostly used for using drugs on specific target areas to avoid systemic affect and it's also non-invasive and convenient.
+
+Clindamycin is one such example. It's mostly used for acne, bacterial vaginosis, some forms of MRSA and even to treat malaria when combined with Quinine.
+The clindamyin ointment is used for conditions such as acne and is considered less harmful when used topically - the most common route for this drug.
+However, when taken orally for such simple conditions, the side effects may overtake the possible good effect that you'd expect. But when applied topically, it gets the job done by working on that applied site using it's bacterial protien synthesis capabilities.
 
 
 3. Intravenous (IV): Administration within or into a vein or veins.
