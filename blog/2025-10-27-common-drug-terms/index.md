@@ -365,9 +365,12 @@ The topical route is another common method of drug administration. Here, the dru
 
 Some drugs can penetrate the outer layers of the skin and act on surface tissues; in some cases, they may also be absorbed into deeper layers. Transdermal patches are an example of this. They are designed to deliver medication into the bloodstream for systemic effects while bypassing the gastrointestinal tract and first-pass metabolism. However, this is a less common use case. The topical route is primarily used to target specific areas, avoid systemic effects, and provide a non-invasive, convenient method of administration.
 
-Clindamycin is one such example. It is mostly used for acne, bacterial vaginosis, certain forms of MRSA, and even malaria when combined with quinine. The clindamycin ointment is commonly used for acne and is considered safer when applied topically. When taken orally for simple conditions, the side effects may outweigh the potential benefits. But when used topically, it effectively treats the targeted area by inhibiting bacterial protein synthesis at the site of application.
+[Clindamycin](https://mdwiki.org/wiki/Clindamycin) is one such example. It is mostly used for acne, bacterial vaginosis, certain forms of MRSA, and even malaria when combined with quinine. The clindamycin ointment is commonly used for acne and is considered safer when applied topically. When taken orally for simple conditions, the side effects may outweigh the potential benefits. But when used topically, it effectively treats the targeted area by inhibiting bacterial protein synthesis at the site of application.
 
 3. Intravenous (IV): Administration within or into a vein or veins.
+
+
+4. Intramuscular (IM): Administration into a muscle
 
 ## Pharmocokinetic Data
 
@@ -414,3 +417,6 @@ Clindamycin is one such example. It is mostly used for acne, bacterial vaginosis
 - https://mdwiki.org/wiki/Route_of_administration
 - https://romanpub.com/resources/ijpsr%20v11-2020-7.pdf
 - https://www.ncbi.nlm.nih.gov/books/NBK568677/
+- https://mdwiki.org/wiki/Clindamycin
+- https://www.linkedin.com/pulse/types-injections-sites-agnes-healthcare/
+
