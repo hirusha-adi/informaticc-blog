@@ -84,6 +84,6 @@ Group=servicegroup
 WantedBy=multi-user.target
 ```
 
-To communicate with systemd, you should use the `systemctl` command line utility. [This blog post](../2024-12-06-custom-systemd-services/) covers the basic usage of services with systemd along with the basic usage of the `systemctl` command.
+To communicate with systemd, you should use the `systemctl` command line utility. [This blog post](https://informati.cc/blog/2025/10/2024-12-06-custom-systemd-services) covers the basic usage of services with systemd along with the basic usage of the `systemctl` command.
 
 
