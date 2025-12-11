@@ -372,28 +372,6 @@ Some drugs can penetrate the outer layers of the skin and act on surface tissues
 
 4. Intramuscular (IM): Administration into a muscle
 
-## Pharmocokinetic Data
-
-### Bioavailability
-
-### Potein Binding
-
-### Metabolism
-
-### Elimination half-life
-
-### Excretion
-
-## Chemical Data
-
-### Formula
-
-### Molar Mass
-
-### 3D Models from JSmol
-
-### Smiles
-
 
 ## References:
 
