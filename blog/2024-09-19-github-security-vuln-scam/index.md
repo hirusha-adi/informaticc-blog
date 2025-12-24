@@ -72,7 +72,7 @@ Let's break it down:
 
 The infected file can be downloaded from [here](./l6E.exe.bin-infected.zip). The password for this file is: `infected`. 
 
-Static Analysis with VirusTotal
+### Static Analysis with VirusTotal
 
 Running a static analysis through VirusTotal shows that only 12 antivirus engines detected this file as malicious. It appears to be a common stealer, but the low detection rate suggests it might be packed in a way that evades many detection systems. You can view the report [here](https://www.virustotal.com/gui/url/b64a25fef85ad988dee3ds3b772ea60dc4d53333cd0857924745c000ff858c5eb).
 
@@ -83,7 +83,7 @@ Interestingly, there’s already a comment on VirusTotal from someone who encoun
 ![alt text](image-15.png)
 
 
-Dynamic Analysis with Any.Run
+### Dynamic Analysis with Any.Run
 
 I ran the sample through Any.Run for dynamic analysis. You can view the report [here](https://app.any.run/tasks/8ac63e3e-621c-4d47-b832-73dad43c208c).
 
@@ -99,7 +99,7 @@ Suricata, an open-source intrusion detection system, has identified this as the 
 ![alt text](image-6.png)    
 
 
-Further Dynamic Analysis with Triage
+### Further Dynamic Analysis with Triage
 
 I submitted the sample for further analysis using Triage. You can view the full report [here](https://tria.ge/240919-fczkva1gja/behavioral1).
 
@@ -108,7 +108,7 @@ The stealer performs several discovery techniques, including browser information
 ![alt text](image-9.png)
 
 
-Investigating the IP Address
+### Investigating the IP Address
 
 I looked up the IP address hosting the web server, which provided information about the hosting provider and an email address to report abuse.
 
@@ -121,7 +121,7 @@ I looked up the IP address hosting the web server, which provided information ab
 ![alt text](image-12.png)
 
 
-WHOIS Lookup of the Domain
+### WHOIS Lookup of the Domain
 
 Here’s the WHOIS information for `github-scanner.com`:
 

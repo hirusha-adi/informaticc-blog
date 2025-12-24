@@ -68,4 +68,4 @@ sudo reboot
 
 Once your system restarts, you should have the Nvidia drivers running on your Kali Linux installation. You can confirm everything’s working by checking the Nvidia settings or running the `nvidia-smi` command.
 
-And that's it! You're all set to enjoy the full power of your Nvidia graphics card on Kali Linux. Happy hacking!
+And that's it! You're all set to enjoy the full power of your Nvidia graphics card on Kali Linux. However, installing Kali on baremetal is a bad idea and I highly recommend against it.
