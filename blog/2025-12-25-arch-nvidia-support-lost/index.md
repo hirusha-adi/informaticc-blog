@@ -4,7 +4,7 @@ authors: [hirusha]
 tags: [arch,nvidia,troubleshooting]
 ---
 
-I just updated by Arch Linux installation after three days and it broke my graphics drivers. My graphis card is an Nvidia Quadra K1200, based on the Maxwell architechture. This article covers my approach to fixing it.
+I just updated by Arch Linux installation after three days and it broke my graphics drivers. My graphics card is an Nvidia Quadro K1200, based on the Maxwell architecture. This article covers my approach to fixing it.
 
 ![alt text](image-1.png)
 
@@ -12,7 +12,7 @@ I just updated by Arch Linux installation after three days and it broke my graph
 
 ## What's going on?
 
-On the 3rd of December, NVIDIA officially announced that they are droppping support for Pascal, Maxwell and older GPUs with the release of Nvidia's 590.XX drivers.
+On the 3rd of December, NVIDIA officially announced that they are dropping support for Pascal, Maxwell and older GPUs with the release of Nvidia's 590.XX drivers.
 
 Along with this, the package names in Arch related to the proprietary Nvidia drivers are renamed as follows:
 - `nvidia` ---> `nvidia-open`
