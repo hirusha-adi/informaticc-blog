@@ -12,7 +12,7 @@ Build a Windows-PE image to delete the required files that caused CrowdStrike's 
 
 ## Introduction
 
-### Intro
+### Approaches
 
 To easily fix the issue that arose in 7/19/2024.
 
@@ -48,7 +48,7 @@ Additional information can also be found [here (docs/projects/crowdstrike_fix)](
 
 This is just an abstraction of what happend.
 
-### Introduction
+### Incident
 
 
 Last week, travelers were left stranded at airports, patients left waiting in hospitals and customers left cash-strapped in front of banks after a software update gone awry disrupted major sectors of the global economy. 
@@ -59,7 +59,7 @@ Cybersecurity firm CrowdStrike pushed out a routine software update that inadver
 
 As CrowdStrike immediately explained to customers and the world, the problem was not a cyberattack but an error in the software update. Because the bug was in CrowdStrike’s Falcon platform update for Microsoft Windows, computers using other operating systems (e.g. Mac and Linux) were not impacted. Because so many core systems in society rely upon CrowdStrike, the outage was widespread and disruptive across critical sectors: flights canceled, medical procedures delayed or canceled and many other routine societal systems affected. 
 
-### Fix
+### Solution
 
 Listed below are the original manual fixes:
 
@@ -93,7 +93,7 @@ Based on this [Twitter post](https://x.com/Syndikalist/status/181428114126584677
 15. Restart as normal, confirm normal behaviour
 
 
-### Automated Fix
+### Automating it
 
 Doing this manually for thousands of computers costs an unnecessarily large amount of time.
 
@@ -122,8 +122,6 @@ Everything looked good, but when I executed it, the volume failed to mount, and 
 At first, I thought it was an issue with NTFS, so I checked the `packages.conf`, and the `ntfs-3g` was included, leaving me with no other ideas.
 
 I tried for a fix the next day but couldn't get it to work. Additionally, the built image is approximately 1.1GB in size - which is too large for running a simple recovery script.
-
-VIDEO_GOES_HERE
 
 In the end, I just deleted the files.
 
@@ -161,7 +159,8 @@ Then, Tiraj Adikari came up with a script that also supports BitLocker-encrypted
 This fixing approach is interesting. First, you have to export the recovery keys from the Active Directory to a CSV file by running a script. Then, you can follow the documentation, add the exported CSV and the script to the system32 folder, make it autorun on startup, and build the image. Yes, you have to build the image because you need to include the CSV file. Make sure you do not share this image as it includes the BitLocker recovery keys of the devices.
 
 
-### References
+#### References
+
 - https://www.georgetown.edu/news/ask-a-professor-crowdstrike-outage
 - https://github.com/hirusha-adi/crowdstrike-fix/
 
@@ -169,37 +168,7 @@ and, special thanks to [Tiraj Adikari](https://www.linkedin.com/in/tiraj-adikari
 
 ## Manual Fix
 
-
-Fix the issue caused by CrowdStrike in 2024 manully using many different methods.
-
-### If BitLocker is not enabled
-
-Based on this [Reddit post](https://www.reddit.com/r/crowdstrike/comments/1e6vmkf/comment/ldvxx62/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button).
-
-1. Boot Windows into safe mode
-2. Go to `C:\Windows\System32\drivers\CrowdStrike`
-3. Delete files matching the `C-00000291*.sys` pattern
-4. Reboot
-
-### If BitLocker is enabled
-
-Based on this [Twitter post](https://x.com/Syndikalist/status/1814281141265846772/photo/1).
-
-1. Cycle through BSODs until you get the recovery screen.
-2. Navigate to Troubleshoot > Advanced Options > Startup Settings
-3. Press "Restart"
-4. Skip the first Bitlocker recovery key prompt by pressing Esc
-5. Skip the second Bitlocker recovery key prompt by selecting Skip This Device in the bottom right
-6. Navigate to Troubleshoot > Advanced Options > Command Prompt
-7. Type `bcdedit /set {default} safeboot minimal`, then press enter
-8. Go back to the WinRE main menu and select Continue
-9. It may cycle 2-3 times
-10. If you booted into safe mode, log in per normal
-11. Open Windows Explorer, navigate to `C:\Windows\System32\drivers\CrowdStrike`
-12. Delete the offending file (STARTS with `C-00000291*`, .sys file extension)
-13. Open command prompt as administrator
-14. Type `bcdedit /deletevalue {default} safeboot`, then press enter
-15. Restart as normal, confirm normal behaviour
+The steps to fix this manually has been covered already in the [Solutions](#solution) section.
 
 ### Fix with a Batch script
 
@@ -292,7 +261,6 @@ chmod +x fix.sh
 ## run the script
 ./fix.sh
 ```
-
 
 ## Fix with Windows PE
 
@@ -421,7 +389,7 @@ MakeWinPEMedia /ISO C:\WinPEImg C:\WinPEImg\WinPE_ISO.iso
 
   - and now, you can retry
 
-### References
+#### References
 
 - https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-adding-powershell-support-to-windows-pe?view=windows-11
 - https://stackoverflow.com/questions/10906990/winpe-auto-scripts
@@ -432,9 +400,6 @@ MakeWinPEMedia /ISO C:\WinPEImg C:\WinPEImg\WinPE_ISO.iso
 Fix the issue caused by CrowdStrike in 2024 using WinPE for computers that uses BitLocker.
 
 ![alt text](image-99.png)
-
-<!--truncate-->
-
 
 Credits: [Tiraj Adikari](https://www.linkedin.com/in/tiraj-adikari-a1686229/?originalSubdomain=au)
 
@@ -580,7 +545,7 @@ MakeWinPEMedia /ISO C:\WinPEImg C:\WinPEImg\WinPE_ISO.iso
 
   - and now, you can retry
 
-### References
+#### References
 
 - https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-adding-powershell-support-to-windows-pe?view=windows-11
 - https://stackoverflow.com/questions/10906990/winpe-auto-scripts
@@ -593,8 +558,6 @@ MakeWinPEMedia /ISO C:\WinPEImg C:\WinPEImg\WinPE_ISO.iso
 
 
 Fix the issue caused by CrowdStrike in 2024 using Win10XPE, a customized & slimmed down version of the regular Windows image.
-
-<!--truncate-->
 
 Summary:
 
@@ -670,5 +633,4 @@ https://github.com/user-attachments/assets/e703600f-9b48-45be-8531-96a8018cc211
 ![alt text](image-10.png)
 
 - You should now find your `Win10XPE_x64.iso` inside the same directory with `Win10XPE.exe`
-
 
