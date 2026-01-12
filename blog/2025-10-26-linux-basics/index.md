@@ -20,9 +20,38 @@ Your "Windows 11 Operating System" uses Microsoft's proprietary Windows NT kerne
 
 On top of that, the kernel is what handles process scheduling, memory management, file systems, networking and all the other low level operating system related functions.
 
+### Kernel Modules
+
+This is a piece of code that can be dynamically loaded into or unloaded from the linux kernel at runtime without having to reboot the system. Kernel modules allow us to extend the functionality of the kernel in a very modular way. These modules are usually found inside the `/lib/modules/$(uname -r)/` directory.
+
+Below is an awesome, more technical explanation of what these are.
+
+> *"The quick and short way to explain kernel modules is that they are a binary file, kinda like a shared library, which the kernel will map into its address space. These modules can expand kernel functionality. This functionality can be different between different kinds of kernel modules. What people are mostly talking about in regards to kernel modules are drivers. However, kernel modules can be anything from that to filesystem interfaces and security mechanisms."* - [Reddit](https://www.reddit.com/r/osdev/comments/171m5kn/comment/k3rlo1x/)
+
+`mod` is how you usually refer to kernel modules in short. The `lsmod` command will list all the loaded modules, `insmod` will insert a module and `modprobe` will insert a module but it will also resolve the dependencies, `rmmod` will remove a module and `modinfo` will show module information. These are some commands that you will eventually run in to (mostly when having to deal with drivers in a general purpose context)
+
+
+You can learn more about kernel modules in [this Arch Wiki page](https://wiki.archlinux.org/title/Kernel_module).
+
+### Kernel Headers
+
+These are C header files (`.h`) that's usually placed inside `/usr/src/`. They define an "interface" which specifies how functions in the source files (`.c`) of the kernel are defined. They are used so that a compiler can check if the usage of a function is correct as the function signature (return value and parameters) is present in the header file. Yes, again, these are just C header files - all they do is define declerations of functions as shown below:
+
+```c
+int foo(double param);
+```
+
+They are used to
+1. define interfaces between components of the kernel, and 
+2. define interfaces between the kernel and user space
+
+Or in simpler terms, they basically tell the c compiler how to recompile everything in a way that it will be able to communicate properly with the new kernel version. You need them for installing almost anything compiled against that kernel. In Arch Linux, these header files are managed by a seperate package named `linux-headers`. In Debian, this package takes the format: `linux-headers-$(uname -r)`.
+
+You can learn more [here](https://unix.stackexchange.com/questions/47330/what-exactly-are-linux-kernel-headers) or [here](https://kernelnewbies.org/KernelHeaders).
+
 ## Device Drivers
 
-Just above the kernel sits device drivers. These are small programs that tell the kernel how to talk to your specific hardware, like graphic cards, wifi adapaters and what not. In Linux, many drivers are built directly into the kernel or distributed as loadable kernel modules (LKMs) that can be dynamically added or removed (sometimes at runtime, without requiring restarts). 
+Just above the kernel sits device drivers. These are small programs that tell the kernel how to talk to your specific hardware, like graphic cards, wifi adapaters and what not. In Linux, many drivers are built directly into the kernel or distributed as loadable kernel modules (LKMs) that can be dynamically added or removed (sometimes at runtime, without requiring restarts). The drivers that are distributed seperately and that has to be loaded by the user according to their requirement are sometimes also referred to as "out of tree drivers".
 
 ### Graphics Drivers
 
@@ -38,6 +67,8 @@ If you just want to get on with life, you should consider using the proprietary 
 
 NVIDIA has refused to fully open-source their driver stack multiple times, and this has long been a pain in the pass in the Linux community. The situation between NVIDIA and Linux has been so frustrating that Linus Torvalds himself once famously said, "Fuck you, NVIDIA". This video can be found [here](https://youtu.be/iYWzMvlj2RQ).
 
+While I was writing this, Nvidia released their 590.XX which drops comapitbility for GPU's based on architechtures older than Pascal and Maxwell (both ~10 year old chipsets). This breaks a lot of compatibility. I've written an article covering everything that happened and it can be [found here on my blog](https://informati.cc/blog/2025/12/25/arch-nvidia-support-lost) or on [medium](https://medium.com/@hirushaadi/nvidia-graphics-driver-broken-after-updating-arch-a-quick-solution-80798b351fda).
+
 ### Wi-Fi Adapters
 
 Another commonly talked about area is WiFi adapters. Most of them should work out of the box with the generic drivers included in the Linux kernel. Modern distros ship with a wide range of wireless drivers pre installed, so in many cases your Wi-Fi will just work out of the box.
@@ -47,6 +78,10 @@ If it doesn't, your next step is to check whether there's a package available fo
 If you can't find an official package, try searching online (especially on GitHub) to see if someone from the community has written or ported a driver for your chipset. If you find one, you can usually compile it from source and pray for it to work.
 
 If you've tried all that and still can't get it to work, just give up at this point. Buy a new WiFi adapter that supports linux out the box to use 
+
+### DKMS
+
+If you refer to the package name above (`rtl8821ce-dkms`), you can see the `-dkms` suffix. This means that this package is a DKMS package. DKMS stands for Dynamic Kernel Module Support. It basically means that it will help the kernel module (in this case, it's the wifi driver) to stay compatible after changes to your linux kernel like updates. Normally, kernel module (drivers) are compiled specifically for the version of the kernel you are running. If you update the kernel, it might break support for these kernel modules as they were built for the old kernel. Therefore, we have to rebuild the driver module using the new kernel headers. The packages that has the `-dkms` suffix by convention will take care of that building on its own - so that you don't have to worry about your drivers breaking in you update your kernel. A common example of this is the `nvidia-dkms` package. This will just re-build the driver automatically after you update your kernel to ensure everything is working smoothly. 
 
 ## Init System
 
@@ -86,4 +121,7 @@ WantedBy=multi-user.target
 
 To communicate with systemd, you should use the `systemctl` command line utility. [This blog post](https://informati.cc/blog/2025/10/2024-12-06-custom-systemd-services) covers the basic usage of services with systemd along with the basic usage of the `systemctl` command.
 
+Systemd hate
+
+Covering everything about Systemd
 
