@@ -10,28 +10,28 @@ Build a Windows-PE image to delete the required files that caused CrowdStrike's 
 
 <!--truncate-->
 
-## Intro
+### Intro
 
 
 To easily fix the issue that arose in 7/19/2024.
 
-### [Fix with Windows PE (+ BitLocker support)](https://github.com/hirusha-adi/crowdstrike-fix/tree/main/winpe-bitlocker)
+#### [Fix with Windows PE (+ BitLocker support)](https://github.com/hirusha-adi/crowdstrike-fix/tree/main/winpe-bitlocker)
 
 ![image](https://github.com/user-attachments/assets/72fb78d5-e05a-491c-9699-59a4dcfe4a7f)
 
 [Click here](https://github.com/hirusha-adi/crowdstrike-fix/tree/main/winpe-bitlocker) to learn more. Made with the help of Tiraj Adikari.
 
-### [Fix with Windows PE (no BitLocker support)](https://github.com/hirusha-adi/crowdstrike-fix/tree/main/winpe)
+#### [Fix with Windows PE (no BitLocker support)](https://github.com/hirusha-adi/crowdstrike-fix/tree/main/winpe)
 
 [Click here](https://github.com/hirusha-adi/crowdstrike-fix/tree/main/winpe) to learn more. Made by Hirusha Adikari.
 
-### [Fix with a custom Windows image (+ optional BitcLocker support)](https://github.com/hirusha-adi/crowdstrike-fix/tree/main/win)
+#### [Fix with a custom Windows image (+ optional BitcLocker support)](https://github.com/hirusha-adi/crowdstrike-fix/tree/main/win)
 
 ![image](https://github.com/user-attachments/assets/060dcc17-eecc-4b2c-a891-45c8c56793b9)
 
 [Click here](https://github.com/hirusha-adi/crowdstrike-fix/tree/main/win) to learn more. This is different from Windows PE, you will have an interactive envrionment with a graphical user interface. Made by Hirusha Adikari.
 
-### Other Fixes
+#### Other Fixes
 
 - [Fix manually](https://github.com/hirusha-adi/crowdstrike-fix/tree/main/other#fix-manually)
 - [Fix with a batch script](https://github.com/hirusha-adi/crowdstrike-fix/tree/main/other#fix-with-a-batch-script)
@@ -39,7 +39,7 @@ To easily fix the issue that arose in 7/19/2024.
 - [Fix with a bash script (by booting into a linux distribuion)](https://github.com/hirusha-adi/crowdstrike-fix/tree/main/other#fix-by-booting-from-a-linux-distribution)
 
 
-## Note
+### Note
 
 A detailed usage guide followed by great explanation is included this project's github repository: https://github.com/hirusha-adi/crowdstrike-fix/
 
@@ -47,7 +47,7 @@ Additional information can also be found [here (docs/projects/crowdstrike_fix)](
 
 This is just an abstraction of what happend.
 
-## Introduction
+### Introduction
 
 
 Last week, travelers were left stranded at airports, patients left waiting in hospitals and customers left cash-strapped in front of banks after a software update gone awry disrupted major sectors of the global economy. 
@@ -58,11 +58,11 @@ Cybersecurity firm CrowdStrike pushed out a routine software update that inadver
 
 As CrowdStrike immediately explained to customers and the world, the problem was not a cyberattack but an error in the software update. Because the bug was in CrowdStrike’s Falcon platform update for Microsoft Windows, computers using other operating systems (e.g. Mac and Linux) were not impacted. Because so many core systems in society rely upon CrowdStrike, the outage was widespread and disruptive across critical sectors: flights canceled, medical procedures delayed or canceled and many other routine societal systems affected. 
 
-## Fix
+### Fix
 
 Listed below are the original manual fixes:
 
-### If BitLocker is not enabled
+#### If BitLocker is not enabled
 
 Based on this [Reddit post](https://www.reddit.com/r/crowdstrike/comments/1e6vmkf/comment/ldvxx62/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button).
 
@@ -71,7 +71,7 @@ Based on this [Reddit post](https://www.reddit.com/r/crowdstrike/comments/1e6vmk
 3. Delete files matching the `C-00000291*.sys` pattern
 4. Reboot
 
-### If BitLocker is enabled
+#### If BitLocker is enabled
 
 Based on this [Twitter post](https://x.com/Syndikalist/status/1814281141265846772/photo/1).
 
@@ -92,13 +92,13 @@ Based on this [Twitter post](https://x.com/Syndikalist/status/181428114126584677
 15. Restart as normal, confirm normal behaviour
 
 
-## Automated Fix
+### Automated Fix
 
 Doing this manually for thousands of computers costs an unnecessarily large amount of time.
 
 Tiraj Adikari called me on the day of the incident and gave me an idea to build a recovery image to fix this.
 
-### Linux based fix
+#### Linux based fix
 
 Demonstration:
 
@@ -126,7 +126,7 @@ VIDEO_GOES_HERE
 
 In the end, I just deleted the files.
 
-### Win10XPE based fix
+#### Win10XPE based fix
 
 Demonstration:
 
@@ -143,7 +143,7 @@ Note that this is different from Windows PE. This is basically a live environmen
 
 Of course, this script does not support BitLocker-encrypted devices because I do not have a proper test environment to test anything.
 
-### WindowsPE based fix
+#### WindowsPE based fix
 
 Demonstration (when BitLocker is enabled):
 
@@ -160,7 +160,7 @@ Then, Tiraj Adikari came up with a script that also supports BitLocker-encrypted
 This fixing approach is interesting. First, you have to export the recovery keys from the Active Directory to a CSV file by running a script. Then, you can follow the documentation, add the exported CSV and the script to the system32 folder, make it autorun on startup, and build the image. Yes, you have to build the image because you need to include the CSV file. Make sure you do not share this image as it includes the BitLocker recovery keys of the devices.
 
 
-## References
+### References
 - https://www.georgetown.edu/news/ask-a-professor-crowdstrike-outage
 - https://github.com/hirusha-adi/crowdstrike-fix/
 
