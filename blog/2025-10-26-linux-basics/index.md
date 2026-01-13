@@ -14,9 +14,9 @@ At the very low level, you have your hardware.
 
 ## Linux Kernel
 
-An operating system is not just one software. They consist of multiple major components. At the core is the kernel. This is what directly communicates with your hardware and exposes them through something called system calls (commonly referred to as "syscalls"). Every time a program needs to read a file, allocate memory, or send network data, it's the kernel that actually does it on behalf of that program.
+An operating system is not just one software. They consist of multiple major components. At the core is the kernel. The kernel has direct access to hardware and memory. Other "user space" applications are not allowed to communicate with the kernel directly. Instead, they have to call something called system calls (commonly referred to as "syscalls"). Every time a program needs to read a file, allocate memory, or send network data, it's the kernel that actually does it on behalf of that program.
 
-Your "Windows 11 Operating System" uses Microsoft's proprietary Windows NT kernel, which you cannot legally or technically modify. In "Linux" systems, the kernel is Linux, created by Linus Torvalds. This is an open source project (licensed under GPLv2), meaning you can inspect its code, patch it, recompile it, and even redistribute own version.
+Your "Windows 11 Operating System" uses Microsoft's proprietary Windows NT kernel, which you cannot legally or technically modify. In "Linux" systems, the kernel is Linux, created by Linus Torvalds in 1991. This is an open source project (licensed under GPLv2), meaning you can inspect its code, patch it, recompile it, and even redistribute own version.
 
 On top of that, the kernel is what handles process scheduling, memory management, file systems, networking and all the other low level operating system related functions.
 
@@ -139,7 +139,7 @@ However, unlike systemd, openrc does not bring it's own ecosystem with it. This 
 
 ### The Controversies
 
-In saying that, since systemd is widely adopted, you will almost never run into compatibility issues. However, since systemd provides a more centralized interface and it tries to manage logging, network, timers, etc... - it breaks the unix philosophy of "do one thing and do it well". Some people call it bloatware and prefer the simple nature of openrc. The haters have gone as far as hosting websites like these: [ihatesystemd.com](https://ihatesystemd.com/why/).
+In saying that, since systemd is widely adopted, you will almost never run into compatibility issues. However, since systemd provides a more centralized interface and it tries to manage logging, network, timers, etc... - it breaks the [unix philosophy](https://cscie2x.dce.harvard.edu/hw/ch01s06.html) of "do one thing and do it well". Some people call it bloatware and prefer the simple nature of openrc. The haters have gone as far as hosting websites like these: [ihatesystemd.com](https://ihatesystemd.com/why/).
 
 In my opinion, the shouting voices don't represent the majority here. Systemd saves a lot of time and work for developers, packages and administrators due to its' convenience. So, it's not surprising that it has been very widely adopted.
 
@@ -147,3 +147,77 @@ This video below titled "The Tragedy of systemd" should give you a very good und
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/o_AIw9bGogo?si=XMC88UtN7dbBYs5f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Userspace Libraries
+
+The kernels, drivers and the init system might be running now but that's not enough for applications to be run. User applications need a stable and a consistent way to communicate with the kernel. This is where the userpace libraries and APIs come in.
+
+Linux based operating systems scritcly seperate the kernel space and the user space. The kernel space is the kernel, drivers, etc... and has full access to hardware and memory. Userspace in the other hand are applications, shells, services, desktop environments, etc... running with restricted privileges. Again, these userspace applications are not allowed to call kernel code directly. Instead, they interact with the kernel through "system calls".
+
+> *"In computing, a system call (syscall) is the programmatic way in which a computer program requests a service from the operating system[a] on which it is executed. This may include hardware-related services (for example, accessing a hard disk drive or accessing the device's camera), creation and execution of new processes, and communication with integral kernel services such as process scheduling. System calls provide an essential interface between a process and the operating system"* - [Wikipedia](https://en.wikipedia.org/wiki/System_call)
+
+As mentioned above, they do everything. The image ([src](https://www.geeksforgeeks.org/operating-systems/introduction-of-system-call/)) below shows some of the common high level functionalities that the kernel allows you to call/access via syscalls.
+
+![alt text](image.png)
+
+And on top of these low level syscalls, higher level libraries have been built, forming a layered ecosystem.
+
+### GNU is Not Unix
+
+It's history time again! In 1960s, UNIX was developed in Bell Labs by Ken Thompson and Dennis Ritchie. This was one of the very first operating systems to be multi-user, mutli-tasking and portable. Most of it's codebase was written in C - a relatively high level programming language compared to what they used before that. This later evolved into multiple products like HP-UX (by Hewlett Packard), Solaris (by Oracle) and MacOS (via the BSD and POSIX heritage). UNIX introduced it's own philosophy, which also made it stand out back in the day. You can find the basics of the UNIX Philosophy [here](https://cscie2x.dce.harvard.edu/hw/ch01s06.html).
+
+By the early 1980s, UNIX had become commercial and proprietary. Richard Stallman believed that this nature of software restricted the user freedom and collaboration and he launched the GNU Project back in 1983. GNU is pronounced as "GNOO" and is a recursive abbreviation for "GNU is Not Unix". His goal here was to create a completely free and open source, unix compatible operating system. Eventhough they reimplemented these tools and interfaces from scratch, to ensure compatibility, they stuck with the same unix philosphy and behaviour, so that the existing software could be ported/migrated easily. They developed compilers (gcc), shells (bash), libraries (glibc) and more importantly, the GNU Core Utilities (or GNU Coreutils for short).
+
+Several ideas introduced by Unix are still being followed today, like:
+- Everything is a file
+- Heirarchial filesystem which starts at `/`
+- Write programs that do one thing and do it well
+- Write programs to work together
+- Using text as a universal interface
+
+Due to this nature, many simple tools that does one task can be chained together to perform complex actions, like:
+
+```bash
+ps aux | grep nginx | awk '{print $2}' | xargs kill
+```
+
+However, GNU did not initially have a working kernel. Back in 1991, Linus Torvalds got inspired to create a kernel from scratch, without re-using any of the UNIX source code and released it under the GPL license. This was in perfect timing for the GNU Project as Linux provided the missing kernel that GNU needed.
+
+In simpler terms, GNU had a userspace but no kernel and Linux had a kernel but no complete userspace. When they were put together, they form a fully functional, free and open source operating system. What people refer to as Linux is actually a shorthand for the whole system which consists of GNU+Linux.
+
+GNU is short for "GNU is Not Unix" right? But it is very identical, isn't it? Yes! GNU behaves like Unix, it's compatible with Unix, but in terms of code, licensing and ownership, it's different. The nature of the licensing and ownership is "Free as in Freedom" and not "Free and in Beer". The youtube video of the Ted talk given by Richard Stallman covers some of his basic idealogies regarding software "freedom".
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ag1AKIl_2GM?si=GLtxo0KgOzSOnEEp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+When someone says "Linux, now you know that they actually refer to "GNU+Linux". Due to the technical inaccuracy when referring to "GNU+Linux" as just "Linux", it let to a huge copypasta:
+
+> *"I'd just like to interject for a moment. What you're refering to as Linux, is in fact, GNU/Linux, or as I've recently taken to calling it, GNU plus Linux. Linux is not an operating system unto itself, but rather another free component of a fully functioning GNU system made useful by the GNU corelibs, shell utilities and vital system components comprising a full OS as defined by POSIX. ..."* - [Copypasta](https://stallman-copypasta.github.io/)
+
+### Busybox
+
+Now would be a good time to learn some basics about the linux file system's structure if you haven't already. Also, look into what [symbolic links](https://man.archlinux.org/man/symlink.7.en) are to avoid potential confusion.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HbgzrKJvDRw?si=fsRnc8y5S3P_u-uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+GNU+Linux is what runs on desktops, servers, etc... But for embedded systems with minimal resources, GNU might be too heavy. Busybox is a single lightweight executable. It provides many common unix utilities in one single binary. Instead of having seperate binaries for `ls`, `cp`, `mv`, `mount`, `ps`, etc..., busybox implements minimal versions of these tools and exposes them through symlinks. 
+
+```
+/bin/ls --> busybox
+/bin/cp --> busybox
+/bin/mv --> busybox
+```
+
+This basically means that everything is mapped to the same binary that handles all of it. The behaviour will change according to the name it is invoked as accordingly. Therefore, this technically can replace the GNU Coreutils entirely. Also, keep in mind that `glibc` is often replaced with `musl` - these are standard libraries for C. The `bash` shell will be replaced with [`ash`](https://unix.stackexchange.com/questions/692910/what-is-the-difference-between-ash-and-sh-shell-on-linux). Most of the complex and on essential flags found in commands / features will not exist. Due to the resulting small binary size, minimal feature set and it's optimized and lightweight nature, busybox is used a lot instead of GNU in many embedded systems.
+
+## Package Managers
+
+## GUI
+
+### Greeter
+
+### Window Manager
+
+### Desktop Environment
+
+## Applications
+
+## Distribution
