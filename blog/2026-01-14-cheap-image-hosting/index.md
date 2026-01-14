@@ -186,7 +186,7 @@ In saying that, I might upgrade to the larger plan in the future. It depends on 
 
 :::warning Warning!
 
-The proper way to back up your important data/media is to follow a 3-2-1 backup strategy. You can [click here](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/) to learn more about it. What I'm doing here is the best way to backup your important data but under my current circumstanses, this is what I will have to stick with. If anything, it's better than nothing.
+The proper way to back up your important data/media is to follow a 3-2-1 backup strategy. You can [click here](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/) to learn more about it. What I'm doing here is **NOT** the best way to backup your important data but under my current circumstanses, this is what I'll have to stick with. If anything, it's better than nothing.
 
 :::
 
