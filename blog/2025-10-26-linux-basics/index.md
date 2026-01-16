@@ -206,9 +206,33 @@ GNU+Linux is what runs on desktops, servers, etc... But for embedded systems wit
 /bin/mv --> busybox
 ```
 
-This basically means that everything is mapped to the same binary that handles all of it. The behaviour will change according to the name it is invoked as accordingly. Therefore, this technically can replace the GNU Coreutils entirely. Also, keep in mind that `glibc` is often replaced with `musl` - these are standard libraries for C. The `bash` shell will be replaced with [`ash`](https://unix.stackexchange.com/questions/692910/what-is-the-difference-between-ash-and-sh-shell-on-linux). Most of the complex and on essential flags found in commands / features will not exist. Due to the resulting small binary size, minimal feature set and it's optimized and lightweight nature, busybox is used a lot instead of GNU in many embedded systems.
+This basically means that everything is mapped to the same binary that handles all of it. The behaviour will change according to the name it is invoked as accordingly. Therefore, this technically can replace the GNU Coreutils entirely. Also, keep in mind that `glibc` is often replaced with `musl` - these are standard libraries for C. The `bash` shell will be replaced with [`ash`](https://unix.stackexchange.com/questions/692910/what-is-the-difference-between-ash-and-sh-shell-on-linux). Most of the complex and on essential flags found in commands / features will not exist. Due to the resulting small binary size, minimal feature set and it's optimized and lightweight nature, busybox is used a lot instead of GNU in many embedded systems. 
+
+Busybox can be seen in many IoT devices, routers, set top boxes and many other network appliances which has limited storage, ram and CPU power.
 
 ## Package Managers
+
+Now, your computer has a kernel, userspace utilities (either via GNU or BusyBox), an init system and libraries required for programs to run. The problem that remains is how applications/packages can be installed, updated and removed. This is done using package managers. A package management is responsible for the distribution of packages and lifecyle management. When you attempt to install a package, it will resolve the dependencies automatically and place the files in the correct intended locations, which also allows them to be updated safely and easily. 
+
+Listed below are some common package managers based on the distribution:
+- Arch Linux: `pacman`
+- Debian: `apt`
+- Fedora: `rpm` 
+- Alpine: `apk`
+
+To further understand how packages work, we will go through the app installation process with `apt` on Debian and let's also take a look at the "Arch User Repository".
+
+### `apt install`
+
+The `apt` commands' usage is as follows:
+
+```bash
+apt <command> <args>
+```
+
+
+###
+
 
 ## GUI
 
