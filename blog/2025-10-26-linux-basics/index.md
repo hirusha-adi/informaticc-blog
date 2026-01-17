@@ -222,16 +222,51 @@ Listed below are some common package managers based on the distribution:
 
 To further understand how packages work, we will go through the app installation process with `apt` on Debian and let's also take a look at the "Arch User Repository".
 
-### `apt install`
+### Installation of Packages
 
-The `apt` commands' usage is as follows:
+The `apt install <packages>` command in Debian is identical to `pacman -S <packages>` in Arch Linux. When installing a package, the majority of package managers follow a very identical list of steps. To simplify things, I will stick with `apt` for the rest of this explanation.
+
+The `apt install` command required root privileges to ensure access to certain system directories such as `/usr`, `/etc`, `/var`, etc..., modify the "package database" and install  binaries, libraries and configuation files. To grant this temporirily, you usually run it using the `sudo` command. This will run the command with root privieleges.
+
+Firstly, `apt` checks the "local package index". This is usually found inside the `/var/lib/apt/lists` directory. To ensure the "local package index" is upto date, run the `apt update` command. If it's out of date, `apt` will warn you. This index contains information like: package names, versions, dependencies, checksums, repository origin and many more. 
+
+Next, `apt` will lookup the package in all the configured repositories which are to be found inside `/etc/apt/sources.list` or at `/etc/apt/sources.list.d/*.list`. A repository is a trusted source of packages that apt will connect and fetch packages from. This is what a single line in `sources.list` looks like:
 
 ```bash
-apt <command> <args>
+deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
 ```
 
+Here,
+- `deb` tells that this repository contains binary packages. If this value is replaced with `deb-src`, it means that this package might have to be built from source. But in this example scenario, we will focus on having `deb`.
+- `http://deb.debian.org/debian` is the URL of the official debian's package server
+- `bookwarm` is is the release of debian installed on the current system
+- `main contrib non-free non-free-firmware` are the list of repository components that I'll be accessing from here.
 
-###
+Note that `apt` will only look for packages in the sources/repositories mentioned here. If the package cannot be found here, `apt` would error out saying that such a package was found. These file(s) simply contain a trusted source of packages that apt will connect and fetch for packages from. Once apt has selected the best candidate version, it will verify the architecture compatibility (`amd64`, `arm64`, etc...). 
+
+Next, `apt` will resolve dependencies for the target package recursively and build a dependency graph. `apt` will also ensure that no compatibility issues arise with other packages when dealing with the dependency packages.If any dependency conflicts exist, `apt` will not proceed to install anything and warn the user accordingly.
+
+If no dependency conflicts are found, `apt` will then show a detailed list of all the packages that will be installed. Next, it will ask for user confirmation to proceed with the installation.
+
+Before downloading any packages, `apt` will ensure that the repository is trusted by verifying the GPG signatures. Each repository has a signing key. These are stored inside `/etc/apt/trusted.gpg`, `/etc/apt/trusted.gpg.d/`, `/usr/share/keyrings/`. `apt` will verify the repository metadata is signed and will also verify the `.deb` packages match the signed checksums. Installation will stop is a key is missing or if the GPG signature verification fails. All of this ensures that MiTM attacks and package tampering is impossible.
+
+Then, `apt` will download all the `.deb` files to the `/var/cache/apt/archives/` directory. Each `.deb` package contains some metadata (in the `control` file), the files to install and pre/post install scripts. These will later be handled by `dpkg` later. For now, `apt` will ensure the file size and file hashes to verify integrity.
+
+Next, `dpkg` is invoked by `apt` to install each `.deb` package in the order of the dependency graph. The installation happens in this order:
+- For each package, the `preinst` (pre installation) script will run. This is used for sanity checks, to prepare directories and if the package is being upgraded, to ensure the migration of old configuration files.
+- The installation files will be extracted to `/usr/bin`, `/usr/lib`, `/usr/share`, `/etc`, and other required directories. Now, the package has been installed.
+- After unpacking, the `postinst` (post installation) script will run. This may register MIME types, update icon caches, register apps with the system, etc.. `ldconfig` is run to update `/etc/ld.so.cache` and other files that will create symbolic links and cache for shared libraries. When integrating with the system, it may install systemd unit files, update udev rules, add entries to the desktop environment being used, and do similiar stuff.
+- Once the package installation and configuration is complete, `dpkg` will add it to it's package database to keep track of it easily. This will allow for easy upgrades, depedency tracking and clean removal in the future.
+
+Optionally, at the very end, you can run a command like `sudo apt clean` to remove the temporary files used while the installation was going on.
+
+This concept applies in an almost exact way to `pacman` too. Of course there will be differences in certain names, directories and what not but the concept is fundemantally the same. A local package database is synchronized with remote repositories, depedencies are resolved, packages are downloaded from configured sources, their signatures are verified and software is installed. This concept remains the same across most modern linux package managers.
+
+### Arch User Repository
+
+I know this post was supposed to be a generic for all linux distributions but because of my personal bias, I will mentioned this too. However, do note that  this is relevant for Arch Linux only. (I use Arch btw).
+
+The AUR or the Arch User Repository contains build instructions for packages maintained by the community. Not binary packages.
 
 
 ## GUI
