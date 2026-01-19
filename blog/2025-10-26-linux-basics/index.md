@@ -266,8 +266,11 @@ This concept applies in an almost exact way to `pacman` too. Of course there wil
 
 I know this post was supposed to be a generic for all linux distributions but because of my personal bias, I will mentioned this too. However, do note that  this is relevant for Arch Linux only. (I use Arch btw).
 
-The AUR or the Arch User Repository contains build instructions for packages maintained by the community. Not binary packages.
+The AUR or the Arch User Repository contains build instructions for packages maintained by the community, and not binary packages. Each package in the AUR has a `PKGBUILD` file. This is a bash script that defines the package metadata, source URLs, dependencies, checksums, build and install steps. This file is uploaded to the AUR's git repository (at `aur.archlinux.org/repo-name.git`). Again, no binaries are hosted here.
 
+To install a package from the AUR, the user clones this git repository and run the `makepkg` command (usually as `makepkg -si` to build and install). It will refer to the `PKGBUILD` file to download the source code or binary files, it will verify the checksums and PGP signatures, resolve dependencies via pacman and build the package locally, producing a `.pkg.tar.zst` file which can be installed using `pacman`. Keep in mind that at no point will `pacman` interact with the AUR. Note that AUR packages are not officially trusted as they are submitted by the users/community. Therefore, inspect the `PKGBUILD` file yourself before running `makepkg` to ensure it's secure.  
+
+Debian has a similiar slightly similar thing called PPAs (Personal Package Archives). You can learn more about it [here](help.launchpad.net/Packaging/PPA).
 
 ## GUI
 
