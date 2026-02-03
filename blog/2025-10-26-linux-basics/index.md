@@ -270,7 +270,7 @@ The AUR or the Arch User Repository contains build instructions for packages mai
 
 To install a package from the AUR, the user clones this git repository and run the `makepkg` command (usually as `makepkg -si` to build and install). It will refer to the `PKGBUILD` file to download the source code or binary files, it will verify the checksums and PGP signatures, resolve dependencies via pacman and build the package locally, producing a `.pkg.tar.zst` file which can be installed using `pacman`. Keep in mind that at no point will `pacman` interact with the AUR. Note that AUR packages are not officially trusted as they are submitted by the users/community. Therefore, inspect the `PKGBUILD` file yourself before running `makepkg` to ensure it's secure.  
 
-Debian has a similiar slightly similar thing called PPAs (Personal Package Archives). You can learn more about it [here](help.launchpad.net/Packaging/PPA).
+Debian has a similiar slightly similar thing called PPAs (Personal Package Archives). You can learn more about it [here](https://help.launchpad.net/Packaging/PPA).
 
 ## GUI
 
