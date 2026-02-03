@@ -11,19 +11,20 @@ export function Comments() {
 }
 
 function ArtalkContainer() {
-  useEffect(() => {
-    const Artalk = require('artalk').default;
+  // useEffect(() => {
+  //   const Artalk = require('artalk').default;
 
-    Artalk.init({
-      el: '#comment',
-      pageKey: window.location.pathname,
-      pageTitle: document.title,
-      server: 'https://comments.informati.cc/',
-      site: 'Informaticc Blog',
-      versionCheck: false, // Important to disable version check!
-      darkMode: true
-    });
-  }, []);
+  //   Artalk.init({
+  //     el: '#comment',
+  //     pageKey: window.location.pathname,
+  //     pageTitle: document.title,
+  //     server: 'https://comments.informati.cc/',
+  //     site: 'Informaticc Blog',
+  //     versionCheck: false, // Important to disable version check!
+  //     darkMode: true
+  //   });
+  // }, []);
 
-  return <div id="comment" className="artalk-comments" />;
+  // return <div id="comment" className="artalk-comments" />;
+  return <></>
 }
