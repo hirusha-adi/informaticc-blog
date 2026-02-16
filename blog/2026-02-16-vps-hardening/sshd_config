@@ -38,8 +38,8 @@ HostbasedAuthentication no
 IgnoreRhosts yes
 
 AuthorizedKeysFile      .ssh/authorized_keys
-HostKey /etc/ssh/ssh_host_ecdsa_key
-HostKey /etc/ssh/ssh_host_rsa_key
+#HostKey /etc/ssh/ssh_host_ecdsa_key
+#HostKey /etc/ssh/ssh_host_rsa_key
 #HostKey /etc/ssh/ssh_host_ed25519_key # skipped in FIPS mode
 #RekeyLimit default none # 512M 1h # default
 

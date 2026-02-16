@@ -112,3 +112,16 @@ After that, to ensure that SSH won't break, I ran `sudo restorecon -R /home/user
 
 And just like that, I broke ssh. I am not removing this part out fixing the blog post. Again, this is not a tutorial, this is my journey.
 
+![alt text](image-24.png)
+
+Just as I guessed, it was an issue with firewalld. I ran `sudo firewall-cmd --permanent --add-port=6722/tcp` to allow incoming connections to the new SSH port. Then, I ran `sudo firewall-cmd --reload` to apply the changes. Next, I attempted to connect over SSH and it worked! I forgot to update this before exitting the previous session. That is what caused all of this.
+
+I will come back to setting up the firewall later. My plan is to use a default deny policy (implicit deny).
+
+Next, I will set up and configure fail2ban. I will be following [this](https://wiki.crowncloud.net/?How_to_Install_Fail2Ban_on_AlmaLinux_10) tutorial to set that up. I will begin by installing the EPEL repository by running `dnf install epel-release`. Then, I will run `dnf install fail2ban` to install fail2ban. This will include all the other packages like `fail2ban-selinux`, `fail2ban-firewalld` and `fail2ban-server`. You do not have to mention them explicitly. This used to be the case in older version though.
+
+The unwritten rule when editing configuration files is to create a backup of it before touching it. I will begin by backing up my config files.
+
+
+
+
