@@ -1,4 +1,4 @@
-# CH27: Object-Oriented Programming (Dunder)
+# Dunder Functions in Python
 
 - Dunder methods, or "double underscore" methods, are special methods in Python classes.
 - These methods are identified by names enclosed within double underscores, such as **init** and **str**.
