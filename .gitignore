@@ -18,3 +18,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+
+# package-lock.json is the committed lockfile; pnpm users generate their own locally
+pnpm-lock.yaml
+pnpm-workspace.yaml

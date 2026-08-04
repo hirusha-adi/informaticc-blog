@@ -2,6 +2,33 @@
 
 Hey! There are the files of https://informati.cc blog.
 
+## Development
+
+Requires Node.js >=18.
+
+```bash
+npm install
+npm run start
+```
+
+Or with pnpm:
+
+```bash
+pnpm install
+pnpm start
+```
+
+This starts the dev server at http://localhost:3000 with hot reload. Stop it with `Ctrl+C`.
+
+`package-lock.json` is the lockfile committed to this repo; pnpm users generate their own `pnpm-lock.yaml` locally (it's gitignored). All `@docusaurus/*` deps are pinned to exact versions in `package.json` on purpose — Docusaurus refuses to start if they drift apart, which loose `^` ranges let happen under pnpm's resolver.
+
+To preview a production build:
+
+```bash
+npm run build
+npm run serve
+```
+
 ## Comments Setup
 
 > Powered by [Artalk](https://github.com/ArtalkJS/Artalk)
