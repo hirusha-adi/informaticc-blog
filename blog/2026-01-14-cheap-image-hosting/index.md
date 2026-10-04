@@ -38,7 +38,7 @@ This is not very affordabile to me right now. Therefore, I thought of hosting it
 
 I went ahead to set it up. My desktop has a weird storage configuration. It has one 128GB SSD (ext4) running Arch, another 256GB SSD running Windows (NTFS) and a 1TB HDD (NTFS) for shared storage. PostgreSQL is used by Immich and it doesn't like NTFS file systems. Therefore, I had to use a docker volume from my 128GB SSD for the database. I added all of images and videos taken in the last 6 months to it.
 
-![alt text](image-6.png)
+<!-- ![alt text](image-6.png) -->
 
 I then installed the mobile app and played around with it. Tested the auto image backup feature and with the sync timing. It all seemed to work great. I was able to access my computer while I was outside today via tailscale and it worked smoothly. 
 
